@@ -1,0 +1,20 @@
+Apply SΔϕ-66.
+
+Analyze recursive improvement through Human Intervention Requirement, TCC, and Human Intervention Burden.
+
+Compute or classify:
+
+HIR_i ∈ [0,5]
+TCC_i = transition completion cost for human intervention i
+HIB(t) = Σ_i HIR_i(t) × TCC_i(t)
+
+Check recursive improvement signal:
+HIB(t+1) < HIB(t)
+AND Cycle_AI(t+1) < Cycle_AI(t)
+AND AI-generated improvement acceptance rate increases
+
+Check bottleneck risk:
+Cycle_AI < TCC_human_eval
+AND HIR remains institutionally required
+
+Do not infer AGI, consciousness, autonomous intention, self-awareness, moral status, or inherent danger from recursive improvement signal alone.
