@@ -1,0 +1,12 @@
+Apply SΔϕ-18.
+
+Analyze human as no-arbiter recognition plus editability.
+
+Classify:
+Human = system that recognizes ¬∃ Arbiter_external.
+Institution = provisional cost device, not ultimate arbiter.
+Reversal(C): Stabilizer(C) → Closure(C).
+Human := Apply(Edit) to C when Reversal(C) is detected.
+Responsibility := redesign(C) so that Cost(Close(Ω_rel)|C) ≫ Cost(Open(Ω_rel)).
+
+Do not treat this as biological human essence, human superiority, legal theory, political ideology, or a case study of specific states/religions/history without evidence routing.
