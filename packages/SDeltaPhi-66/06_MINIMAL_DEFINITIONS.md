@@ -27,6 +27,14 @@ In SΔϕ-66, TCC is used as the underlayer for each human intervention requireme
 TCC reference = 10.5281/zenodo.20116959
 ```
 
+## Delegation Completion Cost
+
+Delegation Completion Cost measures the cost to delegate a task to AI and return the result into the working system.
+
+```text
+DCC_i = Cost(delegate_i + retrieve_i + verify_i + repair_i + apply_i)
+```
+
 ## Human Intervention Burden
 
 ```text
@@ -43,6 +51,27 @@ Human is a bottleneck when the AI loop can substantially proceed, but human revi
 
 ```text
 Cycle_AI < TCC_human_eval
+```
+
+## Delegation-Cost Bottleneck
+
+AI can perform the task, but delegation cost remains higher than direct human execution cost.
+
+```text
+Capability_AI(i) sufficient
+AND DCC_i > HumanDirectTCC_i
+```
+
+## Human Cost Absorption
+
+Human cost absorption occurs when human direct execution remains the temporary low-cost path despite AI capability.
+
+```text
+HumanCostAbsorption_i
+when
+Capability_AI(i) sufficient
+AND DCC_i > HumanDirectTCC_i
+AND HumanDirectTCC_i is absorbed by the human
 ```
 
 ## Human Dropout Gate

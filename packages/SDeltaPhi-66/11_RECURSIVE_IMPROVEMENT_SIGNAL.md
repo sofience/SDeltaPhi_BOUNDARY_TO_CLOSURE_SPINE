@@ -16,6 +16,18 @@ AI-generated improvement acceptance rate ↑
 
 The AI loop is improving not merely by automating tasks, but by reducing the human intervention burden required for further improvement.
 
+## Delegation distinction
+
+Recursive improvement signal should not be confused with delegation-cost improvement.
+
+Delegation improvement is detected when:
+
+```text
+DCC_i(t+1) < DCC_i(t)
+```
+
+and delegation gradually becomes cheaper than human direct execution.
+
 ## Not sufficient alone
 
 This is not proof of AGI.

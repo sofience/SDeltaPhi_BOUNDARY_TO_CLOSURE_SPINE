@@ -32,6 +32,17 @@ AND
 human correction effect ↓
 ```
 
+## Delegation distinction
+
+Human direct execution due to high delegation cost is not automatically formal oversight failure.
+
+It is a cost-absorption state when:
+
+```text
+Capability_AI(i) sufficient
+AND DCC_i > HumanDirectTCC_i
+```
+
 ## Risk
 
 Formal oversight can appear safer while increasing bypass pressure.

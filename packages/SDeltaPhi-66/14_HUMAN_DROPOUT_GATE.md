@@ -18,6 +18,16 @@ AND
 human intervention is no longer necessary for problem definition, evaluation, application, or recovery.
 ```
 
+## Delegation caveat
+
+Human direct execution can persist before dropout if delegation cost remains high.
+
+```text
+DCC_i > HumanDirectTCC_i
+```
+
+This indicates human cost absorption, not necessarily human functional necessity.
+
 ## Interpretation
 
 At this gate, humans are no longer real-time evaluators.

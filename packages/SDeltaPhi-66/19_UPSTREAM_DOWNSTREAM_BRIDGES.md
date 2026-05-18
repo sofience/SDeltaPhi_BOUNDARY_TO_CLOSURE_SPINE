@@ -22,7 +22,7 @@ Provide the existence and irreversibility base.
 
 ### SΔϕ-66
 
-Defines Human Intervention Requirement and recursive improvement gates.
+Defines Human Intervention Requirement, Delegation Completion Cost, and recursive improvement gates.
 
 ## Downstream
 
@@ -45,4 +45,7 @@ SΔϕ-66 converts recursive-improvement debate into an external measurement prob
 ```text
 Is human intervention still functionally necessary,
 or has it become a high-TCC bottleneck?
+
+Can the AI do the task,
+but delegation remains more costly than direct human execution?
 ```

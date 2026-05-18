@@ -44,3 +44,18 @@ when
 Cycle_AI < TCC_human_eval
 AND HIR remains institutionally required
 ```
+
+## Axiom 66-6 — Delegation Completion Cost
+
+```text
+DCC_i = Cost(delegate_i + retrieve_i + verify_i + repair_i + apply_i)
+```
+
+## Axiom 66-7 — Delegation-Cost Bottleneck
+
+```text
+DelegationCostBottleneck_i
+when
+Capability_AI(i) sufficient
+AND DCC_i > HumanDirectTCC_i
+```

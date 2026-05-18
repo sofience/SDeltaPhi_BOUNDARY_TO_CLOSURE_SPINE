@@ -26,6 +26,14 @@ HIB near zero
 → human intervention is no longer a required transition condition
 ```
 
+## Delegation caveat
+
+A human may remain in the loop even when AI can perform the task if delegation cost exceeds direct human execution cost.
+
+```text
+DCC_i > HumanDirectTCC_i
+```
+
 ## Warning
 
 A decreasing HIB is not automatically dangerous.

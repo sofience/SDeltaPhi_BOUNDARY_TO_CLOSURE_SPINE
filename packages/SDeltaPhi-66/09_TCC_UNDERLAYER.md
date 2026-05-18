@@ -22,6 +22,12 @@ TCC asks:
 How costly is it to complete that human intervention?
 ```
 
+DCC asks:
+
+```text
+How costly is it to delegate that task to AI and return the result into the working system?
+```
+
 ## Combined role
 
 ```text
@@ -40,4 +46,16 @@ approval required, low TCC
 
 approval required, high TCC
 → human bottleneck risk
+```
+
+## Why DCC is needed
+
+Human remaining in the loop does not always imply human functional necessity.
+
+Example:
+
+```text
+AI can perform task i,
+but DCC_i > HumanDirectTCC_i
+→ human remains as temporary low-cost executor
 ```

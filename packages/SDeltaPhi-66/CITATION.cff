@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this AI-readable package, please cite it as below."
-title: "SΔϕ-66 AI-READABLE Package — Human Intervention Requirement and Recursive Improvement Gate (v1.0)"
+title: "SΔϕ-66 AI-READABLE Package — Human Intervention Requirement and Recursive Improvement Gate (v1.0, revised)"
 authors:
   - name: "Sofience"
     affiliation: "Independent Researcher"
@@ -16,12 +16,15 @@ keywords:
   - "Human Intervention Requirement"
   - "Recursive improvement"
   - "Human bottleneck"
+  - "Delegation Completion Cost"
+  - "Delegation-cost bottleneck"
+  - "Human Cost Absorption"
   - "Transition Completion Cost"
   - "TCC"
   - "Human Intervention Burden"
   - "AI-readable package"
   - "Formal philosophy"
-abstract: "AI-readable structured package for SΔϕ-66, defining Human Intervention Requirement, TCC-weighted Human Intervention Burden, recursive improvement signals, bottleneck risk gates, and human dropout gates."
+abstract: "AI-readable structured package for SΔϕ-66, defining Human Intervention Requirement, TCC-weighted Human Intervention Burden, Delegation Completion Cost, recursive improvement signals, bottleneck risk gates, human cost absorption, and human dropout gates."
 license: "CC-BY-4.0"
 references:
   - type: "data"

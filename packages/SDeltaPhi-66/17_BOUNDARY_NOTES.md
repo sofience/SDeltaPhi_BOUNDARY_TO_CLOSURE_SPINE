@@ -15,13 +15,17 @@ SΔϕ-66 only classifies:
 
 - human intervention requirement;
 - transition completion cost of human intervention;
-- human-required vs human-bottlenecked improvement;
+- delegation completion cost;
+- human-required vs human-bottlenecked vs delegation-cost bottlenecked improvement;
 - recursive improvement signal;
 - bottleneck risk gate;
-- human dropout gate.
+- human dropout gate;
+- human cost absorption layer.
 
 ## Negative constraint
 
 Do not classify recursive improvement as danger by default.
 
-Classify cost mismatch, bottleneck pressure, and human evaluation dropout.
+Do not classify human presence in the loop as functional necessity by default.
+
+Classify cost mismatch, delegation cost, bottleneck pressure, and human evaluation dropout.

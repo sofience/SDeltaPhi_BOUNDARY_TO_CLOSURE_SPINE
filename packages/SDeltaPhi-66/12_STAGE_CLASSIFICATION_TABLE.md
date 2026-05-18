@@ -5,6 +5,7 @@
 | 0 | Non-recursive automation | Low | Human defines and evaluates | Not recursive improvement |
 | 1 | Human-led improvement | Low-medium | Human leads | AI as tool |
 | 2 | Human-required semi-recursive improvement | Medium | Human structurally required | Human necessary |
+| 2D | Delegation-cost bottleneck | Medium-high | Human executes because delegation cost is higher | AI-capable but delegation-cost blocked |
 | 3 | Human-bottlenecked recursive improvement | Medium-high | Human approval/evaluation is slower than AI loop | Bottleneck risk |
 | 4 | Supervised recursive improvement | High | Human as release/audit/rollback gate | Managed recursion |
 | 5 | Human-optional recursive improvement | Very high | Human optional or policy-retained | Human no longer functional requirement |
@@ -14,6 +15,7 @@
 
 ```text
 Stage 2 = human required.
+Stage 2D = delegation-cost bottleneck.
 Stage 3 = human bottleneck.
 Stage 5/6 = human no longer structurally required.
 ```

@@ -1,6 +1,6 @@
 # Routing Notes
 
-SΔϕ-66 should be called when the task involves recursive improvement, human intervention requirement, human evaluation bottlenecks, AI improvement loops, or human dropout gates.
+SΔϕ-66 should be called when the task involves recursive improvement, human intervention requirement, delegation cost, human evaluation bottlenecks, AI improvement loops, or human dropout gates.
 
 ## Primary route
 
@@ -19,9 +19,12 @@ SΔϕ-01 → SΔϕ-03 → SΔϕ-56 → SΔϕ-65 → SΔϕ-66
 - recursive improvement;
 - human intervention requirement;
 - human bottleneck;
+- delegation-cost bottleneck;
+- human cost absorption layer;
 - human-in-the-loop failure;
 - AI improvement cycle time;
 - human evaluation TCC;
+- delegation completion cost;
 - bypass pressure;
 - human dropout gate;
 - supervised recursive improvement.

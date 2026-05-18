@@ -18,6 +18,16 @@ The AI can run improvement cycles faster than humans can evaluate them.
 
 Human intervention remains mandatory, but no longer functions as effective control.
 
+## Not the same as delegation-cost bottleneck
+
+Delegation-cost bottleneck is not necessarily high-risk bottleneck.
+
+```text
+DCC_i > HumanDirectTCC_i
+```
+
+means the human remains because delegating to AI is still more costly than direct human execution.
+
 ## Result
 
 The system accumulates:
