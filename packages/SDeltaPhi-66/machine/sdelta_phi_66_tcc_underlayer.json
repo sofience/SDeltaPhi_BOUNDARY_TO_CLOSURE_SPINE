@@ -6,6 +6,7 @@
   "combined_formula": "HIB(t) = sum_i HIR_i(t) * TCC_i(t)",
   "distinction": {
     "HIR": "asks whether human intervention is required",
-    "TCC": "asks how costly it is to complete that intervention"
+    "TCC": "asks how costly it is to complete that intervention",
+    "DCC": "asks how costly it is to delegate that task to AI and return the result into the working system"
   }
 }

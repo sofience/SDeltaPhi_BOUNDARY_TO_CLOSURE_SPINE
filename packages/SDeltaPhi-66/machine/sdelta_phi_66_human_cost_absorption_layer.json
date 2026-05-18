@@ -1,0 +1,15 @@
+{
+  "module_id": "SDeltaPhi-66",
+  "concept": "Human Cost Absorption Layer",
+  "formula": [
+    "Capability_AI(i) sufficient",
+    "DCC_i > HumanDirectTCC_i",
+    "HumanDirectTCC_i is absorbed by the human"
+  ],
+  "meaning": "Human continues to perform AI-capable work because delegation cost remains higher than direct execution.",
+  "distinction": {
+    "human_required": "AI cannot reliably do it.",
+    "human_bottleneck": "AI can do it and human approval/evaluation is slower than AI cycle.",
+    "human_cost_absorption": "AI can do it, but delegation remains more expensive than direct human execution."
+  }
+}

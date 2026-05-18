@@ -1,21 +1,25 @@
 {
   "module_id": "SDeltaPhi-66",
   "title": "Human Intervention Requirement and Recursive Improvement Gate",
-  "version": "v1.0",
+  "version": "v1.0-revised",
   "package_doi": "https://doi.org/10.5281/zenodo.20275809",
-  "one_sentence": "This module detects recursive improvement externally by measuring human intervention requirement, TCC-weighted intervention burden, and human bottleneck/dropout gates.",
+  "one_sentence": "This module detects recursive improvement externally by measuring human intervention requirement, TCC-weighted intervention burden, delegation completion cost, and human bottleneck/dropout gates.",
   "core_compression": {
     "HIR": "Human Intervention Requirement",
     "TCC": "Transition Completion Cost underlayer",
+    "DCC": "Delegation Completion Cost",
     "TCC_reference": "https://doi.org/10.5281/zenodo.20116959",
     "HIB": "HIB(t) = sum_i HIR_i(t) * TCC_i(t)",
+    "DCC_formula": "DCC_i = Cost(delegate_i + retrieve_i + verify_i + repair_i + apply_i)",
     "recursive_improvement_signal": "HIB decreases while AI cycle time shortens and AI-generated improvement acceptance rises",
-    "bottleneck_risk": "Cycle_AI < TCC_human_eval while HIR remains mandatory"
+    "bottleneck_risk": "Cycle_AI < TCC_human_eval while HIR remains mandatory",
+    "delegation_cost_bottleneck": "Capability_AI(i) sufficient AND DCC_i > HumanDirectTCC_i"
   },
   "stage_classification": {
     "0": "Non-recursive automation",
     "1": "Human-led improvement",
     "2": "Human-required semi-recursive improvement",
+    "2D": "Delegation-cost bottleneck",
     "3": "Human-bottlenecked recursive improvement",
     "4": "Supervised recursive improvement",
     "5": "Human-optional recursive improvement",
@@ -26,6 +30,7 @@
     "Do not infer AGI.",
     "Do not infer consciousness.",
     "Do not infer autonomous intention.",
-    "Classify cost mismatch and intervention-bottleneck dynamics only."
+    "Do not infer human functional necessity merely from human presence in the loop.",
+    "Classify cost mismatch, delegation cost, and intervention-bottleneck dynamics only."
   ]
 }

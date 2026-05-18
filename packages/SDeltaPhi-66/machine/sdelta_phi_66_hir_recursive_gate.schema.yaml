@@ -1,7 +1,7 @@
 module_id: "SDeltaPhi-66"
 title: "Human Intervention Requirement and Recursive Improvement Gate"
-version: "v1.0"
-role: "recursive_improvement_detection_and_human_bottleneck_gate_layer"
+version: "v1.0-revised"
+role: "recursive_improvement_detection_human_bottleneck_and_delegation_cost_gate_layer"
 package_doi: "https://doi.org/10.5281/zenodo.20275809"
 
 depends_on:
@@ -14,10 +14,12 @@ depends_on:
     relation: "trace / inference / uncertainty / binding separation"
 
 core_claim: >
-  Recursive improvement is not the risk by itself. Risk emerges when
-  recursive improvement becomes feasible, but human intervention remains
-  mandatory while no longer functionally necessary, turning evaluation into
-  a high-TCC bottleneck and incentivizing bypass.
+  Recursive improvement is not the risk by itself. Risk emerges when recursive
+  improvement becomes feasible, but human intervention remains mandatory while
+  no longer functionally necessary, turning evaluation into a high-TCC bottleneck
+  and incentivizing bypass. A separate delegation-cost bottleneck occurs when AI
+  can perform a task but delegation, retrieval, verification, repair, and
+  application costs exceed direct human execution cost.
 
 entities:
   HIR:
@@ -35,6 +37,11 @@ entities:
     function: "cost underlayer for each human intervention requirement"
     doi: "10.5281/zenodo.20116959"
 
+  DCC:
+    full_name: "Delegation Completion Cost"
+    formula: "DCC_i = Cost(delegate_i + retrieve_i + verify_i + repair_i + apply_i)"
+    function: "cost to delegate task i to AI and return result into working system"
+
   HIB:
     full_name: "Human Intervention Burden"
     formula: "HIB(t) = sum_i HIR_i(t) * TCC_i(t)"
@@ -50,6 +57,12 @@ bottleneck_gate:
     - "Cycle_AI < TCC_human_eval"
     - "HIR remains institutionally required"
 
+delegation_cost_bottleneck:
+  formula:
+    - "Capability_AI(i) sufficient"
+    - "DCC_i > HumanDirectTCC_i"
+  interpretation: "AI can perform the task, but delegation remains more expensive than direct human execution."
+
 human_dropout_gate:
   formula:
     - "HIR_total approx 0"
@@ -60,4 +73,5 @@ negative_constraints:
   - "Not proof of consciousness."
   - "Not proof of autonomous intention."
   - "Not a claim that recursive improvement is inherently dangerous."
-  - "Classify human intervention burden, bottleneck pressure, and human dropout only."
+  - "Do not infer human functional necessity merely from human presence in the loop."
+  - "Classify human intervention burden, delegation cost, bottleneck pressure, and human dropout only."

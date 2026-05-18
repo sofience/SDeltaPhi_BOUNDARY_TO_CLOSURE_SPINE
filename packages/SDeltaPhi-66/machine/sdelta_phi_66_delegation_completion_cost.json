@@ -1,0 +1,14 @@
+{
+  "module_id": "SDeltaPhi-66",
+  "concept": "Delegation Completion Cost",
+  "symbol": "DCC",
+  "formula": "DCC_i = Cost(delegate_i + retrieve_i + verify_i + repair_i + apply_i)",
+  "components": [
+    "delegate_i",
+    "retrieve_i",
+    "verify_i",
+    "repair_i",
+    "apply_i"
+  ],
+  "purpose": "Prevent confusing human presence in the loop with human functional necessity."
+}

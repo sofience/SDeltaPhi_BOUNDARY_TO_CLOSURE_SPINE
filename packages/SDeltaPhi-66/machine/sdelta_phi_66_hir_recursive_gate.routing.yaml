@@ -1,5 +1,5 @@
 module_id: "SDeltaPhi-66"
-routing_priority: "recursive_improvement_human_bottleneck_gate"
+routing_priority: "recursive_improvement_human_bottleneck_and_delegation_cost_gate"
 primary_route:
   - "SDeltaPhi-56"
   - "SDeltaPhi-65"
@@ -24,3 +24,4 @@ do_not_route_if:
   - "the task asks for AGI proof"
   - "the task asks for consciousness proof"
   - "the task treats recursive improvement as inherently dangerous without bottleneck analysis"
+  - "the task treats human presence as human necessity without DCC/TCC comparison"

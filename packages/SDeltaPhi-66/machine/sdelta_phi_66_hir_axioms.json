@@ -3,8 +3,7 @@
   "axioms": [
     {
       "name": "Human Intervention Requirement",
-      "formula": "HIR = Human Intervention Requirement",
-      "statement": "HIR measures how much human intervention remains necessary for an AI improvement loop to continue."
+      "formula": "HIR = Human Intervention Requirement"
     },
     {
       "name": "TCC Underlayer",
@@ -28,6 +27,17 @@
       "formula": [
         "Cycle_AI < TCC_human_eval",
         "HIR remains institutionally required"
+      ]
+    },
+    {
+      "name": "Delegation Completion Cost",
+      "formula": "DCC_i = Cost(delegate_i + retrieve_i + verify_i + repair_i + apply_i)"
+    },
+    {
+      "name": "Delegation-Cost Bottleneck",
+      "formula": [
+        "Capability_AI(i) sufficient",
+        "DCC_i > HumanDirectTCC_i"
       ]
     }
   ]

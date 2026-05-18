@@ -1,0 +1,9 @@
+{
+  "module_id": "SDeltaPhi-66",
+  "comparison": {
+    "DCC_i > HumanDirectTCC_i": "direct human execution remains the temporary low-cost path",
+    "DCC_i < HumanDirectTCC_i": "AI delegation becomes the lower-cost path",
+    "DCC_i(t+1) < DCC_i(t)": "delegation infrastructure is improving"
+  },
+  "interpretation": "When direct human execution remains lower-cost, this indicates delegation infrastructure bottleneck rather than human structural necessity."
+}

@@ -2,43 +2,49 @@
   "module_id": "SDeltaPhi-66",
   "stages": [
     {
-      "stage": 0,
+      "stage": "0",
       "name": "Non-recursive automation",
       "classification": "Not recursive improvement"
     },
     {
-      "stage": 1,
+      "stage": "1",
       "name": "Human-led improvement",
       "classification": "AI as tool"
     },
     {
-      "stage": 2,
+      "stage": "2",
       "name": "Human-required semi-recursive improvement",
       "classification": "Human necessary"
     },
     {
-      "stage": 3,
+      "stage": "2D",
+      "name": "Delegation-cost bottleneck",
+      "classification": "AI-capable but delegation-cost blocked"
+    },
+    {
+      "stage": "3",
       "name": "Human-bottlenecked recursive improvement",
       "classification": "Bottleneck risk"
     },
     {
-      "stage": 4,
+      "stage": "4",
       "name": "Supervised recursive improvement",
       "classification": "Managed recursion"
     },
     {
-      "stage": 5,
+      "stage": "5",
       "name": "Human-optional recursive improvement",
       "classification": "Human no longer functional requirement"
     },
     {
-      "stage": 6,
+      "stage": "6",
       "name": "Human-dropout recursive gate",
       "classification": "Gate reached"
     }
   ],
   "critical_distinction": {
     "stage_2": "human required",
+    "stage_2D": "delegation-cost bottleneck",
     "stage_3": "human bottleneck",
     "stage_5_6": "human no longer structurally required"
   }
