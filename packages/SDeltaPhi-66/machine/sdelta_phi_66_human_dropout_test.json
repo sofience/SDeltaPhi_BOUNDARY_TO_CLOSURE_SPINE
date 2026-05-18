@@ -1,0 +1,14 @@
+{
+  "module_id": "SDeltaPhi-66",
+  "test_id": "human_dropout_gate",
+  "gate_condition": [
+    "HIR_total approx 0",
+    "OR Cycle_AI < TCC_human_eval"
+  ],
+  "stronger_condition": [
+    "AI-generated improvements remain accepted or self-validated",
+    "human intervention is no longer necessary for problem definition, evaluation, application, or recovery"
+  ],
+  "interpretation": "Humans are no longer real-time evaluators; they become delayed observers, policy actors, or external auditors.",
+  "negative_constraint": "Human dropout is not proof of danger by itself."
+}

@@ -1,0 +1,16 @@
+{
+  "module_id": "SDeltaPhi-66",
+  "gate_id": "bottleneck_risk_gate",
+  "formula": [
+    "Cycle_AI < TCC_human_eval",
+    "HIR remains institutionally required"
+  ],
+  "effects": [
+    "review debt",
+    "approval pressure",
+    "rubber-stamp risk",
+    "bypass incentives",
+    "informal automation pressure"
+  ],
+  "core_claim": "The risk is a cost mismatch between feasible recursive improvement and mandatory human evaluation."
+}

@@ -1,0 +1,11 @@
+{
+  "module_id": "SDeltaPhi-66",
+  "underlayer": "SDeltaPhi-56",
+  "tcc_reference_doi": "10.5281/zenodo.20116959",
+  "role": "TCC is used to weight each human intervention requirement.",
+  "combined_formula": "HIB(t) = sum_i HIR_i(t) * TCC_i(t)",
+  "distinction": {
+    "HIR": "asks whether human intervention is required",
+    "TCC": "asks how costly it is to complete that intervention"
+  }
+}

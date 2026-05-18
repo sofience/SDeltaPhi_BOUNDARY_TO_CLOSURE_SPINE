@@ -1,0 +1,26 @@
+module_id: "SDeltaPhi-66"
+routing_priority: "recursive_improvement_human_bottleneck_gate"
+primary_route:
+  - "SDeltaPhi-56"
+  - "SDeltaPhi-65"
+  - "SDeltaPhi-66"
+full_route:
+  - "SDeltaPhi-01"
+  - "SDeltaPhi-03"
+  - "SDeltaPhi-56"
+  - "SDeltaPhi-65"
+  - "SDeltaPhi-66"
+call_with_when_needed:
+  ai_risk_governance:
+    - "SDeltaPhi-41"
+    - "SDeltaPhi-55"
+    - "SDeltaPhi-62"
+  slop_or_verification_burden:
+    - "SDeltaPhi-65"
+  trace_inference_uncertainty:
+    - "SDeltaPhi-62"
+do_not_route_if:
+  - "the task is only ordinary automation"
+  - "the task asks for AGI proof"
+  - "the task asks for consciousness proof"
+  - "the task treats recursive improvement as inherently dangerous without bottleneck analysis"

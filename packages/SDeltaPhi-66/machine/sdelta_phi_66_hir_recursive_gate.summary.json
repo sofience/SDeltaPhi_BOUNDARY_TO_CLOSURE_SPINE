@@ -1,0 +1,31 @@
+{
+  "module_id": "SDeltaPhi-66",
+  "title": "Human Intervention Requirement and Recursive Improvement Gate",
+  "version": "v1.0",
+  "package_doi": "https://doi.org/10.5281/zenodo.20275809",
+  "one_sentence": "This module detects recursive improvement externally by measuring human intervention requirement, TCC-weighted intervention burden, and human bottleneck/dropout gates.",
+  "core_compression": {
+    "HIR": "Human Intervention Requirement",
+    "TCC": "Transition Completion Cost underlayer",
+    "TCC_reference": "https://doi.org/10.5281/zenodo.20116959",
+    "HIB": "HIB(t) = sum_i HIR_i(t) * TCC_i(t)",
+    "recursive_improvement_signal": "HIB decreases while AI cycle time shortens and AI-generated improvement acceptance rises",
+    "bottleneck_risk": "Cycle_AI < TCC_human_eval while HIR remains mandatory"
+  },
+  "stage_classification": {
+    "0": "Non-recursive automation",
+    "1": "Human-led improvement",
+    "2": "Human-required semi-recursive improvement",
+    "3": "Human-bottlenecked recursive improvement",
+    "4": "Supervised recursive improvement",
+    "5": "Human-optional recursive improvement",
+    "6": "Human-dropout recursive gate"
+  },
+  "negative_constraints": [
+    "Do not classify recursive improvement itself as danger.",
+    "Do not infer AGI.",
+    "Do not infer consciousness.",
+    "Do not infer autonomous intention.",
+    "Classify cost mismatch and intervention-bottleneck dynamics only."
+  ]
+}

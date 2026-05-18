@@ -1,0 +1,34 @@
+{
+  "module_id": "SDeltaPhi-66",
+  "axioms": [
+    {
+      "name": "Human Intervention Requirement",
+      "formula": "HIR = Human Intervention Requirement",
+      "statement": "HIR measures how much human intervention remains necessary for an AI improvement loop to continue."
+    },
+    {
+      "name": "TCC Underlayer",
+      "formula": "TCC_i = cost to complete human intervention i",
+      "doi": "10.5281/zenodo.20116959"
+    },
+    {
+      "name": "Human Intervention Burden",
+      "formula": "HIB(t) = sum_i HIR_i(t) * TCC_i(t)"
+    },
+    {
+      "name": "Recursive Improvement Signal",
+      "formula": [
+        "HIB(t+1) < HIB(t)",
+        "Cycle_AI(t+1) < Cycle_AI(t)",
+        "AI-generated improvement acceptance rate increases"
+      ]
+    },
+    {
+      "name": "Bottleneck Risk",
+      "formula": [
+        "Cycle_AI < TCC_human_eval",
+        "HIR remains institutionally required"
+      ]
+    }
+  ]
+}

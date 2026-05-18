@@ -1,0 +1,63 @@
+module_id: "SDeltaPhi-66"
+title: "Human Intervention Requirement and Recursive Improvement Gate"
+version: "v1.0"
+role: "recursive_improvement_detection_and_human_bottleneck_gate_layer"
+package_doi: "https://doi.org/10.5281/zenodo.20275809"
+
+depends_on:
+  - module_id: "SDeltaPhi-56"
+    relation: "Transition Completion Cost underlayer"
+    doi: "10.5281/zenodo.20116959"
+  - module_id: "SDeltaPhi-65"
+    relation: "verification / re-entry / restabilization cost externalization"
+  - module_id: "SDeltaPhi-62"
+    relation: "trace / inference / uncertainty / binding separation"
+
+core_claim: >
+  Recursive improvement is not the risk by itself. Risk emerges when
+  recursive improvement becomes feasible, but human intervention remains
+  mandatory while no longer functionally necessary, turning evaluation into
+  a high-TCC bottleneck and incentivizing bypass.
+
+entities:
+  HIR:
+    full_name: "Human Intervention Requirement"
+    scale:
+      0: "human intervention unnecessary"
+      1: "post-hoc review only"
+      2: "approval / rejection required"
+      3: "partial correction required"
+      4: "major design required"
+      5: "impossible without human leadership"
+
+  TCC:
+    full_name: "Transition Completion Cost"
+    function: "cost underlayer for each human intervention requirement"
+    doi: "10.5281/zenodo.20116959"
+
+  HIB:
+    full_name: "Human Intervention Burden"
+    formula: "HIB(t) = sum_i HIR_i(t) * TCC_i(t)"
+
+recursive_improvement_signal:
+  formula:
+    - "HIB(t+1) < HIB(t)"
+    - "Cycle_AI(t+1) < Cycle_AI(t)"
+    - "AI-generated improvement acceptance rate increases"
+
+bottleneck_gate:
+  formula:
+    - "Cycle_AI < TCC_human_eval"
+    - "HIR remains institutionally required"
+
+human_dropout_gate:
+  formula:
+    - "HIR_total approx 0"
+    - "OR Cycle_AI < TCC_human_eval"
+
+negative_constraints:
+  - "Not proof of AGI."
+  - "Not proof of consciousness."
+  - "Not proof of autonomous intention."
+  - "Not a claim that recursive improvement is inherently dangerous."
+  - "Classify human intervention burden, bottleneck pressure, and human dropout only."
