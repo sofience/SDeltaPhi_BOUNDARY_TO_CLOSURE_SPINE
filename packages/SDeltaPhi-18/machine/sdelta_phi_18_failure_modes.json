@@ -1,0 +1,17 @@
+{
+  "module_id": "SDeltaPhi-18",
+  "failure_modes": {
+    "F18_1": {
+      "condition": "No-arbiter recognition decays",
+      "result": "institution absolutization -> coercive closure"
+    },
+    "F18_2": {
+      "condition": "Editability becomes infeasible",
+      "result": "modification cost explodes -> closure attractor locks in"
+    },
+    "F18_3": {
+      "condition": "Editing is corrupted into justification",
+      "result": "closure is rationalized rather than repaired"
+    }
+  }
+}

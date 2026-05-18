@@ -1,0 +1,15 @@
+{
+  "operator_id": "SDeltaPhi-18_editability_operator",
+  "formula": "Human := Apply(Edit) to C when Reversal(C) is detected",
+  "minimal_operation": [
+    "Detect Reversal(C)",
+    "Apply(Edit) to C",
+    "Restore provisionality",
+    "Reopen Omega_rel"
+  ],
+  "negative_constraints": [
+    "Editability is not destruction.",
+    "Editability is not arbitrary change.",
+    "Editability is not anti-institutionalism."
+  ]
+}

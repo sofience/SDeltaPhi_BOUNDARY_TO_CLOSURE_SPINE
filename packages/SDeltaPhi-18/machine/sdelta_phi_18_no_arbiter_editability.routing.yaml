@@ -1,0 +1,26 @@
+module_id: "SDeltaPhi-18"
+routing_priority: "loop_closure_after_SDeltaPhi-16_17"
+primary_route:
+  - "SDeltaPhi-16"
+  - "SDeltaPhi-17"
+  - "SDeltaPhi-18"
+  - "SDeltaPhi-15"
+  - "SDeltaPhi-17"
+call_after:
+  - "SDeltaPhi-16"
+  - "SDeltaPhi-17"
+call_with_when_needed:
+  institutional_governance:
+    - "SDeltaPhi-41"
+    - "SDeltaPhi-55"
+    - "SDeltaPhi-62"
+  sacred_or_transcendent_authority:
+    - "SDeltaPhi-61"
+    - "SDeltaPhi-62"
+  evidence_case_specific:
+    - "SDeltaPhi-62"
+do_not_route_if:
+  - "the task asks only for biological humanity"
+  - "the task asks for human superiority"
+  - "the task asks for specific states, religions, or historical cases without evidence routing"
+  - "the task asks for legal constitutional theory without legal analysis"

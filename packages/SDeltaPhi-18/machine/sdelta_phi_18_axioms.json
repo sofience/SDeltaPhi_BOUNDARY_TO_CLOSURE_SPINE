@@ -1,0 +1,25 @@
+{
+  "module_id": "SDeltaPhi-18",
+  "axioms": [
+    {
+      "name": "No external negotiator",
+      "formula": "not exists Arbiter_external"
+    },
+    {
+      "name": "Provisionality of institutions",
+      "formula": "Institution = Provisional cost device, not Arbiter"
+    },
+    {
+      "name": "Institutional reversal",
+      "formula": "Reversal(C): Stabilizer(C) -> Closure(C)"
+    },
+    {
+      "name": "Editability operator",
+      "formula": "Human := Apply(Edit) to C when Reversal(C) is detected"
+    }
+  ],
+  "proposition": {
+    "name": "Responsibility as redesign capacity",
+    "formula": "Responsibility := redesign(C) so that Cost(Close(Omega_rel)|C) >> Cost(Open(Omega_rel))"
+  }
+}

@@ -1,0 +1,51 @@
+module_id: "SDeltaPhi-18"
+title: "Human as the No-Arbiter Species"
+version: "v1.0"
+role: "no_arbiter_editability_institutional_reversal_layer"
+package_doi: "https://doi.org/10.5281/zenodo.20270835"
+depends_on:
+  - module_id: "SDeltaPhi-16"
+    relation: "evil as relational closure"
+  - module_id: "SDeltaPhi-17"
+    relation: "openness stabilization by provisional cost devices"
+  - module_id: "SDeltaPhi-15"
+    relation: "pre-commitment operators"
+  - module_id: "SDeltaPhi-03"
+    relation: "irreversibility condition"
+core_claim: "Human is functionally defined as the system that recognizes there is no ultimate external arbiter and applies editability when stabilizers reverse into coercive closure."
+entities:
+  human:
+    definition: "System that knows there is no ultimate external arbiter in conflicts with the world or the other."
+    formula: "Human := recognizes(not exists Arbiter_external)"
+    operational_formula: "Human := Apply(Edit) to C when Reversal(C) is detected"
+    negative_constraint: "Not biological essence or human superiority."
+  institution:
+    definition: "Provisional cost device, not ultimate arbiter."
+    formula: "Institution = Provisional cost device, not Arbiter"
+    risk: "Absolutization creates reversal risk."
+  institutional_reversal:
+    definition: "A stabilizer reverses into closure."
+    formula: "Reversal(C): Stabilizer(C) -> Closure(C)"
+    minimal_signals:
+      - "enforcement optimizes obedience rather than openness"
+      - "justification becomes automatic without validation"
+      - "change is translated as collapse"
+  editability:
+    definition: "Capacity to apply edit operations to C when reversal is detected."
+    formula: "Apply(Edit) to C when Reversal(C) is detected"
+    function: "restores provisionality and openness"
+  responsibility:
+    definition: "Capacity to redesign stabilizers so that closure paths become infeasible and future costs decrease across repetitions."
+    formula: "Responsibility := redesign(C) so that Cost(Close(Omega_rel)|C) >> Cost(Open(Omega_rel))"
+routing:
+  use_when:
+    - "no external arbiter"
+    - "institution as provisional cost device"
+    - "institutional reversal"
+    - "editability"
+    - "responsibility as redesign capacity"
+    - "stabilizer becomes closure"
+  do_not_use_when:
+    - "the task asks for biological human essence"
+    - "the task asks for human superiority"
+    - "the task asks for specific states, religions, or historical events without evidence routing"

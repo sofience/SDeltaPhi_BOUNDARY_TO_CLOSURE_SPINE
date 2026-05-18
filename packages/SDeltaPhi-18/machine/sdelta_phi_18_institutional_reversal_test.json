@@ -1,0 +1,16 @@
+{
+  "test_id": "SDeltaPhi-18_institutional_reversal_test",
+  "steps": [
+    "Check whether C functions as a stabilizer for openness.",
+    "Check whether enforcement optimizes obedience rather than openness.",
+    "Check whether justification becomes automatic without validation.",
+    "Check whether change is translated as collapse.",
+    "Check whether C closes Omega_rel or suppresses editability."
+  ],
+  "minimal_reversal_signals": [
+    "enforcement optimizes obedience rather than openness",
+    "justification becomes automatic without validation",
+    "change is translated as collapse"
+  ],
+  "classification": "Reversal(C): Stabilizer(C) -> Closure(C)"
+}

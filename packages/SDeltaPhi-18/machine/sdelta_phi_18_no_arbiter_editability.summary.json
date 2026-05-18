@@ -1,0 +1,36 @@
+{
+  "module_id": "SDeltaPhi-18",
+  "title": "Human as the No-Arbiter Species",
+  "version": "v1.0",
+  "package_doi": "https://doi.org/10.5281/zenodo.20270835",
+  "one_sentence": "This module defines human as no-arbiter recognition plus editability under institutional reversal.",
+  "core_compression": {
+    "human": "system that recognizes not exists Arbiter_external",
+    "institution": "provisional cost device, not ultimate arbiter",
+    "institutional_reversal": "Reversal(C): Stabilizer(C) -> Closure(C)",
+    "editability": "Apply(Edit) to C when Reversal(C) is detected",
+    "responsibility": "redesign(C) so closure paths become more costly than openness paths"
+  },
+  "minimal_signals_of_reversal": [
+    "enforcement optimizes obedience rather than openness",
+    "justification becomes automatic without validation",
+    "change is translated as collapse"
+  ],
+  "failure_modes": {
+    "F18_1": "no-arbiter recognition decays -> institution absolutization -> coercive closure",
+    "F18_2": "editability becomes infeasible -> modification cost explodes -> closure attractor locks in",
+    "F18_3": "editing is corrupted into justification -> closure rationalized rather than repaired"
+  },
+  "loop_closure": {
+    "from": "SDeltaPhi-16 / SDeltaPhi-17",
+    "through": "SDeltaPhi-18",
+    "returns_to": "SDeltaPhi-15 / SDeltaPhi-17",
+    "claim": "No external arbiter implies institutions must remain provisional; editability restores openness when stabilizers reverse into closure."
+  },
+  "negative_constraints": [
+    "Do not treat this as biological human essence.",
+    "Do not treat this as human superiority.",
+    "Do not use as legal constitutional theory.",
+    "Do not use as case study of specific states, religions, or historical events without evidence routing."
+  ]
+}

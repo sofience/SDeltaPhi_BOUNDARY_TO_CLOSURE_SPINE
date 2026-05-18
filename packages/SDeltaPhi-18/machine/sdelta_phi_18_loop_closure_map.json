@@ -1,0 +1,11 @@
+{
+  "map_id": "SDeltaPhi-18_loop_closure_map",
+  "sequence": [
+    "SDeltaPhi-16: evil = Close(Omega_rel); closure attractor",
+    "SDeltaPhi-17: cost devices stabilize openness",
+    "SDeltaPhi-18: human = no-arbiter + editability; restore provisionality",
+    "Re-entry: SDeltaPhi-15 / SDeltaPhi-17; pre-commitment + openness stabilization"
+  ],
+  "closed_loop_claim": "No external arbiter implies institutions must remain provisional; editability restores openness when stabilizers reverse into closure.",
+  "function": "SDeltaPhi-18 closes the 16-17-18 loop and reopens the series at SDeltaPhi-15/17."
+}
