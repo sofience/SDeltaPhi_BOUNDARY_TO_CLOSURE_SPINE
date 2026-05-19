@@ -1,0 +1,18 @@
+{
+  "module_id": "SDeltaPhi-19",
+  "failure_modes": {
+    "F19_1": {
+      "name": "No sleep / over-persistence",
+      "effect": "coherence cost explodes and closure risk increases"
+    },
+    "F19_2": {
+      "name": "Excess sleep / under-persistence",
+      "effect": "DeltaPhi becomes too weak and meaning/value formation fails"
+    },
+    "F19_3": {
+      "name": "Corrupted sleep",
+      "effect": "maintenance fails and drift increases upon waking"
+    }
+  },
+  "diagnostic_rule": "Do not treat all persistence as good and do not treat all maintenance as collapse."
+}

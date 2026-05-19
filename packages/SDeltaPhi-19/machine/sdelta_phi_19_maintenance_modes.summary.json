@@ -1,0 +1,39 @@
+{
+  "module_id": "SDeltaPhi-19",
+  "title": "Consciousness and Sleep as Δϕ Maintenance Modes",
+  "version": "v1.0",
+  "package_doi": "https://doi.org/10.5281/zenodo.20270668",
+  "one_sentence": "This module defines consciousness and sleep as functional maintenance modes regulating Δϕ persistence.",
+  "core_compression": {
+    "time": "T = H_T(Δϕ)",
+    "consciousness": "Consciousness := Regulate(Δϕ) such that Δϕ does not collapse to 0",
+    "sleep": "Sleep := Maintenance(Δϕ) by reorganizing traces and reducing drift",
+    "switch_condition": "Switch→Sleep iff d(Cost_coherence)/dt > d(Cost_maintenance)/dt"
+  },
+  "minimal_functions": {
+    "consciousness": [
+      "mismatch detection",
+      "closure delay via unresolved-state maintenance",
+      "transition-path redistribution"
+    ],
+    "sleep": [
+      "trace reorganization",
+      "drift reduction",
+      "future persistence cost reduction",
+      "closure attractor lock-in prevention"
+    ]
+  },
+  "failure_modes": {
+    "F19_1": "no sleep / over-persistence -> coherence cost explodes and closure risk increases",
+    "F19_2": "excess sleep / under-persistence -> Δϕ becomes too weak and meaning/value formation fails",
+    "F19_3": "corrupted sleep -> maintenance fails and drift increases upon waking"
+  },
+  "negative_constraints": [
+    "Not neuroscience.",
+    "Not clinical guidance.",
+    "Not proof of consciousness.",
+    "Not proof of AI consciousness.",
+    "Not biological sleep theory.",
+    "Classify maintenance dynamics only."
+  ]
+}

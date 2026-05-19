@@ -1,0 +1,26 @@
+{
+  "module_id": "SDeltaPhi-19",
+  "axioms": [
+    {
+      "name": "Time as interpretation of DeltaPhi",
+      "formula": "T = H_T(DeltaPhi)"
+    },
+    {
+      "name": "Consciousness as DeltaPhi persistence regulator",
+      "formula": "Consciousness := Regulate(DeltaPhi) such that DeltaPhi does not collapse to 0",
+      "minimal_functions": [
+        "mismatch detection",
+        "closure delay via unresolved-state maintenance",
+        "transition-path redistribution"
+      ]
+    },
+    {
+      "name": "Sleep as maintenance mode",
+      "formula": "Sleep := Maintenance(DeltaPhi) by reorganizing traces and reducing drift"
+    },
+    {
+      "name": "Mode switch condition",
+      "formula": "Switch_to_Sleep iff d(Cost_coherence)/dt > d(Cost_maintenance)/dt"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "module_id": "SDeltaPhi-19",
+  "map_id": "DeltaPhi_maintenance_loop",
+  "sequence": [
+    "Wake / Consciousness: regulate DeltaPhi so it does not collapse to 0",
+    "Switch Condition: d(Cost_coherence)/dt > d(Cost_maintenance)/dt",
+    "Sleep / Maintenance: reorganize traces, reduce drift, prevent closure attractor lock-in",
+    "Wake Re-entry: lower future persistence cost"
+  ],
+  "cycle_2_entry_claim": "Consciousness maintains DeltaPhi persistence; sleep performs maintenance to reduce drift and prevent collapse into closure."
+}

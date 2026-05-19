@@ -1,0 +1,52 @@
+module_id: "SDeltaPhi-19"
+title: "Consciousness and Sleep as Δϕ Maintenance Modes"
+version: "v1.0"
+role: "cycle_2_maintenance_mode_entry_layer"
+package_doi: "https://doi.org/10.5281/zenodo.20270668"
+
+depends_on:
+  - module_id: "SDeltaPhi-01"
+    relation: "minimal DeltaPhi core"
+  - module_id: "SDeltaPhi-03"
+    relation: "irreversibility condition"
+  - module_id: "SDeltaPhi-11"
+    relation: "consciousness as boundary re-entry position"
+  - module_id: "SDeltaPhi-12"
+    relation: "memory/forgetting trace regulation"
+  - module_id: "SDeltaPhi-18"
+    relation: "Cycle-1 closure before maintenance dynamics"
+
+core_claim: >
+  Consciousness and sleep are modeled as functional maintenance modes regulating
+  Δϕ persistence.
+
+entities:
+  time:
+    formula: "T = H_T(DeltaPhi)"
+    definition: "interpretive output of DeltaPhi"
+
+  consciousness:
+    formula: "Consciousness := Regulate(DeltaPhi) such that DeltaPhi does not collapse to 0"
+    functions:
+      - "mismatch detection"
+      - "closure delay via unresolved-state maintenance"
+      - "transition-path redistribution"
+
+  sleep:
+    formula: "Sleep := Maintenance(DeltaPhi) by reorganizing traces and reducing drift"
+    functions:
+      - "trace reorganization"
+      - "drift reduction"
+      - "future persistence cost reduction"
+      - "closure attractor lock-in prevention"
+
+  mode_switch:
+    formula: "Switch_to_Sleep iff d(Cost_coherence)/dt > d(Cost_maintenance)/dt"
+
+negative_constraints:
+  - "Not neuroscience."
+  - "Not clinical guidance."
+  - "Not proof of consciousness."
+  - "Not proof of AI consciousness."
+  - "Not biological sleep theory."
+  - "Classify maintenance dynamics only."

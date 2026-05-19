@@ -1,0 +1,19 @@
+{
+  "module_id": "SDeltaPhi-19",
+  "negative_constraints": [
+    "not neuroscience",
+    "not clinical guidance",
+    "not medical advice",
+    "not proof of consciousness",
+    "not proof of AI consciousness",
+    "not biological sleep theory",
+    "not diagnosis of sleep disorders"
+  ],
+  "positive_scope": [
+    "minimal functional maintenance dynamics",
+    "DeltaPhi persistence regulation",
+    "trace reorganization",
+    "drift reduction",
+    "coherence cost vs maintenance cost switching"
+  ]
+}

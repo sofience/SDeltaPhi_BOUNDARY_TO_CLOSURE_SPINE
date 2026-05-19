@@ -1,0 +1,25 @@
+module_id: "SDeltaPhi-19"
+routing_priority: "cycle_2_maintenance_mode_entry"
+primary_route:
+  - "SDeltaPhi-01"
+  - "SDeltaPhi-03"
+  - "SDeltaPhi-11"
+  - "SDeltaPhi-12"
+  - "SDeltaPhi-19"
+cycle_2_route:
+  - "SDeltaPhi-18"
+  - "SDeltaPhi-19"
+call_with_when_needed:
+  consciousness_proof_or_AI_consciousness:
+    - "SDeltaPhi-04"
+    - "SDeltaPhi-11"
+    - "SDeltaPhi-62"
+  trace_or_memory:
+    - "SDeltaPhi-12"
+  uncertainty_or_world_binding:
+    - "SDeltaPhi-62"
+do_not_route_if:
+  - "the task asks for medical sleep advice"
+  - "the task asks for clinical diagnosis"
+  - "the task asks for neuroscience mechanisms without external sources"
+  - "the task asks for proof of consciousness without boundary constraints"

@@ -1,0 +1,7 @@
+{
+  "module_id": "SDeltaPhi-19",
+  "condition_id": "mode_switch_to_sleep",
+  "formula": "Switch_to_Sleep iff d(Cost_coherence)/dt > d(Cost_maintenance)/dt",
+  "interpretation": "Switch to sleep when continued coherence becomes more costly than maintenance/reset.",
+  "diagnostic_question": "Is the system maintaining coherence at a rising cost when maintenance would reduce future drift?"
+}
