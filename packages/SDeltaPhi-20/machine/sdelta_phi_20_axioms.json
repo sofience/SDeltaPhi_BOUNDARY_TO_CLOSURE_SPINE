@@ -1,0 +1,33 @@
+{
+  "module_id": "SDeltaPhi-20",
+  "axioms": [
+    {
+      "id": "A1",
+      "name": "Boundedness",
+      "statement": "Any persistent system has bounded resources; therefore it must compress."
+    },
+    {
+      "id": "A2",
+      "name": "Irreversible locking",
+      "statement": "Compression becomes non-invertible when rollback cost greatly exceeds update budget.",
+      "formula": "rollback cost >> update budget"
+    },
+    {
+      "id": "A3",
+      "name": "Trace re-entry",
+      "statement": "Non-invertible compression leaves traces that re-enter as constraints on future transitions."
+    },
+    {
+      "id": "A4",
+      "name": "Intuition signal",
+      "statement": "Intuition is the system's marker of trace-dominant basins.",
+      "gloss": "search is no longer worth it here"
+    },
+    {
+      "id": "A5",
+      "name": "Cross-system convergence",
+      "statement": "Different substrates under similar constraints converge to similar basins, yielding similar intuition-like correspondences."
+    }
+  ],
+  "negative_claim": "These axioms do not claim a shared semantic ontology across species or models; they claim shared constraint-driven convergence."
+}

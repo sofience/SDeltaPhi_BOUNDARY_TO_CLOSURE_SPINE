@@ -1,0 +1,16 @@
+{
+  "module_id": "SDeltaPhi-20",
+  "loop_id": "NEIL",
+  "full_name": "No-Exit Intuition Loop",
+  "sequence": [
+    "Input stream (external/internal)",
+    "Compression (many -> one)",
+    "No-exit test (rollback cost >> budget?)",
+    "Trace fixation (non-invertible residue)",
+    "Intuition signal I ('skip search here')",
+    "Next selection/action (biased transition)",
+    "Re-entry"
+  ],
+  "function": "Compression produces traces; traces bias next selection; the bias is felt or used as intuition.",
+  "negative_constraint": "NEIL does not prove shared meaning."
+}

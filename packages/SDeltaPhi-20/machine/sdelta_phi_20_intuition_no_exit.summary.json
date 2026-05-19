@@ -1,0 +1,36 @@
+{
+  "module_id": "SDeltaPhi-20",
+  "title": "Intuition as Irreversible Compression Trace",
+  "version": "v1.0",
+  "package_doi": "https://doi.org/10.5281/zenodo.20280689",
+  "one_sentence": "This module defines intuition as a trace of irreversible compression under a shared no-exit constraint, rather than shared meaning.",
+  "core_thesis": "There is no shared meaning first; there is a shared no-exit constraint.",
+  "core_compression": {
+    "intuition": "marker of trace-dominant basin where further search is no longer worth it",
+    "no_exit_constraint": "rollback cost greatly exceeds update budget",
+    "compression": "many-to-one mapping into bounded internal representation",
+    "trace": "residual constraint left by non-invertible compression",
+    "NEIL": "Input → Compression → No-exit test → Trace fixation → Intuition signal → Next selection/action → re-entry"
+  },
+  "axioms": {
+    "A1": "Bounded systems must compress.",
+    "A2": "Compression becomes non-invertible when rollback cost greatly exceeds update budget.",
+    "A3": "Non-invertible compression leaves traces that re-enter as constraints on future transitions.",
+    "A4": "Intuition is the marker of trace-dominant basins.",
+    "A5": "Different substrates under similar constraints converge to similar basins."
+  },
+  "diagnostic_regimes": {
+    "under_locking": "traces too weak or transient; over-search and instability",
+    "over_locking": "traces too strong; rigidity and no-exit closure",
+    "adaptive_locking": "balanced trace fixation and pruning; fast but revisable decisions"
+  },
+  "negative_constraints": [
+    "Not psychology.",
+    "Not neuroscience.",
+    "Not mystical intuition theory.",
+    "Not proof of shared meaning.",
+    "Not proof of human/animal/AI equivalence.",
+    "Do not treat intuition as always reliable.",
+    "Classify irreversible compression and trace re-entry dynamics only."
+  ]
+}

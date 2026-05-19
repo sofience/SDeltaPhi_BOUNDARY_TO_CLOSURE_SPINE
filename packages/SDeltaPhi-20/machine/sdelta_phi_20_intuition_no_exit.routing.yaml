@@ -1,0 +1,25 @@
+module_id: "SDeltaPhi-20"
+routing_priority: "intuition_no_exit_compression_trace"
+primary_route:
+  - "SDeltaPhi-03"
+  - "SDeltaPhi-07"
+  - "SDeltaPhi-12"
+  - "SDeltaPhi-19"
+  - "SDeltaPhi-20"
+openness_closure_route:
+  - "SDeltaPhi-16"
+  - "SDeltaPhi-17"
+  - "SDeltaPhi-20"
+call_with_when_needed:
+  trace_inference_uncertainty:
+    - "SDeltaPhi-62"
+  closure_or_fixation:
+    - "SDeltaPhi-16"
+    - "SDeltaPhi-17"
+  maintenance_context:
+    - "SDeltaPhi-19"
+do_not_route_if:
+  - "the task asks for clinical or cognitive diagnosis"
+  - "the task asks for neuroscience without external sources"
+  - "the task asks for proof of shared meaning"
+  - "the task asks for proof of consciousness"

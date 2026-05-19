@@ -1,0 +1,23 @@
+{
+  "module_id": "SDeltaPhi-20",
+  "negative_constraints": [
+    "not psychology",
+    "not neuroscience",
+    "not mystical intuition theory",
+    "not clinical or cognitive diagnosis",
+    "not proof of shared meaning",
+    "not proof of animal/human/AI equivalence",
+    "not proof of consciousness",
+    "not claim that intuition is always reliable",
+    "not claim that intuition is always irrational"
+  ],
+  "positive_scope": [
+    "irreversible compression",
+    "no-exit constraints",
+    "trace fixation",
+    "trace re-entry",
+    "intuition-like signal dynamics",
+    "editable intuition",
+    "under-locking / over-locking / adaptive locking diagnostics"
+  ]
+}

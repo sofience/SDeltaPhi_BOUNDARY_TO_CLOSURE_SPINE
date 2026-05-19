@@ -1,0 +1,78 @@
+module_id: "SDeltaPhi-20"
+title: "Intuition as Irreversible Compression Trace"
+version: "v1.0"
+role: "intuition_irreversible_compression_no_exit_convergence_layer"
+package_doi: "https://doi.org/10.5281/zenodo.20280689"
+
+depends_on:
+  - module_id: "SDeltaPhi-03"
+    relation: "irreversibility condition"
+  - module_id: "SDeltaPhi-07"
+    relation: "H_min and trace re-entry"
+  - module_id: "SDeltaPhi-12"
+    relation: "memory/forgetting trace regulation"
+  - module_id: "SDeltaPhi-19"
+    relation: "maintenance mode and persistence dynamics"
+  - module_id: "SDeltaPhi-16"
+    relation: "closure dynamics for over-locking"
+  - module_id: "SDeltaPhi-17"
+    relation: "openness stabilization for editable intuition"
+
+core_thesis: "There is no shared meaning first; there is a shared no-exit constraint."
+
+entities:
+  DeltaPhi:
+    definition: "change-rate / phase-difference measure over internal state or prediction distributions"
+
+  compression:
+    definition: "many-to-one mapping from inputs or histories into a bounded internal representation"
+    formula: "many -> one"
+
+  no_exit_constraint:
+    definition: "non-invertibility condition where rollback cost exceeds update budget"
+    formula: "rollback cost >> update budget"
+
+  trace:
+    definition: "residual constraint left by non-invertible compression"
+
+  intuition:
+    definition: "internal marker or functional signal that a basin or route is locked enough to bypass further search"
+    formula: "Intuition := marker(trace-dominant basin)"
+    gloss: "search is no longer worth it here"
+
+  editable_intuition:
+    definition: "fast but revisable trace-guided selection"
+
+NEIL:
+  full_name: "No-Exit Intuition Loop"
+  sequence:
+    - "Input stream"
+    - "Compression"
+    - "No-exit test"
+    - "Trace fixation"
+    - "Intuition signal"
+    - "Next selection/action"
+    - "Re-entry"
+
+diagnostic_regimes:
+  under_locking:
+    condition: "traces too weak or transient"
+    behavior: "over-search, inconsistent choices, high latency"
+    risk: "fragmentation / instability"
+  over_locking:
+    condition: "traces too strong; rollback infeasible"
+    behavior: "fast decisions, rigidity, confirmation loops"
+    risk: "self-locking / no-exit closure"
+  adaptive_locking:
+    condition: "balanced trace fixation and pruning"
+    behavior: "fast but revisable decisions, stable exploration"
+    risk: "sustained openness"
+
+negative_constraints:
+  - "Not psychology."
+  - "Not neuroscience."
+  - "Not mystical intuition theory."
+  - "Not proof of shared meaning."
+  - "Not proof of human/animal/AI equivalence."
+  - "Do not treat intuition as always reliable."
+  - "Classify irreversible compression and trace re-entry dynamics only."

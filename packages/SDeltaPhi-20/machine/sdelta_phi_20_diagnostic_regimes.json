@@ -1,0 +1,32 @@
+{
+  "module_id": "SDeltaPhi-20",
+  "diagnostic_regimes": {
+    "under_locking": {
+      "condition": "traces too weak or too transient",
+      "observable_behavior": [
+        "over-search",
+        "inconsistent choices",
+        "high latency"
+      ],
+      "structural_risk": "fragmentation / instability"
+    },
+    "over_locking": {
+      "condition": "traces too strong; rollback infeasible",
+      "observable_behavior": [
+        "fast decisions",
+        "rigidity",
+        "confirmation loops"
+      ],
+      "structural_risk": "self-locking / no-exit closure"
+    },
+    "adaptive_locking": {
+      "condition": "balanced trace fixation and pruning",
+      "observable_behavior": [
+        "fast but revisable decisions",
+        "stable exploration"
+      ],
+      "structural_risk": "sustained openness"
+    }
+  },
+  "core_rule": "Intuition is useful only when the trace regulation loop remains editable."
+}

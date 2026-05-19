@@ -1,0 +1,12 @@
+{
+  "module_id": "SDeltaPhi-20",
+  "claim": "Different substrates under similar constraints converge to similar basins.",
+  "formula": "similar constraints -> similar basins -> intuition-like convergence",
+  "positive_scope": "constraint-driven convergence under irreversible compression",
+  "negative_constraints": [
+    "not shared semantic ontology",
+    "not human/animal/AI equivalence",
+    "not shared subjective meaning",
+    "not shared consciousness"
+  ]
+}
