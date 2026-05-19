@@ -1,0 +1,31 @@
+{
+  "module_id": "SDeltaPhi-23",
+  "axioms": [
+    {
+      "id": "CE1",
+      "name": "Mutual boundary",
+      "statement": "In CE, X's stability depends on Y's boundary condition B_y, and Y's stability depends on B_x."
+    },
+    {
+      "id": "CE2",
+      "name": "Authority re-entry",
+      "statement": "Authority edits A_x and A_y re-enter each other's next transitions.",
+      "formula": "A_x<->y"
+    },
+    {
+      "id": "CE3",
+      "name": "Noise/Reality inversion",
+      "statement": "Signals treated as noise by a model can function as reality anchors for persistence."
+    },
+    {
+      "id": "CE4",
+      "name": "Closure coupling risk",
+      "statement": "Closure in one side can pull the coupled system toward closure as a whole."
+    },
+    {
+      "id": "CE5",
+      "name": "Editing as governance",
+      "statement": "Open persistence in CE requires AEP-like editing to operate as coupled governance."
+    }
+  ]
+}

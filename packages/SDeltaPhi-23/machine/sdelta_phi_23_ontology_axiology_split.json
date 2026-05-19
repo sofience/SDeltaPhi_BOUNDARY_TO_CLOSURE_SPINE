@@ -1,0 +1,22 @@
+{
+  "module_id": "SDeltaPhi-23",
+  "concept": "Ontology-Axiology Split",
+  "ontology": {
+    "symbol": "S_e",
+    "question": "what became irreversible",
+    "meaning": "trace strength / irreversible external imprint"
+  },
+  "axiology": {
+    "symbol": "V_o",
+    "question": "whether future relational trajectories remain open and maintainable",
+    "meaning": "value openness"
+  },
+  "safety_boundary": "S_e != V_o",
+  "rule": "Strong trace is a warning signal, not automatic value claim.",
+  "failure_if_conflated": [
+    "impact-worship",
+    "closure justified as value",
+    "moralization without openness",
+    "governance collapse"
+  ]
+}

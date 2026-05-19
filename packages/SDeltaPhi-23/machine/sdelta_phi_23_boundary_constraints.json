@@ -1,0 +1,23 @@
+{
+  "module_id": "SDeltaPhi-23",
+  "negative_constraints": [
+    "not proof that impact equals value",
+    "not moral theory by itself",
+    "not social theory by itself",
+    "not relationship psychology",
+    "not political doctrine",
+    "not claim that coupling is always good",
+    "not claim that strong existence traces are automatically valuable",
+    "not claim that trace strength equals value openness"
+  ],
+  "positive_scope": [
+    "co-environmentalization",
+    "mutual boundary conditions",
+    "coupled authority",
+    "reality anchors",
+    "noise/reality inversion",
+    "ontology-axiology split",
+    "trace strength vs value openness",
+    "coupled drift / closure / open persistence"
+  ]
+}

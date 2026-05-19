@@ -1,0 +1,20 @@
+{
+  "module_id": "SDeltaPhi-23",
+  "diagnostic_regimes": {
+    "coupled_drift": {
+      "condition": "tau amplifies but editing fails to stabilize",
+      "behavior": "authority oscillates across coupling",
+      "risk": "coupled fragmentation"
+    },
+    "coupled_closure": {
+      "condition": "one-sided non-editability propagates",
+      "behavior": "coupled system converges toward closed attractor",
+      "risk": "coupled no-exit closure"
+    },
+    "coupled_open_persistence": {
+      "condition": "non-resonance treated as editing material",
+      "behavior": "authority remains revisable on both sides",
+      "result": "maintainable coupling"
+    }
+  }
+}

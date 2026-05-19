@@ -1,0 +1,30 @@
+module_id: "SDeltaPhi-23"
+routing_priority: "co_environmentalization_coupled_authority_ontology_axiology_split"
+primary_route:
+  - "SDeltaPhi-03"
+  - "SDeltaPhi-16"
+  - "SDeltaPhi-17"
+  - "SDeltaPhi-21"
+  - "SDeltaPhi-22"
+  - "SDeltaPhi-23"
+authority_route:
+  - "SDeltaPhi-20"
+  - "SDeltaPhi-21"
+  - "SDeltaPhi-22"
+  - "SDeltaPhi-23"
+call_with_when_needed:
+  closure_or_openness:
+    - "SDeltaPhi-16"
+    - "SDeltaPhi-17"
+  judgment_authority:
+    - "SDeltaPhi-21"
+  authority_editing:
+    - "SDeltaPhi-22"
+  trace_inference_uncertainty:
+    - "SDeltaPhi-62"
+do_not_route_if:
+  - "the task is merely about two agents interacting"
+  - "the task asks for relationship psychology without structural coupling"
+  - "the task asks for political doctrine"
+  - "the task treats impact as value"
+  - "the task conflates trace strength with value openness"

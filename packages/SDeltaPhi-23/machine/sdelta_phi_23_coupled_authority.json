@@ -1,0 +1,13 @@
+{
+  "module_id": "SDeltaPhi-23",
+  "concept": "Coupled Authority",
+  "symbol": "A_x<->y",
+  "definition": "Authority assignment or revision in X re-enters Y's next transition, and vice versa.",
+  "model": [
+    "I_x -> A_x -> action <-> re-entry -> I_y -> A_y -> action",
+    "tau_x <-> propagation <-> tau_y",
+    "AEP_x <-> governance <-> AEP_y"
+  ],
+  "meaning": "Authority becomes a shared constraint field rather than a private preference.",
+  "risk": "One-sided closure can propagate into coupled closure."
+}

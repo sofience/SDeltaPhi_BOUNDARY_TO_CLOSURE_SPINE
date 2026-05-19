@@ -1,0 +1,30 @@
+{
+  "module_id": "SDeltaPhi-23",
+  "rules": [
+    {
+      "id": "R1",
+      "name": "Separate S_e and V_o",
+      "formula": "S_e != V_o"
+    },
+    {
+      "id": "R2",
+      "name": "Treat strong trace as warning, not value",
+      "formula": "strong S_e -> audit, not automatic value"
+    },
+    {
+      "id": "R3",
+      "name": "Preserve reality anchors",
+      "formula": "R prevents self-closure"
+    },
+    {
+      "id": "R4",
+      "name": "Treat non-resonance as editing material",
+      "formula": "non-resonance -> tau -> AEP"
+    },
+    {
+      "id": "R5",
+      "name": "Diagnose coupling, not cooperation",
+      "formula": "decisive diagnostic = editability under finite cost"
+    }
+  ]
+}

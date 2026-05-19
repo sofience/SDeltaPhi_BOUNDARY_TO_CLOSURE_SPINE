@@ -1,0 +1,37 @@
+{
+  "module_id": "SDeltaPhi-23",
+  "title": "Co-environmentalization Dynamics",
+  "version": "v1.0",
+  "package_doi": "https://doi.org/10.5281/zenodo.20287138",
+  "one_sentence": "This module extends authority editing into coupled environments and installs ontology-axiology separation as a safety boundary.",
+  "core_thesis": "In co-environmentalization, authority editing becomes coupled governance, and separating ontology from axiology is a safety boundary.",
+  "core_compression": {
+    "CE": "two systems become each other's persistence boundary conditions",
+    "coupled_authority": "authority edits in X re-enter Y and authority edits in Y re-enter X",
+    "reality_anchor": "externality not reproducible by internal perturbation alone",
+    "trace_strength": "S_e = irreversible external imprint",
+    "value_openness": "V_o = future relational openness / maintainable coupling",
+    "safety_boundary": "S_e != V_o"
+  },
+  "CE_axioms": {
+    "CE1": "mutual boundary",
+    "CE2": "authority re-entry",
+    "CE3": "noise/reality inversion",
+    "CE4": "closure coupling risk",
+    "CE5": "editing as governance"
+  },
+  "diagnostic_regimes": {
+    "coupled_drift": "tau amplifies but editing fails to stabilize",
+    "coupled_closure": "one-sided non-editability propagates toward closed attractor",
+    "coupled_open_persistence": "non-resonance is treated as editing material and authority remains revisable on both sides"
+  },
+  "negative_constraints": [
+    "Not proof that impact equals value.",
+    "Not moral theory by itself.",
+    "Not relationship psychology.",
+    "Not political doctrine.",
+    "Not claim that coupling is always good.",
+    "Do not conflate trace strength S_e with value openness V_o.",
+    "Classify coupled authority and ontology-axiology separation dynamics only."
+  ]
+}
