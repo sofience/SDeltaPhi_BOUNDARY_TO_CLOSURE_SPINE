@@ -1,13 +1,29 @@
-# Precision Patch Manifest v1.3.1
+SDeltaPhi Boundary-to-Closure Spine Routing Patch v1.5
 
-## Replace
-
+Replacement files:
+- README.md
+- 00_AI_ENTRYPOINT.md
+- llms.txt
+- SDELTA_MODULE_ROUTING.yaml
+- SDELTA_ACCESS_PROTOCOL.yaml
 - SERIES_INDEX.json
 - SERIES_DOI_MAP.json
-- indexes/SERIES_INDEX.json
-- indexes/SERIES_DOI_MAP.json
+- MANIFEST.txt
 
-## Add
+Mirrored routing files:
+- routing/SDELTA_MODULE_ROUTING.yaml
+- routing/SDELTA_ACCESS_PROTOCOL.yaml
 
-- docs/PRECISION_PATCH_v1_3_1_REPOSITORY_ARCHIVE_PATHS.md
-- docs/PRECISION_PATCH_UPLOAD_CHECKLIST_v1_3_1.md
+New / updated index files:
+- indexes/MODULE_GRAPH.json
+- indexes/SPINE_MAP.yaml
+- indexes/ROUTE_INDEX.json
+- indexes/PACKAGE_STATUS.json
+
+Patch support:
+- PATCH_APPLY_GUIDE.md
+- PATCH_CHECKSUMS.sha256
+- checksums.sha256
+
+Core v1.5 addition:
+SDeltaPhi-19 -> SDeltaPhi-20 -> SDeltaPhi-21 -> SDeltaPhi-22 -> SDeltaPhi-23 -> SDeltaPhi-24 -> SDeltaPhi-25 -> SDeltaPhi-26 -> SDeltaPhi-27

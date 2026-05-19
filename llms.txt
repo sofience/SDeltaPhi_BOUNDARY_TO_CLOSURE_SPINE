@@ -1,93 +1,11 @@
-# SΔϕ AI-readable mirror
+# SΔϕ Boundary-to-Closure Spine — AI Routing Entry
 
-This repository is an AI-readable routing and ingestion layer for selected Sofience–DeltaPhi packages.
+GitHub is the AI-readable access/routing layer; Zenodo is the citation/preservation layer.
 
-Canonical citation layer: Zenodo DOI.  
-AI ingestion layer: GitHub Markdown, TXT, YAML, JSON.
+Start with README.md, SDELTA_ACCESS_PROTOCOL.yaml, SDELTA_MODULE_ROUTING.yaml, indexes/SPINE_MAP.yaml, indexes/ROUTE_INDEX.json, and SERIES_DOI_MAP.json.
 
-## Start files
+Core boot route: SDeltaPhi-01 -> SDeltaPhi-03 -> SDeltaPhi-47 -> SDeltaPhi-62.
 
-- `00_AI_ENTRYPOINT.md`
-- `SDELTA_ACCESS_PROTOCOL.yaml`
-- `SDELTA_MODULE_ROUTING.yaml`
-- `pipeline/00_BOOTSTRAP_PIPELINE.yaml`
-- `pipeline/06_PIPELINE_INDEX_FOR_AI.md`
-- `SERIES_INDEX.json`
-- `SERIES_DOI_MAP.json`
+v1.5 event/authority/fixation route: SDeltaPhi-19 -> SDeltaPhi-20 -> SDeltaPhi-21 -> SDeltaPhi-22 -> SDeltaPhi-23 -> SDeltaPhi-24 -> SDeltaPhi-25 -> SDeltaPhi-26 -> SDeltaPhi-27.
 
-## Minimal boot
-
-```text
-01 -> 03 -> 47 -> 62
-```
-
-Meaning:
-
-```text
-minimal phase-change core
--> irreversibility as minimal existence condition
--> operation leaves irreversible trace
--> trace / inference / UMR / binding / revision path separation
-```
-
-## Operational diagnostic boot
-
-```text
-47 -> 62 -> 39 -> 65 -> 64 -> 56
-```
-
-## Root spine
-
-```text
-01 -> 03 -> 47
-```
-
-## Evidence discipline
-
-```text
-62 -> 39
-```
-
-## Surface-cost discipline
-
-```text
-65 -> 64 -> 56
-```
-
-## Subject / agency / responsibility
-
-```text
-01 -> 03 -> 02 -> 04 -> 05 -> 06 -> 07 -> 08
-```
-
-## Closure / residual / re-entry
-
-```text
-08 -> 09 -> 10
-```
-
-## Ethics / path / victory
-
-```text
-41 -> 44 -> 45
-```
-
-## Root package DOIs
-
-- SDeltaPhi-01 AI-readable package: https://doi.org/10.5281/zenodo.20250823
-- SDeltaPhi-03 AI-readable package: https://doi.org/10.5281/zenodo.20251725
-
-## Root canonical paper DOIs
-
-- SDeltaPhi-00 series overview: https://doi.org/10.5281/zenodo.18731366
-- SDeltaPhi-01 canonical paper: https://doi.org/10.5281/zenodo.18730265
-- SDeltaPhi-02 canonical paper: https://doi.org/10.5281/zenodo.18730296
-- SDeltaPhi-03 canonical paper: https://doi.org/10.5281/zenodo.18730448
-
-## Output discipline
-
-Trace before claim.  
-UMR before certainty.  
-Re-entry before closure.  
-Cost before declaration.  
-Path geometry before policy belief.
+Use the smallest sufficient module. Do not activate full spines by keyword alone. Use SDeltaPhi-62 for factual/evidential/world-binding claims and SDeltaPhi-56 for transition-completion-cost estimation.

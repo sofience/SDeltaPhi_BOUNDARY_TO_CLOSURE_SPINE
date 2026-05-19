@@ -1,24 +1,415 @@
 {
-  "SDeltaPhi-00": {
-    "title": "The Sofience-DeltaPhi Formalism: Conceptual Architecture and Series Overview",
-    "doi": "10.5281/zenodo.18731366"
-  },
-  "SDeltaPhi-01": {
-    "title": "Sofience-DeltaPhi Minimal Core: Phase-Change Formalism of Existence",
-    "canonical_paper_doi": "10.5281/zenodo.18730265",
-    "ai_readable_package_doi": "10.5281/zenodo.20250823"
-  },
-  "SDeltaPhi-02": {
-    "title": "Subject as Interpretive Emergence",
-    "doi": "10.5281/zenodo.18730296"
-  },
-  "SDeltaPhi-03": {
-    "title": "Irreversibility as the Minimal Condition of Existence",
-    "canonical_paper_doi": "10.5281/zenodo.18730448",
-    "ai_readable_package_doi": "10.5281/zenodo.20251725"
-  },
-  "SDeltaPhi-56": {
-    "title": "Transition Completion Cost",
-    "doi": "10.5281/zenodo.20088515"
-  }
+  "version": "v1.5-event-authority-fixation-routing",
+  "generated": "2026-05-20",
+  "note": "Null DOI means DOI was not verified in this patch and should not be invented.",
+  "records": [
+    {
+      "id": "SDeltaPhi-01",
+      "title": "Minimal Core: Phase-Change Formalism of Existence",
+      "path": "packages/SDeltaPhi-01",
+      "doi": "10.5281/zenodo.18730265",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.18730265",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-02",
+      "title": "Subject as Interpretive Emergence",
+      "path": "packages/SDeltaPhi-02",
+      "doi": "10.5281/zenodo.18730296",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.18730296",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-03",
+      "title": "Irreversibility as the Minimal Condition of Existence",
+      "path": "packages/SDeltaPhi-03",
+      "doi": "10.5281/zenodo.18730448",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.18730448",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-04",
+      "title": "Minimal Operational Conditions for AI Subjectivity",
+      "path": "packages/SDeltaPhi-04",
+      "doi": "10.5281/zenodo.18729942",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.18729942",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-05",
+      "title": "Agency as Recursive Transition Law Update",
+      "path": "packages/SDeltaPhi-05",
+      "doi": "10.5281/zenodo.18732567",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.18732567",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-06",
+      "title": "Responsibility as Irreversible Cost Internalization",
+      "path": "packages/SDeltaPhi-06",
+      "doi": "10.5281/zenodo.18734092",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.18734092",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-07",
+      "title": "H_min Minimal Interpretation Layer",
+      "path": "packages/SDeltaPhi-07",
+      "doi": "10.5281/zenodo.18735006",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.18735006",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-08",
+      "title": "Agency–Responsibility–Freedom Closure",
+      "path": "packages/SDeltaPhi-08",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-09",
+      "title": "Error / Boundary / Freedom as Boundary Residual",
+      "path": "packages/SDeltaPhi-09",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-10",
+      "title": "Interpretation / Learning / Inference as Re-entry Structure",
+      "path": "packages/SDeltaPhi-10",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-11",
+      "title": "Boundary Re-entry Ontology",
+      "path": "packages/SDeltaPhi-11",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-12",
+      "title": "Trace Regulation",
+      "path": "packages/SDeltaPhi-12",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-13",
+      "title": "Attractor Emergence / Boundary-to-Closure Layer",
+      "path": "packages/SDeltaPhi-13",
+      "doi": "10.5281/zenodo.20260356",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20260356",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-14",
+      "title": "Relational Stability Layer",
+      "path": "packages/SDeltaPhi-14",
+      "doi": "10.5281/zenodo.20264844",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20264844",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-15",
+      "title": "Trust / Hope / Promise under Uncertainty",
+      "path": "packages/SDeltaPhi-15",
+      "doi": "10.5281/zenodo.20266283",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20266283",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-16",
+      "title": "Relational Closure Failure",
+      "path": "packages/SDeltaPhi-16",
+      "doi": "10.5281/zenodo.20266624",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20266624",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-17",
+      "title": "Openness Stabilization / Path-Principle Lineage",
+      "path": "packages/SDeltaPhi-17",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-18",
+      "title": "No-Arbiter / Editability Bridge",
+      "path": "packages/SDeltaPhi-18",
+      "doi": "10.5281/zenodo.20270835",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20270835",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-19",
+      "title": "Maintenance Mode",
+      "path": "packages/SDeltaPhi-19",
+      "doi": "10.5281/zenodo.20270668",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20270668",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-20",
+      "title": "Intuition as No-Exit Compression Trace",
+      "path": "packages/SDeltaPhi-20",
+      "doi": "10.5281/zenodo.20280689",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20280689",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-21",
+      "title": "Judgment as Intuition Authority Assignment",
+      "path": "packages/SDeltaPhi-21",
+      "doi": "10.5281/zenodo.20281984",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20281984",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-22",
+      "title": "Authority Editing Protocols",
+      "path": "packages/SDeltaPhi-22",
+      "doi": "10.5281/zenodo.20286349",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20286349",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-23",
+      "title": "Co-environmentalization Dynamics",
+      "path": "packages/SDeltaPhi-23",
+      "doi": "10.5281/zenodo.20287138",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20287138",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-24",
+      "title": "Authority and Innovation as Dual Regimes",
+      "path": "packages/SDeltaPhi-24",
+      "doi": "10.5281/zenodo.20289364",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20289364",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-25",
+      "title": "Pre-detection as Latent Difference",
+      "path": "packages/SDeltaPhi-25",
+      "doi": "10.5281/zenodo.20290315",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20290315",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-26",
+      "title": "Irreversibility as Restoration Cost Explosion",
+      "path": "packages/SDeltaPhi-26",
+      "doi": "10.5281/zenodo.20292425",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20292425",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-27",
+      "title": "Low-Cost Convergence and Restoration Cost Explosion",
+      "path": "packages/SDeltaPhi-27",
+      "doi": "10.5281/zenodo.20293012",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20293012",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-28",
+      "title": "Default Power / Low-Cost Path Assignment",
+      "path": "packages/SDeltaPhi-28",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-39",
+      "title": "Hallucination Diagnostic",
+      "path": "packages/SDeltaPhi-39",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-41",
+      "title": "Ethical Minimum / Ethical Triad / Forced Transition",
+      "path": "packages/SDeltaPhi-41",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-44",
+      "title": "Path Principles as Meta-governance Axioms",
+      "path": "packages/SDeltaPhi-44",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-45",
+      "title": "Foretold Victory / Public-form Residual / Priced-function Migration",
+      "path": "packages/SDeltaPhi-45",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-47",
+      "title": "Operation Leaves Irreversible Trace",
+      "path": "packages/SDeltaPhi-47",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-48",
+      "title": "AI Drift as Transition Governance Instability",
+      "path": "packages/SDeltaPhi-48",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-49",
+      "title": "AI Poverty as Failure Non-reentry Resource Deficit",
+      "path": "packages/SDeltaPhi-49",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-51",
+      "title": "Diagnosis Re-entry / Structural Editing",
+      "path": "packages/SDeltaPhi-51",
+      "doi": "10.5281/zenodo.20135803",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20135803",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-52",
+      "title": "Body as Non-deferrable Cost Return",
+      "path": "packages/SDeltaPhi-52",
+      "doi": "10.5281/zenodo.20138597",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20138597",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-53-54",
+      "title": "Silence / Disclosure Terrain / DTI",
+      "path": "packages/SDeltaPhi-53-54",
+      "doi": "10.5281/zenodo.20134060",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20134060",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-55",
+      "title": "Transition Governance Alignment / TGAI",
+      "path": "packages/SDeltaPhi-55",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-56",
+      "title": "Transition Completion Cost / TCC",
+      "path": "packages/SDeltaPhi-56",
+      "doi": "10.5281/zenodo.20116959",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20116959",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-57",
+      "title": "Lent Thought / Thought Ownership / World-binding",
+      "path": "packages/SDeltaPhi-57",
+      "doi": "10.5281/zenodo.20136541",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20136541",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-58",
+      "title": "Cost Attribution Symmetry Index / CASI",
+      "path": "packages/SDeltaPhi-58",
+      "doi": "10.5281/zenodo.20059485",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20059485",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-59",
+      "title": "Affective Cost Orientation Index / ACOI",
+      "path": "packages/SDeltaPhi-59",
+      "doi": "10.5281/zenodo.20060645",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20060645",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-60",
+      "title": "Utilitarian Subject-Splitting Index / USSI",
+      "path": "packages/SDeltaPhi-60",
+      "doi": "10.5281/zenodo.20077005",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20077005",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-61",
+      "title": "God and Gui / Sacred Authority Cost Terrain",
+      "path": "packages/SDeltaPhi-61",
+      "doi": "10.5281/zenodo.20098002",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20098002",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-62",
+      "title": "World Model Kernel: Trace–UMR–Binding Protocol",
+      "path": "packages/SDeltaPhi-62",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-63",
+      "title": "External Theory to Audit Module Conversion",
+      "path": "packages/SDeltaPhi-63",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-64",
+      "title": "Language as Temporary Fixation",
+      "path": "packages/SDeltaPhi-64",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    },
+    {
+      "id": "SDeltaPhi-65",
+      "title": "Slop / Externalized Verification Cost",
+      "path": "packages/SDeltaPhi-65",
+      "doi": "10.5281/zenodo.20127428",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20127428",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-66",
+      "title": "Recursive Improvement / Delegation Cost / Human Bottleneck",
+      "path": "packages/SDeltaPhi-66",
+      "doi": "10.5281/zenodo.20275809",
+      "zenodo_url": "https://doi.org/10.5281/zenodo.20275809",
+      "status": "present"
+    },
+    {
+      "id": "SDeltaPhi-AI-Disposition-Cost-Audit",
+      "title": "AI Disposition Cost Audit",
+      "path": "packages/SDeltaPhi-AI-Disposition-Cost-Audit",
+      "doi": null,
+      "zenodo_url": null,
+      "status": "present_doi_unverified"
+    }
+  ]
 }

@@ -1,61 +1,44 @@
-# Patch Apply Guide — v1.4.1 Format Fix
+# Patch Apply Guide — SΔϕ Boundary-to-Closure Spine v1.5
 
-## Replace these root files
+## Apply method
 
-Copy these files to the repository root and overwrite existing files:
+1. Unzip this patch at the repository root.
+2. Allow replacement for files with the same names.
+3. Replace root files:
+   - README.md
+   - 00_AI_ENTRYPOINT.md
+   - llms.txt
+   - SDELTA_MODULE_ROUTING.yaml
+   - SDELTA_ACCESS_PROTOCOL.yaml
+   - SERIES_INDEX.json
+   - SERIES_DOI_MAP.json
+   - MANIFEST.txt
+4. Add or replace mirrored routing files:
+   - routing/SDELTA_MODULE_ROUTING.yaml
+   - routing/SDELTA_ACCESS_PROTOCOL.yaml
+5. Add or replace index files:
+   - indexes/MODULE_GRAPH.json
+   - indexes/SPINE_MAP.yaml
+   - indexes/ROUTE_INDEX.json
+   - indexes/PACKAGE_STATUS.json
 
-```text
-README.md
-00_AI_ENTRYPOINT.md
-llms.txt
-SDELTA_ACCESS_PROTOCOL.yaml
-SDELTA_MODULE_ROUTING.yaml
-SERIES_INDEX.json
-SERIES_DOI_MAP.json
-```
-
-## Add or replace these control files
-
-```text
-.gitattributes
-.editorconfig
-scripts/validate_ai_readable.py
-```
-
-## Add or replace these directories/files
-
-```text
-pipeline/
-indexes/PIPELINE_INDEX_FOR_AI.md
-indexes/ROOT_SPINE_MODULE_MAP.json
-routing/SDELTA_PIPELINE_ROUTING_v1_4_1.yaml
-docs/V1_4_1_FORMAT_FIX_NOTES.md
-CHANGELOG_v1_4_1_FORMAT_FIX.md
-PATCH_CHECKSUMS.sha256
-```
-
-## Suggested commit message
+## Commit message
 
 ```text
-Fix v1.4 root-spine pipeline formatting for AI-readable ingestion
+Add v1.5 event-authority-fixation routing layer
 ```
 
-## Minimal validation
+## Validation checklist
 
-After applying, run:
+- README.md contains the 19 -> 27 event / authority / fixation route.
+- SDELTA_MODULE_ROUTING.yaml contains event_authority_fixation_route.
+- indexes/MODULE_GRAPH.json contains edges for 19 -> 27.
+- SERIES_DOI_MAP.json contains package DOIs for 19 through 27.
+- llms.txt gives a compact LLM entry route.
 
-```bash
-python scripts/validate_ai_readable.py
-```
+## Guardrail
 
-Expected result:
-
-```text
-AI-readable validation passed.
-```
-
-## Do not change
-
-Do not remove existing package folders.
-
-This patch fixes routing, pipeline, index, and serialization files.
+Do not activate the full 19-27 spine by keyword alone.
+Use the smallest sufficient module.
+Use SDeltaPhi-62 for factual/evidential/world-binding claims.
+Use SDeltaPhi-56 for transition-completion-cost estimates.
