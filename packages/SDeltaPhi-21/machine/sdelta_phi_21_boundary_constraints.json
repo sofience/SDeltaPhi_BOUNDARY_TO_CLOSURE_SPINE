@@ -1,0 +1,22 @@
+{
+  "module_id": "SDeltaPhi-21",
+  "negative_constraints": [
+    "not psychology of decision-making",
+    "not legal authority theory",
+    "not moral authority theory",
+    "not proof of truth",
+    "not proof of rationality",
+    "not proof that intuition is reliable",
+    "not justification for non-editable authority",
+    "not clinical or cognitive diagnosis"
+  ],
+  "positive_scope": [
+    "authority assignment over intuition markers",
+    "finite-cost editability",
+    "authority debt",
+    "under-authority / drift",
+    "over-authority / closure",
+    "editable judgment / open persistence",
+    "governance bridge through authority revision triggers"
+  ]
+}

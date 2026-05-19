@@ -1,0 +1,34 @@
+{
+  "module_id": "SDeltaPhi-21",
+  "axioms": [
+    {
+      "id": "A1",
+      "name": "Intuition plurality",
+      "statement": "Any bounded system generates multiple intuition markers across competing basins.",
+      "formula": "I1...In"
+    },
+    {
+      "id": "A2",
+      "name": "Authority assignment",
+      "statement": "Judgment assigns authority A to a subset of intuition markers, producing an executable route.",
+      "formula": "J: I -> A(I)"
+    },
+    {
+      "id": "A3",
+      "name": "Irreversibility threshold",
+      "statement": "If revision cost exceeds the update budget, authority becomes effectively irreversible.",
+      "formula": "RevisionCost(A(I)) > UpdateBudget -> effective irreversibility"
+    },
+    {
+      "id": "A4",
+      "name": "Two failure modes",
+      "statement": "Over-authority yields closure; under-authority yields drift."
+    },
+    {
+      "id": "A5",
+      "name": "Open persistence",
+      "statement": "Sustained openness requires periodic authority re-editing triggered by conflict, error, or external perturbation."
+    }
+  ],
+  "scope_note": "Axioms are substrate-agnostic and apply to individual cognition, organizations, and AI systems where multiple basins exist and authority can become costly to revise."
+}

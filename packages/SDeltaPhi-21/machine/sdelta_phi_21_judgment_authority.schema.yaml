@@ -1,0 +1,71 @@
+module_id: "SDeltaPhi-21"
+title: "Judgment as Intuition Authority Assignment"
+version: "v1.0"
+role: "judgment_authority_assignment_editable_decision_layer"
+package_doi: "https://doi.org/10.5281/zenodo.20281984"
+
+depends_on:
+  - module_id: "SDeltaPhi-03"
+    relation: "irreversibility threshold for authority"
+  - module_id: "SDeltaPhi-07"
+    relation: "H_min and re-entry marker framing"
+  - module_id: "SDeltaPhi-19"
+    relation: "maintenance mode for authority debt"
+  - module_id: "SDeltaPhi-20"
+    relation: "intuition markers as no-exit compression traces"
+  - module_id: "SDeltaPhi-16"
+    relation: "closure dynamics for over-authority"
+  - module_id: "SDeltaPhi-17"
+    relation: "openness stabilization for editable judgment"
+  - module_id: "SDeltaPhi-18"
+    relation: "no-arbiter and editability governance bridge"
+
+core_thesis: "Judgment is the operation that assigns authority to intuition markers, and collapse occurs when that authority becomes non-editable."
+
+entities:
+  intuition_marker:
+    symbol: "I"
+    definition: "trace-dominant basin signal from SDeltaPhi-20"
+    gloss: "search is no longer worth it here"
+
+  authority:
+    symbol: "A"
+    definition: "priority weight or gating rule assigned to an intuition marker"
+    function: "determines which route is executed"
+
+  judgment:
+    symbol: "J"
+    formula: "J: I -> A(I)"
+    definition: "authority assignment over intuition markers"
+
+  editability:
+    symbol: "E^d"
+    definition: "ability to revise A(I) under new evidence or constraints without runaway cost"
+
+  authority_debt:
+    symbol: "D_A"
+    definition: "accumulated cost of misassigned authority that increases revision resistance over time"
+
+core_risks:
+  over_authority:
+    condition: "A(I) becomes non-editable"
+    result: "closure"
+  under_authority:
+    condition: "A(I) fails to stabilize"
+    result: "drift"
+
+editability_conditions:
+  - "conflict intake"
+  - "marker-authority separation"
+  - "revision budget"
+  - "rollback handle"
+  - "maintenance mode"
+
+negative_constraints:
+  - "Not psychology of decision-making."
+  - "Not legal authority theory."
+  - "Not moral authority theory."
+  - "Not proof of truth."
+  - "Not proof of rationality."
+  - "Do not treat intuition as automatically authoritative."
+  - "Classify authority assignment and editability dynamics only."

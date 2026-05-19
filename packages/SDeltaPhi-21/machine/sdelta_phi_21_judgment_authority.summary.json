@@ -1,0 +1,41 @@
+{
+  "module_id": "SDeltaPhi-21",
+  "title": "Judgment as Intuition Authority Assignment",
+  "version": "v1.0",
+  "package_doi": "https://doi.org/10.5281/zenodo.20281984",
+  "one_sentence": "This module defines judgment as the operation that assigns editable authority to intuition markers.",
+  "core_compression": {
+    "intuition_marker": "I = trace-dominant basin signal",
+    "authority": "A = priority weight or gating rule assigned to I",
+    "judgment": "J: I -> A(I)",
+    "editability": "ability to revise A(I) under new evidence or constraints without runaway cost",
+    "authority_debt": "accumulated cost of misassigned authority that increases revision resistance over time"
+  },
+  "core_risk": {
+    "over_authority": "A(I) becomes non-editable -> closure",
+    "under_authority": "A(I) fails to stabilize -> drift"
+  },
+  "IAD_loop": [
+    "Intuition markers I1...In",
+    "Authority assignment A(I)",
+    "Decision/action route r*",
+    "Authority debt D_A",
+    "Re-entry: next state biased by r*"
+  ],
+  "editability_conditions": {
+    "C1": "conflict intake",
+    "C2": "marker-authority separation",
+    "C3": "revision budget",
+    "C4": "rollback handle",
+    "C5": "maintenance mode"
+  },
+  "negative_constraints": [
+    "Not psychology of decision-making.",
+    "Not legal authority theory.",
+    "Not moral authority theory.",
+    "Not proof of truth.",
+    "Not proof of rationality.",
+    "Do not treat intuition as automatically authoritative.",
+    "Classify authority assignment and editability dynamics only."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "module_id": "SDeltaPhi-21",
+  "editability_conditions": {
+    "C1": {
+      "name": "Conflict intake",
+      "definition": "The system must allow perturbations that challenge A(I)."
+    },
+    "C2": {
+      "name": "Marker separation",
+      "definition": "Authority A(I) must be distinguishable from intuition I.",
+      "formula": "A(I) != I"
+    },
+    "C3": {
+      "name": "Revision budget",
+      "definition": "There must exist an update budget that can pay revision cost.",
+      "formula": "UpdateBudget >= RevisionCost(A(I))"
+    },
+    "C4": {
+      "name": "Rollback handle",
+      "definition": "The system must retain at least a minimal handle to alternative routes."
+    },
+    "C5": {
+      "name": "Maintenance mode",
+      "definition": "Periodic maintenance is required to prevent runaway authority debt."
+    }
+  },
+  "core_claim": "Editability is not openness as an attitude; it is a structural property of finite-cost authority revision."
+}

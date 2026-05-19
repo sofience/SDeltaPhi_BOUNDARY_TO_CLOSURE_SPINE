@@ -1,0 +1,14 @@
+{
+  "module_id": "SDeltaPhi-21",
+  "loop_id": "IAD",
+  "full_name": "Intuition -> Authority -> Decision Loop",
+  "sequence": [
+    "Intuition markers I1...In",
+    "Authority assignment A(I)",
+    "Decision/action route r*",
+    "Authority debt D_A",
+    "Re-entry: next state biased by r*"
+  ],
+  "function": "Authority assignment produces an executable route and the executed route re-enters the system as bias.",
+  "risk": "Without editability, authority debt accumulates and authority assignment becomes self-reinforcing."
+}

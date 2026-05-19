@@ -1,0 +1,31 @@
+{
+  "module_id": "SDeltaPhi-21",
+  "diagnostic_regimes": {
+    "under_authority_drift": {
+      "authority_pattern": "A(I) unstable or absent",
+      "observable_signature": [
+        "over-search",
+        "inconsistency",
+        "delayed commitments"
+      ],
+      "structural_risk": "fragmentation / incoherence"
+    },
+    "over_authority_closure": {
+      "authority_pattern": "A(I) rigid; revision cost high",
+      "observable_signature": [
+        "fast commitment",
+        "resistance to counterevidence"
+      ],
+      "structural_risk": "no-exit basin / self-locking"
+    },
+    "editable_judgment_open_persistence": {
+      "authority_pattern": "A(I) stable but revisable",
+      "observable_signature": [
+        "commit + revise",
+        "conflict used as re-edit trigger"
+      ],
+      "structural_risk": "sustained openness"
+    }
+  },
+  "core_rule": "Judgment is functional only when authority is stable enough to decide and editable enough to revise."
+}
