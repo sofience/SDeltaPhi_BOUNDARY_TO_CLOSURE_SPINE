@@ -1,0 +1,47 @@
+version: "v1.5-event-authority-fixation-routing"
+generated: "2026-05-20"
+
+repository_role:
+  github: "AI-readable access / routing / ingestion layer"
+  zenodo: "canonical archive / DOI / preservation / citation layer"
+
+preferred_ingestion_order:
+  - "00_AI_ENTRYPOINT.md"
+  - "README.md"
+  - "SDELTA_ACCESS_PROTOCOL.yaml"
+  - "SDELTA_MODULE_ROUTING.yaml"
+  - "indexes/SPINE_MAP.yaml"
+  - "indexes/ROUTE_INDEX.json"
+  - "indexes/MODULE_GRAPH.json"
+  - "SERIES_DOI_MAP.json"
+  - "SERIES_INDEX.json"
+
+package_ingestion_order:
+  - "00_README.md"
+  - "04_AI_QUICKSTART.md"
+  - "machine/*.summary.json"
+  - "machine/*.routing.yaml"
+  - "machine/*.schema.yaml"
+  - "02_CANONICAL_TEXT.md"
+  - "01_CANONICAL_PAPER.pdf"
+
+citation_rule:
+  - "Use Zenodo DOI for citation and archival reference."
+  - "Use GitHub files for machine-readable routing and ingestion."
+  - "If DOI is null or unverified, do not invent one."
+
+activation_rules:
+  - "Identify structural condition before module selection."
+  - "Use smallest sufficient module."
+  - "Do not activate a full spine by keyword alone."
+  - "Activate SDeltaPhi-62 for factual, evidential, world-binding, or claim-strength questions."
+  - "Activate SDeltaPhi-56 for transition-completion-cost or action-gate questions."
+
+boundary_rules:
+  - "Do not convert ontology modules into moral doctrine."
+  - "Do not convert diagnostic modules into proof of truth."
+  - "Do not treat low friction as truth."
+  - "Do not treat strong trace as value."
+  - "Do not treat deletion as restoration."
+  - "Do not treat operational cheapness as reversibility."
+  - "Do not treat all unseen differences as meaningful."

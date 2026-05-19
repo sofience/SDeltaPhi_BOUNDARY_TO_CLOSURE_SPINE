@@ -1,0 +1,71 @@
+version: "v1.5-event-authority-fixation-routing"
+generated: "2026-05-20"
+repository: "SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE"
+
+routing_principles:
+  - "Use the smallest sufficient module."
+  - "Do not activate full spines by keyword alone."
+  - "Use SDeltaPhi-62 when factual, evidential, or world-binding claims appear."
+  - "Use SDeltaPhi-56 when transition-completion-cost estimation is required."
+  - "Treat GitHub as AI-readable routing/ingestion layer and Zenodo as canonical citation/preservation layer."
+
+spines:
+  minimal_ai_boot_route:
+    modules: ["SDeltaPhi-01", "SDeltaPhi-03", "SDeltaPhi-47", "SDeltaPhi-62"]
+  operational_diagnostic_route:
+    modules: ["SDeltaPhi-47", "SDeltaPhi-62", "SDeltaPhi-39", "SDeltaPhi-65", "SDeltaPhi-64", "SDeltaPhi-56"]
+  subject_agency_responsibility_route:
+    modules: ["SDeltaPhi-01", "SDeltaPhi-03", "SDeltaPhi-02", "SDeltaPhi-04", "SDeltaPhi-05", "SDeltaPhi-06", "SDeltaPhi-07", "SDeltaPhi-08"]
+  boundary_to_closure_route:
+    modules: ["SDeltaPhi-11", "SDeltaPhi-12", "SDeltaPhi-13", "SDeltaPhi-14", "SDeltaPhi-15", "SDeltaPhi-16"]
+  post_closure_editability_bridge:
+    modules: ["SDeltaPhi-16", "SDeltaPhi-17", "SDeltaPhi-18", "SDeltaPhi-19"]
+  event_authority_fixation_route:
+    modules: ["SDeltaPhi-19", "SDeltaPhi-20", "SDeltaPhi-21", "SDeltaPhi-22", "SDeltaPhi-23", "SDeltaPhi-24", "SDeltaPhi-25", "SDeltaPhi-26", "SDeltaPhi-27"]
+  eventhood_fixation_route:
+    modules: ["SDeltaPhi-24", "SDeltaPhi-25", "SDeltaPhi-26", "SDeltaPhi-27"]
+  default_power_bridge:
+    modules: ["SDeltaPhi-26", "SDeltaPhi-27", "SDeltaPhi-28"]
+  recursive_improvement_cost_route:
+    modules: ["SDeltaPhi-56", "SDeltaPhi-66"]
+
+conditional_routes:
+  - id: "maintenance_mode"
+    when_any: ["maintenance mode", "sleep", "consciousness maintenance", "state maintenance"]
+    use: ["SDeltaPhi-19", "SDeltaPhi-62"]
+  - id: "intuition_no_exit_trace"
+    when_any: ["intuition", "no-exit trace", "compression trace", "search no longer worth it"]
+    use: ["SDeltaPhi-20", "SDeltaPhi-19"]
+  - id: "judgment_authority_assignment"
+    when_any: ["judgment", "authority assignment", "intuition marker authority", "decision authority"]
+    use: ["SDeltaPhi-21", "SDeltaPhi-20"]
+  - id: "authority_editing"
+    when_any: ["authority editing", "editability", "revision trigger", "rollback handle", "authority debt"]
+    use: ["SDeltaPhi-22", "SDeltaPhi-21"]
+  - id: "coupled_authority"
+    when_any: ["coupled authority", "co-environmentalization", "reality anchor", "trace strength", "value openness", "S_e != V_o"]
+    use: ["SDeltaPhi-23", "SDeltaPhi-22"]
+  - id: "authority_innovation_conflict"
+    when_any: ["authority innovation conflict", "misfit", "re-opening", "conflict as phase signal", "suppressed innovation", "heresy"]
+    use: ["SDeltaPhi-24", "SDeltaPhi-22", "SDeltaPhi-23"]
+  - id: "predetection_event_registration"
+    when_any: ["pre-detection", "latent difference", "event registration", "structural invisibility", "threshold crossing"]
+    use: ["SDeltaPhi-25", "SDeltaPhi-24"]
+  - id: "restoration_cost_event_fixation"
+    when_any: ["irreversibility", "restoration cost", "event fixation", "rollback", "deletion does not restore", "digital pseudo-reversibility"]
+    use: ["SDeltaPhi-26", "SDeltaPhi-25", "SDeltaPhi-56"]
+  - id: "low_cost_convergence"
+    when_any: ["low-cost convergence", "exception compression", "path fixation", "successful routine risk", "authority hardening", "cheap continuation"]
+    use: ["SDeltaPhi-27", "SDeltaPhi-26", "SDeltaPhi-28"]
+  - id: "recursive_improvement_bottleneck"
+    when_any: ["recursive improvement", "human bottleneck", "delegation cost", "human intervention requirement"]
+    use: ["SDeltaPhi-66", "SDeltaPhi-56"]
+
+negative_activation_rules:
+  - "Do not activate 19-27 route by keyword alone."
+  - "Do not treat intuition as automatically true."
+  - "Do not treat judgment as truth or legal authority."
+  - "Do not treat strong trace as value."
+  - "Do not treat innovation as automatically good."
+  - "Do not treat deletion as restoration."
+  - "Do not treat efficiency as bad."
