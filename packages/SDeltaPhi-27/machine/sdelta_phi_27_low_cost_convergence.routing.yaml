@@ -1,0 +1,30 @@
+module_id: "SDeltaPhi-27"
+routing_priority: "low_cost_convergence_exception_compression_path_fixation"
+primary_route:
+  - "SDeltaPhi-26"
+  - "SDeltaPhi-27"
+full_route:
+  - "SDeltaPhi-25"
+  - "SDeltaPhi-26"
+  - "SDeltaPhi-27"
+authority_route:
+  - "SDeltaPhi-21"
+  - "SDeltaPhi-22"
+  - "SDeltaPhi-24"
+  - "SDeltaPhi-26"
+  - "SDeltaPhi-27"
+call_with_when_needed:
+  restoration_cost:
+    - "SDeltaPhi-26"
+  authority_editing:
+    - "SDeltaPhi-22"
+  innovation_reopening:
+    - "SDeltaPhi-24"
+  authority_assignment:
+    - "SDeltaPhi-21"
+do_not_route_if:
+  - "the task merely says something is efficient"
+  - "the task asks for business efficiency theory without path fixation analysis"
+  - "the task treats efficiency as automatically bad"
+  - "the task treats successful routines as automatically false"
+  - "the task asks about irreversibility without low-cost convergence mechanism"

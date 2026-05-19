@@ -1,0 +1,23 @@
+{
+  "module_id": "SDeltaPhi-27",
+  "negative_constraints": [
+    "not claim that efficiency is bad",
+    "not claim that all routines are dangerous",
+    "not claim that low cost is always fixation",
+    "not claim that all stable paths must be disrupted",
+    "not business efficiency theory by itself",
+    "not institutional critique by itself",
+    "not moral theory of authority",
+    "not proof that successful systems are false"
+  ],
+  "positive_scope": [
+    "operational/restoration cost separation",
+    "exception compression",
+    "low-cost convergence",
+    "repeated cheap continuation",
+    "path fixation",
+    "restoration cost explosion generation",
+    "successful routine risk",
+    "editability monitoring"
+  ]
+}

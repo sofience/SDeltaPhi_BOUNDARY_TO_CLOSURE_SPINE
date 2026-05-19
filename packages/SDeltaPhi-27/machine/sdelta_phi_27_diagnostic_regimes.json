@@ -1,0 +1,29 @@
+{
+  "module_id": "SDeltaPhi-27",
+  "diagnostic_regimes": {
+    "editable_efficiency": {
+      "condition": "C_op(P) decreases but alternatives remain exercised and C_rest(P) remains manageable",
+      "risk": "low"
+    },
+    "low_cost_convergence": {
+      "condition": "E(P) decreases, C_op(P) decreases, repeated selection increases",
+      "risk": "emerging fixation"
+    },
+    "silent_fixation": {
+      "condition": "routine succeeds, exceptions compressed, alternatives neglected, F(P) rises",
+      "risk": "hidden restoration cost growth"
+    },
+    "restoration_cost_explosion": {
+      "condition": "F(P) rises and C_rest(P) crosses practical return threshold",
+      "risk": "practical irreversibility"
+    },
+    "authority_hardening": {
+      "condition": "low friction mistaken for truth or universal adequacy",
+      "risk": "authority without editability"
+    },
+    "editability_collapse": {
+      "condition": "alternatives formally describable but practically unaffordable",
+      "risk": "lost reversibility"
+    }
+  }
+}

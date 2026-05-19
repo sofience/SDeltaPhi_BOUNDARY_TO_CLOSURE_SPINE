@@ -1,0 +1,70 @@
+module_id: "SDeltaPhi-27"
+title: "Low-Cost Convergence and Restoration Cost Explosion"
+version: "v1.0"
+role: "low_cost_convergence_exception_compression_path_fixation_generator_layer"
+package_doi: "https://doi.org/10.5281/zenodo.20293012"
+
+depends_on:
+  - module_id: "SDeltaPhi-21"
+    relation: "judgment and authority assignment"
+  - module_id: "SDeltaPhi-22"
+    relation: "authority editing and editability"
+  - module_id: "SDeltaPhi-24"
+    relation: "innovation as re-opening"
+  - module_id: "SDeltaPhi-25"
+    relation: "pre-detection and event registration"
+  - module_id: "SDeltaPhi-26"
+    relation: "irreversibility as restoration cost explosion"
+
+core_thesis: "A path becomes practically irreversible not only when return is costly, but because repeated low-cost operation removes exception pressure, strengthens fixation, and makes restoration increasingly expensive."
+
+entities:
+  path:
+    symbol: "P"
+    definition: "selected operational route, rule, habit, stack, institution, or authority structure"
+
+  exception_frequency:
+    symbol: "E(P)"
+    definition: "frequency of cases requiring special handling, reinterpretation, or local repair within path P"
+
+  operational_cost:
+    symbol: "C_op(P)"
+    definition: "expenditure required to continue along a presently selected path"
+    gloss: "cost to keep going"
+
+  restoration_cost:
+    symbol: "C_rest(P)"
+    definition: "expenditure required to abandon, reopen, or revise a fixed path"
+    gloss: "cost to stop, step back, reopen, or choose otherwise"
+
+  exception_compression:
+    definition: "reduction of cases requiring special handling, reinterpretation, or local repair"
+
+  low_cost_convergence:
+    definition: "condition in which path P is repeatedly selected because operational continuation is cheaper than alternatives"
+
+  path_fixation:
+    symbol: "F(P)"
+    definition: "condition in which repeated selection structurally privileges path P and makes revision harder"
+
+  repetition:
+    symbol: "R(P)"
+    definition: "repeated selection or continuation of path P"
+
+core_chain: "E(P)↓ -> C_op(P)↓ -> repeated selection↑ -> F(P)↑ -> C_rest(P)↑"
+
+diagnostic_regimes:
+  editable_efficiency: "C_op(P) decreases but alternatives remain exercised and C_rest(P) manageable"
+  low_cost_convergence: "E(P) decreases, C_op(P) decreases, repeated selection rises"
+  silent_fixation: "routine succeeds, exceptions compressed, alternatives neglected, F(P) rises"
+  restoration_cost_explosion: "F(P) rises and C_rest(P) crosses practical return threshold"
+  authority_hardening: "low friction mistaken for truth or universal adequacy"
+  editability_collapse: "alternatives formally describable but practically unaffordable"
+
+negative_constraints:
+  - "Not claim that efficiency is bad."
+  - "Not claim that all routines are dangerous."
+  - "Not claim that low cost is always fixation."
+  - "Not business efficiency theory by itself."
+  - "Not institutional critique by itself."
+  - "Do not confuse operational cheapness with reversibility."

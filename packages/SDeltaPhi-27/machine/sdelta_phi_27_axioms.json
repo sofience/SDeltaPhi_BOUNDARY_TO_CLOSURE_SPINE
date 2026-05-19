@@ -1,0 +1,41 @@
+{
+  "module_id": "SDeltaPhi-27",
+  "axioms": [
+    {
+      "id": "A1",
+      "name": "Operational cost and restoration cost must be separated",
+      "statement": "The cost of continuing along a path is not the same as the cost of abandoning, revising, or reopening that path.",
+      "formula": "C_op(P) != C_rest(P)"
+    },
+    {
+      "id": "A2",
+      "name": "Exception compression lowers operational cost",
+      "statement": "When exception frequency falls, routine continuation becomes cheaper.",
+      "formula": "E(P)↓ -> C_op(P)↓"
+    },
+    {
+      "id": "A3",
+      "name": "Cheap continuation increases repetition",
+      "statement": "A path with lower operational cost is selected more often.",
+      "formula": "C_op(P)↓ -> repeated selection↑"
+    },
+    {
+      "id": "A4",
+      "name": "Repetition produces fixation",
+      "statement": "Repeated selection increases path fixation.",
+      "formula": "R(P)↑ -> F(P)↑"
+    },
+    {
+      "id": "A5",
+      "name": "Fixation raises restoration cost",
+      "statement": "As path fixation increases, the cost of restoration, revision, or reopening rises.",
+      "formula": "F(P)↑ -> C_rest(P)↑"
+    },
+    {
+      "id": "A6",
+      "name": "Low-cost convergence generates practical irreversibility",
+      "statement": "Repeated low-cost operation can manufacture the restoration cost explosion by which irreversibility is later judged.",
+      "formula": "E(P)↓ -> C_op(P)↓ -> R(P)↑ -> F(P)↑ -> C_rest(P)↑"
+    }
+  ]
+}

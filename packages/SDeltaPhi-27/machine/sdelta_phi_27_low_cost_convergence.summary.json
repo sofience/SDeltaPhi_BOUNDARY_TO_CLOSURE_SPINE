@@ -1,0 +1,40 @@
+{
+  "module_id": "SDeltaPhi-27",
+  "title": "Low-Cost Convergence and Restoration Cost Explosion",
+  "version": "v1.0",
+  "package_doi": "https://doi.org/10.5281/zenodo.20293012",
+  "one_sentence": "This module explains how repeated low-cost operation generates path fixation and later restoration cost explosion.",
+  "core_thesis": "A path becomes practically irreversible not only when return is costly, but because repeated low-cost operation removes exception pressure, strengthens fixation, and makes restoration increasingly expensive.",
+  "core_compression": {
+    "operational_cost": "C_op(P) = cost to continue along selected path",
+    "restoration_cost": "C_rest(P) = cost to abandon, revise, or reopen fixed path",
+    "exception_compression": "E(P)↓ reduces special handling and lowers operational cost",
+    "low_cost_convergence": "path repeatedly selected because continuation is cheaper",
+    "path_fixation": "repeated selection structurally privileges path P",
+    "core_chain": "E(P)↓ -> C_op(P)↓ -> repeated selection↑ -> F(P)↑ -> C_rest(P)↑"
+  },
+  "axioms": {
+    "A1": "Operational cost and restoration cost must be separated.",
+    "A2": "Exception compression lowers operational cost.",
+    "A3": "Cheap continuation increases repetition.",
+    "A4": "Repetition produces fixation.",
+    "A5": "Fixation raises restoration cost.",
+    "A6": "Low-cost convergence generates practical irreversibility."
+  },
+  "diagnostic_regimes": {
+    "editable_efficiency": "low operational cost with alternatives still exercised",
+    "low_cost_convergence": "exception frequency and operational cost fall while repeated selection rises",
+    "silent_fixation": "routine succeeds, exceptions are compressed, alternatives neglected",
+    "restoration_cost_explosion": "fixation raises restoration cost beyond practical return threshold",
+    "authority_hardening": "low friction is mistaken for truth or universal adequacy",
+    "editability_collapse": "alternatives formally describable but practically unaffordable"
+  },
+  "negative_constraints": [
+    "Not claim that efficiency is bad.",
+    "Not claim that all routines are dangerous.",
+    "Not claim that low cost is always fixation.",
+    "Not business efficiency theory by itself.",
+    "Not institutional critique by itself.",
+    "Do not confuse operational cheapness with reversibility."
+  ]
+}

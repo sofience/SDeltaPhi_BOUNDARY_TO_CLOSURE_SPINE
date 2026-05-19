@@ -1,0 +1,15 @@
+{
+  "module_id": "SDeltaPhi-27",
+  "cost_layers": {
+    "operational_cost": {
+      "symbol": "C_op(P)",
+      "definition": "cost to continue along selected path"
+    },
+    "restoration_cost": {
+      "symbol": "C_rest(P)",
+      "definition": "cost to abandon, revise, or reopen fixed path"
+    }
+  },
+  "core_distinction": "A path may be cheap in forward operation and expensive in reverse modification at the same time.",
+  "warning": "Operational cheapness does not negate irreversibility; it produces it."
+}

@@ -1,0 +1,13 @@
+{
+  "module_id": "SDeltaPhi-27",
+  "concept": "Exception Compression",
+  "definition": "reduction of cases requiring special handling, reinterpretation, or local repair",
+  "formula": "E(P)↓ -> C_op(P)↓",
+  "mechanism": [
+    "special repair decreases",
+    "interpretation narrows",
+    "local variance is absorbed",
+    "routine continuation becomes cheaper"
+  ],
+  "boundary": "The path feels natural because fewer exceptions demand intervention, not because it is metaphysically privileged."
+}

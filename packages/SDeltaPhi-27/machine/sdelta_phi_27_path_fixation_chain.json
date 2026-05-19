@@ -1,0 +1,20 @@
+{
+  "module_id": "SDeltaPhi-27",
+  "core_chain": [
+    "E(P) decreases",
+    "C_op(P) decreases",
+    "repeated selection increases",
+    "F(P) increases",
+    "C_rest(P) increases"
+  ],
+  "expanded_chain": [
+    "exception frequency decreases",
+    "operational cost decreases",
+    "repeated cheap continuation",
+    "path dependence deepens",
+    "fixation rises",
+    "restoration cost rises",
+    "practical irreversibility emerges"
+  ],
+  "diagnostic_question": "Is the system cheap because it remains editable, or cheap because exception pressure has been compressed?"
+}
