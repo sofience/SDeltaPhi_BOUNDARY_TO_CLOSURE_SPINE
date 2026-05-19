@@ -1,0 +1,25 @@
+{
+  "module_id": "SDeltaPhi-25",
+  "diagnostic_regimes": {
+    "latent_operativity": {
+      "condition": "difference active but not yet detectable",
+      "risk": "false absence judgment"
+    },
+    "suppressed_detection": {
+      "condition": "difference would be detectable but authority marks it ignorable or unspeakable",
+      "risk": "delayed crisis"
+    },
+    "threshold_passage": {
+      "condition": "latent difference crosses theta_frame",
+      "risk": "sudden-event illusion"
+    },
+    "event_registration": {
+      "condition": "difference becomes recognized as event/trace/state",
+      "risk": "registration mistaken for origin"
+    },
+    "innovation_registration": {
+      "condition": "previously pre-detected difference becomes registrable under revised frame",
+      "result": "innovation becomes structurally intelligible"
+    }
+  }
+}

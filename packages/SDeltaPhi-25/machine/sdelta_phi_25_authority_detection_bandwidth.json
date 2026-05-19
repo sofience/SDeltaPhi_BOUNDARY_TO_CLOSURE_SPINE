@@ -1,0 +1,13 @@
+{
+  "module_id": "SDeltaPhi-25",
+  "concept": "Authority as Detection Bandwidth",
+  "claim": "Authority conditions what may appear as an event in the first place.",
+  "authority_determines": [
+    "detectable differences",
+    "ignorable differences",
+    "suppressible differences",
+    "unspeakable differences"
+  ],
+  "implication": "Authority shapes reality indirectly by shaping the field of event registration.",
+  "boundary": "Authority does not create all differences; authority governs which differences can enter recognized eventhood."
+}

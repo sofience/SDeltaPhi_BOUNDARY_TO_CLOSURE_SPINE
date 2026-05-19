@@ -1,0 +1,46 @@
+{
+  "module_id": "SDeltaPhi-25",
+  "title": "Pre-detection as Latent Difference",
+  "version": "v1.0",
+  "package_doi": "https://doi.org/10.5281/zenodo.20290315",
+  "one_sentence": "This module defines pre-detection as operative difference before event registration and irreversible trace formation.",
+  "core_thesis": "Not all operative differences are detectable; what is not yet detected may still be shaping the next irreversible state.",
+  "core_compression": {
+    "pre_detection": "latent operativity without event registration",
+    "latent_difference": "active difference below the current frame's detection threshold",
+    "detection": "threshold crossing into event registration",
+    "irreversibility": "begins when registered difference re-enters subsequent state formation",
+    "authority": "governs detection bandwidth",
+    "innovation": "previously pre-detected difference becomes registrable under a revised frame"
+  },
+  "sequence": [
+    "pre-detected difference",
+    "threshold passage",
+    "event registration",
+    "irreversible trace",
+    "re-entry into subsequent state",
+    "structural consequence"
+  ],
+  "axioms": {
+    "A1": "Difference may operate prior to registration.",
+    "A2": "Detection requires threshold crossing.",
+    "A3": "Irreversibility begins at registration.",
+    "A4": "Authority governs detection bandwidth.",
+    "A5": "Innovation emerges from the pre-detected."
+  },
+  "diagnostic_regimes": {
+    "latent_operativity": "difference active but not yet detectable",
+    "suppressed_detection": "difference would be detectable but authority marks it ignorable or unspeakable",
+    "threshold_passage": "latent difference crosses the frame threshold",
+    "event_registration": "difference becomes recognized as event/trace/state",
+    "innovation_registration": "previously pre-detected difference becomes registrable under revised frame"
+  },
+  "negative_constraints": [
+    "Not mysticism of the invisible.",
+    "Not proof that all unseen differences are meaningful.",
+    "Not proof that undetected events already exist as events.",
+    "Not political conspiracy model.",
+    "Not claim that detection creates reality.",
+    "Do not treat pre-detection as irreversible eventhood."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "module_id": "SDeltaPhi-25",
+  "sequence": [
+    "pre-detected difference",
+    "threshold passage",
+    "event registration",
+    "irreversible trace",
+    "re-entry into subsequent state",
+    "structural consequence"
+  ],
+  "distinctions": [
+    "Not every difference becomes historical.",
+    "Not every variation becomes ontological.",
+    "Only differences that cross the threshold of registration and re-enter future state formation become irreversibly consequential."
+  ],
+  "diagnostic_question": "Is the observed event the beginning of change, or the first registration of a longer latent process?"
+}

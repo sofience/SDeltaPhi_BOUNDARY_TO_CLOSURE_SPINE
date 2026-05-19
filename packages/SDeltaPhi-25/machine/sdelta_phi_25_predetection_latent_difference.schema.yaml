@@ -1,0 +1,67 @@
+module_id: "SDeltaPhi-25"
+title: "Pre-detection as Latent Difference"
+version: "v1.0"
+role: "predetection_latent_difference_thresholded_event_registration_layer"
+package_doi: "https://doi.org/10.5281/zenodo.20290315"
+
+depends_on:
+  - module_id: "SDeltaPhi-03"
+    relation: "irreversibility after registration and re-entry"
+  - module_id: "SDeltaPhi-21"
+    relation: "judgment and authority assignment"
+  - module_id: "SDeltaPhi-22"
+    relation: "authority editing and finite-cost editability"
+  - module_id: "SDeltaPhi-23"
+    relation: "co-environmentalization and ontology-axiology safety boundary"
+  - module_id: "SDeltaPhi-24"
+    relation: "authority-innovation duality and innovation as re-opening"
+
+core_thesis: "Not all operative differences are detectable; what is not yet detected may still be shaping the next irreversible state."
+
+entities:
+  predetection:
+    definition: "state in which a difference is already operative within a system but has not crossed the threshold required for event registration"
+    compression: "latent operativity without event registration"
+
+  latent_difference:
+    definition: "difference that alters transition tendencies, interpretive sensitivity, or future threshold conditions before being recognized"
+
+  detection:
+    definition: "threshold crossing into registrability"
+    formula: "d_latent >= theta_frame -> detection"
+
+  event_registration:
+    definition: "difference becomes recognized as an event, trace, or structurally consequential state"
+
+  irreversible_trace:
+    definition: "registered difference that re-enters subsequent state formation"
+    formula: "event registration + re-entry -> irreversible trace"
+
+  detection_bandwidth:
+    definition: "range of differences a frame or authority regime can perceive, name, measure, or allow to appear"
+
+  structural_invisibility:
+    definition: "operative differences remain outside the current frame's detection bandwidth"
+
+core_sequence:
+  - "pre-detected difference"
+  - "threshold passage"
+  - "event registration"
+  - "irreversible trace"
+  - "re-entry into subsequent state"
+  - "structural consequence"
+
+axioms:
+  A1: "Difference may operate prior to registration."
+  A2: "Detection requires threshold crossing."
+  A3: "Irreversibility begins at registration."
+  A4: "Authority governs detection bandwidth."
+  A5: "Innovation emerges from the pre-detected."
+
+negative_constraints:
+  - "Not mysticism of the invisible."
+  - "Not proof that all unseen differences are meaningful."
+  - "Not proof that undetected events already exist as events."
+  - "Not political conspiracy model."
+  - "Not claim that detection creates reality."
+  - "Do not treat pre-detection as irreversible eventhood."

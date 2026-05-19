@@ -1,0 +1,29 @@
+module_id: "SDeltaPhi-25"
+routing_priority: "predetection_latent_difference_thresholded_event_registration"
+primary_route:
+  - "SDeltaPhi-03"
+  - "SDeltaPhi-21"
+  - "SDeltaPhi-22"
+  - "SDeltaPhi-24"
+  - "SDeltaPhi-25"
+innovation_route:
+  - "SDeltaPhi-20"
+  - "SDeltaPhi-21"
+  - "SDeltaPhi-24"
+  - "SDeltaPhi-25"
+call_with_when_needed:
+  irreversibility:
+    - "SDeltaPhi-03"
+  authority_detection_bandwidth:
+    - "SDeltaPhi-21"
+    - "SDeltaPhi-22"
+  innovation_reopening:
+    - "SDeltaPhi-24"
+  trace_inference_uncertainty:
+    - "SDeltaPhi-62"
+do_not_route_if:
+  - "the task merely asks about unknown empirical causes"
+  - "the task treats hiddenness as proof"
+  - "the task treats pre-detection as eventhood"
+  - "the task treats detection as creation of reality"
+  - "the task turns structural invisibility into conspiracy without evidence"
