@@ -1,0 +1,25 @@
+{
+  "module_id": "SDeltaPhi-22",
+  "negative_constraints": [
+    "not legal procedure",
+    "not political doctrine",
+    "not moral authority theory",
+    "not institutional design by itself",
+    "not psychological therapy",
+    "not proof that all authority should be weakened",
+    "not justification for endless revision",
+    "not clinical or cognitive diagnosis"
+  ],
+  "positive_scope": [
+    "authority editing",
+    "finite-cost editability",
+    "trigger detection",
+    "soft freeze execution",
+    "marker-authority isolation",
+    "revision cost estimation",
+    "minimal edit",
+    "rollback handle retention",
+    "log and re-entry",
+    "co-environmentalization notes"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "module_id": "SDeltaPhi-22",
+  "protocol": "Authority Editing Protocol",
+  "abbreviation": "AEP",
+  "steps": [
+    {
+      "step": 1,
+      "name": "Detect tau",
+      "description": "Detect conflict, error, external perturbation, or closure precursor."
+    },
+    {
+      "step": 2,
+      "name": "Freeze execution softly",
+      "description": "Maintain execution but introduce damping: keep A revisable while reducing update velocity."
+    },
+    {
+      "step": 3,
+      "name": "Isolate A from I",
+      "description": "Mark and separate intuition I from authority A to avoid identity collapse."
+    },
+    {
+      "step": 4,
+      "name": "Estimate revision cost",
+      "description": "Compare revision cost versus continuation cost under current A."
+    },
+    {
+      "step": 5,
+      "name": "Apply minimal edit",
+      "description": "Perform the smallest edit to A that resolves tau and avoids over-correction."
+    },
+    {
+      "step": 6,
+      "name": "Retain rollback handle",
+      "description": "Keep at least k alternative routes accessible: rho != empty."
+    },
+    {
+      "step": 7,
+      "name": "Log + re-entry",
+      "description": "Record the edit and re-inject it into the next transition so authority becomes a revisable trace."
+    }
+  ]
+}

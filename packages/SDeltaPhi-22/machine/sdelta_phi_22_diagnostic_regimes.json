@@ -1,0 +1,31 @@
+{
+  "module_id": "SDeltaPhi-22",
+  "diagnostic_regimes": {
+    "drift_under_authority": {
+      "AEP_behavior": "tau detected but A never stabilizes",
+      "signature": [
+        "over-search",
+        "delayed commitments",
+        "incoherence"
+      ],
+      "risk": "fragmentation"
+    },
+    "closure_over_authority": {
+      "AEP_behavior": "tau ignored or reframed; A treated as non-negotiable",
+      "signature": [
+        "fast commitments",
+        "resistance to counterevidence"
+      ],
+      "risk": "no-exit basin"
+    },
+    "open_persistence_editable_authority": {
+      "AEP_behavior": "tau triggers minimal edits; rho retained; D_A controlled",
+      "signature": [
+        "commit + revise",
+        "conflict used as editing fuel"
+      ],
+      "risk": "sustained openness"
+    }
+  },
+  "core_rule": "Conflict is editing material when tau triggers finite-cost authority editing."
+}

@@ -1,0 +1,36 @@
+module_id: "SDeltaPhi-22"
+routing_priority: "authority_editing_reentry_governance"
+primary_route:
+  - "SDeltaPhi-03"
+  - "SDeltaPhi-07"
+  - "SDeltaPhi-19"
+  - "SDeltaPhi-20"
+  - "SDeltaPhi-21"
+  - "SDeltaPhi-22"
+closure_openness_route:
+  - "SDeltaPhi-16"
+  - "SDeltaPhi-17"
+  - "SDeltaPhi-21"
+  - "SDeltaPhi-22"
+governance_route:
+  - "SDeltaPhi-18"
+  - "SDeltaPhi-21"
+  - "SDeltaPhi-22"
+call_with_when_needed:
+  judgment:
+    - "SDeltaPhi-21"
+  intuition:
+    - "SDeltaPhi-20"
+  closure_or_openness:
+    - "SDeltaPhi-16"
+    - "SDeltaPhi-17"
+  maintenance:
+    - "SDeltaPhi-19"
+  trace_inference_uncertainty:
+    - "SDeltaPhi-62"
+do_not_route_if:
+  - "the task asks for legal procedure without structural authority editing"
+  - "the task asks for political doctrine"
+  - "the task asks for moral authority theory"
+  - "the task treats openness as belief or attitude"
+  - "the task treats revision as endless revision"

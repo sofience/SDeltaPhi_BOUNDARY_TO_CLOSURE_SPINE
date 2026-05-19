@@ -1,0 +1,90 @@
+module_id: "SDeltaPhi-22"
+title: "Authority Editing Protocols"
+version: "v1.0"
+role: "authority_editing_reentry_governance_editable_authority_layer"
+package_doi: "https://doi.org/10.5281/zenodo.20286349"
+
+depends_on:
+  - module_id: "SDeltaPhi-03"
+    relation: "irreversibility and finite-cost revision thresholds"
+  - module_id: "SDeltaPhi-07"
+    relation: "H_min and re-entry framing"
+  - module_id: "SDeltaPhi-19"
+    relation: "maintenance mode for authority debt control"
+  - module_id: "SDeltaPhi-20"
+    relation: "intuition marker as no-exit compression trace"
+  - module_id: "SDeltaPhi-21"
+    relation: "judgment as authority assignment"
+  - module_id: "SDeltaPhi-16"
+    relation: "closure dynamics"
+  - module_id: "SDeltaPhi-17"
+    relation: "openness stabilization"
+  - module_id: "SDeltaPhi-18"
+    relation: "no-arbiter editability and governance bridge"
+
+core_thesis: "Open persistence is not a belief in openness but the maintenance of authority editability under finite cost."
+
+entities:
+  intuition_marker:
+    symbol: "I"
+    definition: "no-exit compression trace signal inherited from SDeltaPhi-20"
+
+  authority:
+    symbol: "A"
+    definition: "priority weight or gating rule over intuition markers"
+
+  judgment:
+    symbol: "J"
+    formula: "J: I -> A(I)"
+    definition: "authority assignment operation producing an executable route"
+
+  editability:
+    symbol: "E^d"
+    definition: "revisability of A under finite cost"
+
+  authority_debt:
+    symbol: "D_A"
+    definition: "accumulated revision resistance from misassigned authority"
+
+  trigger:
+    symbol: "tau"
+    definition: "minimal event activating editing"
+    examples:
+      - "conflict"
+      - "error"
+      - "external perturbation"
+      - "closure precursor"
+
+  rollback_handle:
+    symbol: "rho"
+    definition: "minimal retained access to alternative routes"
+    formula: "rho != empty"
+
+AEP_steps:
+  - "Detect tau"
+  - "Freeze execution softly"
+  - "Isolate A from I"
+  - "Estimate revision cost"
+  - "Apply minimal edit"
+  - "Retain rollback handle"
+  - "Log + re-entry"
+
+diagnostic_regimes:
+  drift:
+    behavior: "tau detected but A never stabilizes"
+    risk: "fragmentation"
+  closure:
+    behavior: "tau ignored or reframed; A treated as non-negotiable"
+    risk: "no-exit basin"
+  open_persistence:
+    behavior: "tau triggers minimal edits; rho retained; D_A controlled"
+    risk: "sustained openness"
+
+negative_constraints:
+  - "Not legal procedure."
+  - "Not political doctrine."
+  - "Not moral authority theory."
+  - "Not psychological therapy."
+  - "Not a claim that all authority should be weakened."
+  - "Not justification for endless revision."
+  - "Classify authority editing and finite-cost re-entry governance only."

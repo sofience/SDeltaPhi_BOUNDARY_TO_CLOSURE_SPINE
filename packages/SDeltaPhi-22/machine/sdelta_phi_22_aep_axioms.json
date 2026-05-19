@@ -1,0 +1,34 @@
+{
+  "module_id": "SDeltaPhi-22",
+  "axioms": [
+    {
+      "id": "P1",
+      "name": "Trigger necessity",
+      "statement": "Authority editing is not spontaneous; it requires a trigger tau.",
+      "formula": "AEP requires tau"
+    },
+    {
+      "id": "P2",
+      "name": "Budget reality",
+      "statement": "Without an update budget, editability is structurally impossible.",
+      "formula": "UpdateBudget >= RevisionCost(A)"
+    },
+    {
+      "id": "P3",
+      "name": "Rollback handle",
+      "statement": "If rollback handles rho are fully pruned, authority becomes non-editable by construction.",
+      "formula": "rho = empty -> A becomes non-editable"
+    },
+    {
+      "id": "P4",
+      "name": "Separation",
+      "statement": "Identity collapse I ≡ A is the shortest path to closure.",
+      "formula": "I == A -> closure risk"
+    },
+    {
+      "id": "P5",
+      "name": "Maintenance",
+      "statement": "Periodic maintenance prevents runaway authority debt D_A."
+    }
+  ]
+}
