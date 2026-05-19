@@ -1,0 +1,40 @@
+{
+  "module_id": "SDeltaPhi-24",
+  "title": "Authority and Innovation as Dual Regimes",
+  "version": "v1.0",
+  "package_doi": "https://doi.org/10.5281/zenodo.20289364",
+  "one_sentence": "This module defines authority and innovation as dual regimes of compression and misfit-triggered re-opening.",
+  "core_thesis": "Authority is compressed low-resistance convergence; innovation is misfit-triggered re-opening; conflict is a phase signal, not a moral dispute.",
+  "core_compression": {
+    "authority": "compressed low-resistance convergence, Δϕ↓",
+    "innovation": "misfit-triggered re-opening, Δϕ↑",
+    "misfit": "ε = accumulated model-environment mismatch / coherence failure",
+    "trigger": "τ = conflict, error, non-resonance, or external perturbation",
+    "reopening": "O = transition restoring computability of previously pruned routes",
+    "authority_debt": "D_A = revision resistance accumulated by rigid authority"
+  },
+  "axioms": {
+    "AI1": "Compression produces authority.",
+    "AI2": "Authority reduces Δϕ.",
+    "AI3": "Over-compression accumulates misfit.",
+    "AI4": "Innovation is misfit-triggered re-opening.",
+    "AI5": "Conflict is phase signal.",
+    "AI6": "In CE, rigidity or re-opening propagates ε, τ, and D_A across systems."
+  },
+  "diagnostic_regimes": {
+    "stable_authority": "ε low; Δϕ↓; editability preserved",
+    "rigid_authority": "ε↑ but τ suppressed; D_A↑; re-opening becomes expensive",
+    "innovative_reopening": "τ accepted; Δϕ↑; alternatives computed",
+    "suppressed_innovation": "innovation attempts sealed as illegitimate; misfit accumulates",
+    "coupled_regime_shift": "rigidity or re-opening propagates across CE"
+  },
+  "negative_constraints": [
+    "Not moral theory of authority.",
+    "Not romantic theory of innovation.",
+    "Not business innovation theory by itself.",
+    "Not political doctrine.",
+    "Do not treat authority as automatically bad.",
+    "Do not treat innovation as automatically good.",
+    "Classify compression, misfit, trigger, and re-opening dynamics only."
+  ]
+}

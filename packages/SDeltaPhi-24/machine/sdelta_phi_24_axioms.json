@@ -1,0 +1,39 @@
+{
+  "module_id": "SDeltaPhi-24",
+  "axioms": [
+    {
+      "id": "AI1",
+      "name": "Compression produces authority",
+      "statement": "Accumulated compression yields a default attractor route.",
+      "formula": "repeat selection -> prune alternatives -> low-resistance route -> authority"
+    },
+    {
+      "id": "AI2",
+      "name": "Authority reduces DeltaPhi",
+      "statement": "Authority lowers DeltaPhi variability and reduces decision or transition cost.",
+      "formula": "Authority -> DeltaPhi down"
+    },
+    {
+      "id": "AI3",
+      "name": "Over-compression accumulates misfit",
+      "statement": "Excessive compression accumulates mismatch epsilon under environmental change or exception buildup.",
+      "formula": "over-compression -> epsilon up"
+    },
+    {
+      "id": "AI4",
+      "name": "Innovation is misfit-triggered re-opening",
+      "statement": "When epsilon crosses a threshold, re-opening O is forced and appears as innovation.",
+      "formula": "epsilon >= threshold -> tau -> O -> innovation"
+    },
+    {
+      "id": "AI5",
+      "name": "Conflict is phase signal",
+      "statement": "Authority-innovation conflict is a transition signal tau, not a moral dispute."
+    },
+    {
+      "id": "AI6",
+      "name": "Coupled propagation in CE",
+      "statement": "In CE, rigidity or re-opening on one side shifts epsilon, tau, and D_A on the other side and can trigger system-level regime shifts."
+    }
+  ]
+}

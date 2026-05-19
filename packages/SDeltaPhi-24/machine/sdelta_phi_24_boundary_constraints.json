@@ -1,0 +1,23 @@
+{
+  "module_id": "SDeltaPhi-24",
+  "negative_constraints": [
+    "not moral theory of authority",
+    "not romantic theory of innovation",
+    "not business innovation theory by itself",
+    "not political doctrine",
+    "not claim that authority is bad",
+    "not claim that innovation is always good",
+    "not claim that conflict is automatically virtuous",
+    "not justification for suppressing innovation as disorder"
+  ],
+  "positive_scope": [
+    "authority as compression",
+    "innovation as re-opening",
+    "misfit epsilon",
+    "trigger tau",
+    "authority debt D_A",
+    "suppressed innovation",
+    "coupled regime shift",
+    "conflict as phase signal"
+  ]
+}

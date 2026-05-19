@@ -1,0 +1,31 @@
+{
+  "module_id": "SDeltaPhi-24",
+  "loops": {
+    "compression_loop": [
+      "repeat selection",
+      "prune alternatives",
+      "cost down",
+      "authority forms",
+      "DeltaPhi down"
+    ],
+    "misfit_loop": [
+      "authority rigidifies",
+      "exceptions accumulate",
+      "epsilon up",
+      "tau approaches",
+      "D_A up"
+    ],
+    "reopening_loop": [
+      "tau triggers AEP",
+      "alternatives become computable",
+      "DeltaPhi up",
+      "innovation appears",
+      "new route search"
+    ]
+  },
+  "outcome_split": [
+    "successful re-compression",
+    "seal and suppress",
+    "new authority / closure precursor"
+  ]
+}

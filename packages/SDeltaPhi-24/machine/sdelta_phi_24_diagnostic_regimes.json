@@ -1,0 +1,25 @@
+{
+  "module_id": "SDeltaPhi-24",
+  "diagnostic_regimes": {
+    "stable_authority": {
+      "condition": "epsilon low; DeltaPhi down; editability preserved",
+      "result": "low-cost route stabilization"
+    },
+    "rigid_authority_closure_precursor": {
+      "condition": "epsilon up but tau suppressed or reframed; D_A up",
+      "result": "re-opening becomes expensive or impossible"
+    },
+    "innovative_reopening": {
+      "condition": "tau accepted; DeltaPhi up; alternatives computed",
+      "result": "short-term instability tolerated for route re-computation"
+    },
+    "suppressed_innovation": {
+      "condition": "innovation attempts sealed as illegitimate",
+      "result": "misfit accumulates; long-term collapse risk increases"
+    },
+    "coupled_regime_shift": {
+      "condition": "one side's rigidity or re-opening propagates",
+      "result": "coupled system phase shifts"
+    }
+  }
+}

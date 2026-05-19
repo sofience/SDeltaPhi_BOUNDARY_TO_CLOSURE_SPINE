@@ -1,0 +1,23 @@
+{
+  "module_id": "SDeltaPhi-24",
+  "concept": "Misfit Trigger Model",
+  "misfit": {
+    "symbol": "epsilon",
+    "definition": "mismatch signal between model and environment; accumulated coherence failure"
+  },
+  "trigger": {
+    "symbol": "tau",
+    "condition": "epsilon >= threshold",
+    "examples": [
+      "conflict",
+      "error",
+      "non-resonance",
+      "external perturbation"
+    ]
+  },
+  "reopening": {
+    "symbol": "O",
+    "definition": "transition that restores computability of previously pruned routes"
+  },
+  "diagnostic_question": "Is conflict being treated as a phase signal that can reopen routes, or is it being sealed as disorder or heresy?"
+}

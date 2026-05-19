@@ -1,0 +1,78 @@
+module_id: "SDeltaPhi-24"
+title: "Authority and Innovation as Dual Regimes"
+version: "v1.0"
+role: "authority_innovation_duality_compression_reopening_misfit_trigger_layer"
+package_doi: "https://doi.org/10.5281/zenodo.20289364"
+
+depends_on:
+  - module_id: "SDeltaPhi-16"
+    relation: "closure dynamics"
+  - module_id: "SDeltaPhi-17"
+    relation: "openness stabilization and path principles"
+  - module_id: "SDeltaPhi-21"
+    relation: "judgment as authority assignment"
+  - module_id: "SDeltaPhi-22"
+    relation: "Authority Editing Protocol"
+  - module_id: "SDeltaPhi-23"
+    relation: "co-environmentalization and ontology-axiology split"
+
+core_thesis: "Authority is compressed low-resistance convergence; innovation is misfit-triggered re-opening; conflict is a phase signal, not a moral dispute."
+
+entities:
+  authority:
+    symbol: "Auth"
+    definition: "low-resistance default route produced by accumulated compression"
+    phase_effect: "DeltaPhi decreases"
+
+  compression:
+    symbol: "C"
+    definition: "route-space reduction that lowers DeltaPhi variability and execution cost"
+    formula: "C -> DeltaPhi down"
+
+  innovation:
+    symbol: "Inv"
+    definition: "re-opening event where alternatives become computable again"
+    phase_effect: "DeltaPhi increases"
+
+  reopening:
+    symbol: "O"
+    definition: "transition that restores computability of previously pruned routes"
+
+  misfit:
+    symbol: "epsilon"
+    definition: "mismatch signal between model and environment; accumulated coherence failure"
+
+  trigger:
+    symbol: "tau"
+    definition: "threshold event activating re-opening"
+    examples:
+      - "conflict"
+      - "error"
+      - "non-resonance"
+      - "external perturbation"
+
+  authority_debt:
+    symbol: "D_A"
+    definition: "revision resistance accumulated by rigid authority; increases edit cost over time"
+
+core_formulas:
+  authority: "Authority -> DeltaPhi down"
+  innovation: "epsilon >= threshold -> tau -> O -> innovation -> DeltaPhi up"
+  conflict: "conflict = phase signal, not moral dispute"
+  safety_boundary: "S_e != V_o"
+
+diagnostic_regimes:
+  stable_authority: "epsilon low; DeltaPhi down; editability preserved"
+  rigid_authority: "epsilon up but tau suppressed/reframed; D_A up; re-opening expensive"
+  innovative_reopening: "tau accepted; DeltaPhi up; alternatives computed"
+  suppressed_innovation: "innovation attempts sealed as illegitimate; misfit accumulates"
+  coupled_regime_shift: "rigidity or re-opening propagates across CE"
+
+negative_constraints:
+  - "Not moral theory of authority."
+  - "Not romantic theory of innovation."
+  - "Not business innovation theory by itself."
+  - "Not political doctrine."
+  - "Do not treat authority as automatically bad."
+  - "Do not treat innovation as automatically good."
+  - "Classify compression, misfit, trigger, and re-opening dynamics only."

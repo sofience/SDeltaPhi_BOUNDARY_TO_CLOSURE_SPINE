@@ -1,0 +1,31 @@
+module_id: "SDeltaPhi-24"
+routing_priority: "authority_innovation_duality_compression_reopening_misfit_trigger"
+primary_route:
+  - "SDeltaPhi-21"
+  - "SDeltaPhi-22"
+  - "SDeltaPhi-23"
+  - "SDeltaPhi-24"
+full_route:
+  - "SDeltaPhi-16"
+  - "SDeltaPhi-17"
+  - "SDeltaPhi-21"
+  - "SDeltaPhi-22"
+  - "SDeltaPhi-23"
+  - "SDeltaPhi-24"
+call_with_when_needed:
+  authority_assignment:
+    - "SDeltaPhi-21"
+  authority_editing:
+    - "SDeltaPhi-22"
+  coupled_environment:
+    - "SDeltaPhi-23"
+  closure_or_openness:
+    - "SDeltaPhi-16"
+    - "SDeltaPhi-17"
+do_not_route_if:
+  - "the task asks for business innovation theory without structural phase dynamics"
+  - "the task asks for moral theory of authority"
+  - "the task asks for political doctrine"
+  - "the task treats innovation as automatically good"
+  - "the task treats authority as automatically bad"
+  - "the task treats conflict as automatically virtuous"
