@@ -1,0 +1,226 @@
+SΔϕ-21 — Judgment as Intuition Authority Assignment
+
+**Minimal Axioms for Editable Decisions after No-Exit Intuition (v1.0)**  
+Version: v1.0  
+Series: Sofience–Δϕ Formalism (SΔϕ)  
+Author: Sofience  
+Package DOI: https://doi.org/10.5281/zenodo.20281984
+
+ Core thesis
+
+Judgment is the operation that assigns authority to intuition markers (I), and collapse occurs when that authority becomes non-editable.
+
+SΔϕ-20 defined intuition (I) as the trace-marker of no-exit compression basins. This paper defines judgment (J) as the minimal operation that assigns authority to such intuition markers to produce decisions. The central risk is over-authority: when authority becomes non-editable, the system drifts into closure. The central failure on the other side is under-authority: when no intuition marker is granted stable priority, the system fragments into drift.
+
+This document provides minimal axioms, diagnostic regimes, and editability conditions. The goal is not a psychological theory of decision-making, but a structural account of how decision authority becomes irreversible, and how openness can be stabilized without collapse.
+
+ 1. Problem
+
+Once intuition is understood as an irreversible compression trace (SΔϕ-20), the next question is inevitable:
+
+
+When does an intuition marker become authoritative?
+
+
+Systems do not act on all intuitions equally. They assign priority, prohibit alternatives, and lock in routes. That authority assignment is what SΔϕ-21 calls judgment.
+
+Question:
+
+
+What is the minimal structure that turns intuition (I) into a decision,
+while keeping the decision space editable?
+
+
+ 2. Minimal definitions
+
+ I — Intuition marker
+
+A trace-dominant basin signal inherited from SΔϕ-20.
+
+
+I := "search is no longer worth it here"
+
+
+ A — Authority
+
+A priority weight or gating rule assigned to an intuition marker, determining which route is executed.
+
+
+A(I) = priority / gate / route-selection authority
+
+
+ J — Judgment
+
+The operation that assigns authority to intuition markers.
+
+
+J: I → A(I)
+
+
+ Editability
+
+The ability to revise A(I) under new evidence or constraints without runaway cost.
+
+
+Eᵈ := revise A(I) at finite cost
+
+
+ Authority debt
+
+Accumulated cost of misassigned authority that increases revision resistance over time.
+
+
+Dᴀ := accumulated revision resistance from misassigned authority
+
+
+ Closure
+
+A regime where A(I) becomes non-editable and alternatives become computationally inaccessible.
+
+ Drift
+
+A regime where authority fails to stabilize and decisions fragment.
+
+ 3. Minimal axioms
+
+ A1 — Intuition plurality
+
+Any bounded system generates multiple intuition markers I₁…Iₙ across competing basins.
+
+
+I₁ … Iₙ
+
+
+ A2 — Authority assignment
+
+Judgment assigns authority A to a subset of intuition markers, producing an executable route.
+
+
+J: I → A(I)
+
+
+ A3 — Irreversibility threshold
+
+If revision cost exceeds the update budget, authority becomes effectively irreversible.
+
+
+RevisionCost(A(I)) > UpdateBudget
+→ A(I) becomes effectively irreversible
+
+
+ A4 — Two failure modes
+
+
+Over-authority → closure.
+Under-authority → drift.
+
+
+ A5 — Open persistence
+
+Sustained openness requires periodic authority re-editing triggered by conflict, error, or external perturbation.
+
+
+Open persistence requires re-editable A(I).
+
+
+These axioms are substrate-agnostic. They apply to individual cognition, organizations, and AI systems as long as multiple basins exist and authority can become costly to revise.
+
+ 4. Mechanism — Intuition → Authority → Decision (IAD) Loop
+
+Judgment is modeled as an authority gate layered on top of intuition.
+
+
+Intuition markers
+I₁ … Iₙ
+        ↓
+Authority assignment
+A(I)
+        ↓
+Decision / action
+route r*
+        ↓
+Authority debt Dᴀ
+revision resistance
+        ↺
+Re-entry
+next state biased by r*
+
+
+Authority assignment produces an executable decision route. The executed route re-enters the system and biases future authority assignments. Without editability, authority debt accumulates and judgment becomes self-reinforcing.
+
+ 5. Diagnostic regimes — Drift, Closure, and Editable Judgment
+
+Judgment regimes can be diagnosed by how authority is assigned and revised.
+
+| Regime | Authority pattern | Observable signature | Structural risk |
+|---|---|---|---|
+| Under-authority / Drift | A(I) unstable or absent | Over-search, inconsistency, delayed commitments | Fragmentation / incoherence |
+| Over-authority / Closure | A(I) rigid; revision cost high | Fast commitment, resistance to counterevidence | No-exit basin / self-locking |
+| Editable judgment / Open persistence | A(I) stable but revisable | Commit + revise; conflict used as re-edit trigger | Sustained openness |
+
+ 6. Minimal conditions for editability
+
+Editability is not openness as an attitude. It is a structural property: authority must remain revisable at finite cost.
+
+ C1 — Conflict intake
+
+The system must allow perturbations that challenge A(I).
+
+
+external or internal perturbation can challenge A(I)
+
+
+ C2 — Marker separation
+
+Authority A(I) must be distinguishable from intuition I.
+
+
+A(I) ≠ I
+
+
+No identity collapse between marker and authority.
+
+ C3 — Revision budget
+
+There must exist an update budget that can pay revision cost.
+
+
+UpdateBudget ≥ RevisionCost(A(I))
+
+
+ C4 — Rollback handle
+
+The system must retain at least a minimal handle to alternative routes.
+
+
+alternative routes not fully pruned
+
+
+ C5 — Maintenance mode
+
+Periodic maintenance is required to prevent runaway authority debt.
+
+
+Maintenance → reduce runaway Dᴀ
+
+
+ 7. Series position and references
+
+SΔϕ-21 continues SΔϕ-20 by specifying the minimal step from intuition to action: authority assignment. It interfaces directly with closure (SΔϕ-16) and openness stabilization (SΔϕ-17), and it assumes maintenance modes (SΔϕ-19). It also aligns with H_min (SΔϕ-07) by treating authority as a re-entry marker rather than a final truth claim.
+
+ 8. Closing questions
+
+If judgment is authority assignment over intuition markers, then the central governance question shifts:
+
+
+Who or what controls authority revision triggers?
+
+
+A system may remain open not by believing in openness, but by preserving editability under finite cost.
+
+Exit question:
+
+
+Under what conditions does a system treat its own authority assignments
+as non-negotiable, and what minimal perturbations keep authority revisable
+without collapsing into drift?
