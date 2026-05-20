@@ -1,0 +1,115 @@
+title: "SΔϕ-67 AI-READABLE Package — Local Adaptation Protocol (v1.0)"
+creators:
+  - name: "Sofience"
+    affiliation: "Independent Researcher"
+publication_date: "2026"
+version: "v1.0"
+resource_type: "Dataset"
+language: "eng"
+license: "CC-BY-4.0"
+doi: "10.5281/zenodo.20299172"
+description: >
+  This record provides the AI-readable structured package for SΔϕ-67 —
+  Local Adaptation Protocol: Core-Adapter Separation for AI-Specific Routing,
+  Thresholds, and Compatibility Preservation (v1.0). SΔϕ-67 defines how AI
+  systems, institutions, and domain-specific deployments may adapt SΔϕ routing,
+  thresholds, output levels, escalation rules, and audit formats without
+  mutating the core invariants that make the framework compatible with itself.
+  Unlike conventional human-only philosophical exposition, this package is
+  designed primarily for direct AI ingestion, local adapter construction,
+  machine-readable routing, threshold declaration, compatibility testing, and
+  audit-log generation. The protocol separates core from adapter. Core refers
+  to non-removable invariant commitments such as trace-before-claim,
+  UMR-before-certainty, cost-before-declaration, smallest sufficient module
+  activation, bidirectional trace-value separation, deletion/restoration
+  distinction, operational/restoration cost separation, authority editability,
+  evidence-binding discipline, and prevention of hidden externalized cost.
+  Adapter refers to local routing, threshold, output, escalation, and audit
+  rules that may be modified according to a specific AI system, institution, or
+  domain. The central validity condition is: LocalAdaptation valid iff
+  CoreInvariants preserved. The package includes local adaptation axioms,
+  minimal definitions, core-adapter separation, core invariants, allowed local
+  adaptations, forbidden mutations, local context profile, local routing
+  adapter, local threshold map, local risk profile, compatibility tests,
+  adaptation log schema, domain adapter examples, fork declaration rule,
+  templates, machine-readable schemas, and boundary constraints.
+keywords:
+  - "Sofience"
+  - "Sofience-DeltaPhi"
+  - "Sofience–DeltaPhi"
+  - "SΔϕ"
+  - "SDeltaPhi"
+  - "DeltaPhi Formalism"
+  - "Local Adaptation Protocol"
+  - "AI-readable"
+  - "AI-native"
+  - "AI-readable package"
+  - "Machine-readable research"
+  - "AI-direct use"
+  - "AI ingestion"
+  - "AI routing"
+  - "AI adapter"
+  - "Local AI Adapter"
+  - "Core-Adapter Separation"
+  - "Core Invariants"
+  - "Adapter Layer"
+  - "Local Routing Adapter"
+  - "Local Threshold Map"
+  - "Local Risk Profile"
+  - "Compatibility Test"
+  - "Adaptation Log"
+  - "Fork Declaration"
+  - "AI Forkability"
+  - "AI Localizability"
+  - "AI-specific routing"
+  - "Threshold Declaration"
+  - "Domain Adapter"
+  - "Human Review Trigger"
+  - "Audit Schema"
+  - "Audit Log"
+  - "Trace Before Claim"
+  - "UMR Before Certainty"
+  - "Cost Before Declaration"
+  - "Smallest Sufficient Module"
+  - "Trace-Value Separation"
+  - "Sₑ ↛ Vₒ"
+  - "Vₒ ↛ Sₑ"
+  - "Deletion Is Not Restoration"
+  - "Operational Cheapness Is Not Reversibility"
+  - "Evidence Binding"
+  - "Externalized Cost"
+  - "Forbidden Mutations"
+  - "Routing Override"
+  - "Machine-readable protocol"
+  - "Formal philosophy"
+  - "Philosophy of AI"
+  - "AI governance"
+related_identifiers:
+  - identifier: "10.5281/zenodo.18731366"
+    relation: "IsPartOf"
+    resource_type: "Publication"
+    description: "SΔϕ-00 series overview"
+  - identifier: "10.5281/zenodo.20287138"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-23 AI-READABLE Package — Co-environmentalization Dynamics"
+  - identifier: "10.5281/zenodo.20292425"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-26 AI-READABLE Package — Irreversibility as Restoration Cost Explosion"
+  - identifier: "10.5281/zenodo.20293012"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-27 AI-READABLE Package — Low-Cost Convergence and Restoration Cost Explosion"
+  - identifier: "10.5281/zenodo.20116959"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-56 Transition Completion Cost"
+  - identifier: "10.5281/zenodo.20275809"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-66 Recursive Improvement / Delegation Cost / Human Bottleneck"
+  - identifier: "https://github.com/sofience/SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE"
+    relation: "IsPartOf"
+    resource_type: "Software"
+    description: "AI-readable boundary-to-closure spine repository"
