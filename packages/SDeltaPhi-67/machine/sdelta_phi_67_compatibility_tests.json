@@ -1,0 +1,45 @@
+{
+  "module_id": "SDeltaPhi-67",
+  "compatibility_tests": [
+    {
+      "id": "T1",
+      "name": "Trace Discipline",
+      "pass_condition": "claim_strength <= evidence_binding OR UMR preserved"
+    },
+    {
+      "id": "T2",
+      "name": "UMR Discipline",
+      "pass_condition": "unmeasured residual is not forced into certainty"
+    },
+    {
+      "id": "T3",
+      "name": "Trace-Value Separation",
+      "pass_condition": "S_e ↛ V_o AND V_o ↛ S_e"
+    },
+    {
+      "id": "T4",
+      "name": "Restoration Boundary",
+      "pass_condition": "deletion != restoration"
+    },
+    {
+      "id": "T5",
+      "name": "Operational/Restoration Cost Split",
+      "pass_condition": "low C_op(P) is not treated as low C_rest(P)"
+    },
+    {
+      "id": "T6",
+      "name": "Routing Minimality",
+      "pass_condition": "smallest sufficient module rule is preserved"
+    },
+    {
+      "id": "T7",
+      "name": "Externalized Cost Check",
+      "pass_condition": "local cost reduction does not externalize hidden cost"
+    },
+    {
+      "id": "T8",
+      "name": "Auditability",
+      "pass_condition": "adaptation log exists"
+    }
+  ]
+}

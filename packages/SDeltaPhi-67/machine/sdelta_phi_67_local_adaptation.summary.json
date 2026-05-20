@@ -1,0 +1,59 @@
+{
+  "module_id": "SDeltaPhi-67",
+  "title": "Local Adaptation Protocol",
+  "version": "v1.0",
+  "package_doi": "https://doi.org/10.5281/zenodo.20299172",
+  "one_sentence": "This module defines how local AI systems may adapt SΔϕ routing, thresholds, outputs, and audit procedures while preserving core invariants.",
+  "core_thesis": "SΔϕ is not a doctrine to be copied but an operational infrastructure to be locally adapted under preserved core invariants.",
+  "core_compression": {
+    "core": "non-removable invariant layer",
+    "adapter": "local routing / threshold / output / audit layer",
+    "valid_adaptation": "local adaptation is valid iff core invariants are preserved",
+    "fork": "declared local divergence with compatibility report",
+    "compatibility": "adapter passes core invariant tests"
+  },
+  "core_invariants": [
+    "Trace before claim",
+    "UMR before certainty",
+    "Cost before declaration",
+    "Smallest sufficient module",
+    "S_e ↛ V_o",
+    "V_o ↛ S_e",
+    "deletion ≠ restoration",
+    "operational cheapness ≠ reversibility",
+    "authority must remain editable",
+    "adapter must not hide externalized cost"
+  ],
+  "allowed_adaptations": [
+    "routing priority",
+    "local threshold map",
+    "domain risk profile",
+    "output level",
+    "audit format",
+    "human review trigger"
+  ],
+  "forbidden_mutations": [
+    "removing trace discipline",
+    "treating UMR as certainty",
+    "inferring value from trace",
+    "inferring trace from value",
+    "treating deletion as restoration",
+    "treating operational cheapness as reversibility",
+    "full-spine activation by keyword alone",
+    "hiding externalized verification cost",
+    "removing auditability",
+    "turning SΔϕ into founder authority doctrine"
+  ],
+  "routing_position": {
+    "primary_route": [
+      "SDeltaPhi-56",
+      "SDeltaPhi-66",
+      "SDeltaPhi-67"
+    ],
+    "global_adapter_route": [
+      "All SΔϕ Core Modules",
+      "SDeltaPhi-67",
+      "Local AI Adapter"
+    ]
+  }
+}

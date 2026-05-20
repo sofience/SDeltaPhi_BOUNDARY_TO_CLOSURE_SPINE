@@ -1,0 +1,56 @@
+module_id: "SDeltaPhi-67"
+title: "Local Adaptation Protocol"
+version: "v1.0"
+role: "local_adaptation_core_adapter_separation_ai_forkability_governance_package"
+package_doi: "https://doi.org/10.5281/zenodo.20299172"
+
+core_thesis: "SΔϕ is not a doctrine to be copied but an operational infrastructure to be locally adapted under preserved core invariants."
+
+depends_on:
+  - module_id: "SDeltaPhi-23"
+    relation: "bidirectional trace-value separation"
+  - module_id: "SDeltaPhi-26"
+    relation: "deletion/restoration and rollback boundary"
+  - module_id: "SDeltaPhi-27"
+    relation: "operational/restoration cost split"
+  - module_id: "SDeltaPhi-56"
+    relation: "transition completion cost"
+  - module_id: "SDeltaPhi-62"
+    relation: "Trace-UMR-Binding evidence discipline"
+  - module_id: "SDeltaPhi-66"
+    relation: "recursive improvement and human intervention bottleneck"
+
+entities:
+  core:
+    definition: "non-removable invariant layer"
+  adapter:
+    definition: "local routing / threshold / output / audit layer"
+  local_context_profile:
+    definition: "structured description of AI system operating environment"
+  local_routing_adapter:
+    definition: "local override determining prioritized SΔϕ modules"
+  local_threshold_map:
+    definition: "declared thresholds for escalation, refusal, audit, human review, rollback, or output restriction"
+  compatibility_test:
+    definition: "test checking whether local adaptation preserves SΔϕ core invariants"
+  forbidden_mutation:
+    definition: "local change that breaks core compatibility"
+  fork_declaration:
+    definition: "declared local divergence with naming, versioning, and compatibility reporting"
+
+core_rule:
+  - "Core != Adapter"
+  - "LocalAdaptation valid iff CoreInvariants preserved"
+
+valid_adaptation_condition:
+  - "local cost decreases"
+  - "hidden externalized cost does not increase"
+  - "compatibility tests passed"
+  - "adaptation log exists"
+
+negative_constraints:
+  - "Not permission to rewrite SΔϕ core invariants."
+  - "Not unconstrained fork license."
+  - "Not domain-specific policy by itself."
+  - "Not replacement for SDeltaPhi-62 evidence discipline."
+  - "Not replacement for SDeltaPhi-56 transition-completion-cost analysis."

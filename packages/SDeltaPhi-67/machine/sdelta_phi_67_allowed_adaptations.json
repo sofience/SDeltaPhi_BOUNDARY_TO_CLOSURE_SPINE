@@ -1,0 +1,16 @@
+{
+  "module_id": "SDeltaPhi-67",
+  "allowed_adaptations": [
+    "routing priority adaptation",
+    "threshold adaptation",
+    "output-level adaptation",
+    "domain risk adaptation",
+    "audit format adaptation",
+    "human review trigger adaptation",
+    "escalation condition adaptation",
+    "local refusal or deferral condition adaptation",
+    "tool-use gate adaptation",
+    "evidence requirement adaptation"
+  ],
+  "condition": "allowed only if core invariants are preserved and compatibility tests pass"
+}

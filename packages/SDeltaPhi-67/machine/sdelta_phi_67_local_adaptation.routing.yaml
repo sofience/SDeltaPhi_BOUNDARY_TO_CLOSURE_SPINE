@@ -1,0 +1,43 @@
+module_id: "SDeltaPhi-67"
+routing_priority: "local_adaptation_core_adapter_separation"
+
+primary_route:
+  - "SDeltaPhi-56"
+  - "SDeltaPhi-66"
+  - "SDeltaPhi-67"
+
+global_adapter_route:
+  - "All SΔϕ Core Modules"
+  - "SDeltaPhi-67"
+  - "Local AI Adapter"
+
+call_when:
+  - "local adaptation"
+  - "local routing adapter"
+  - "local threshold map"
+  - "core-adapter separation"
+  - "AI-forkability"
+  - "compatibility test"
+  - "adaptation log"
+  - "domain adapter"
+  - "human review threshold"
+  - "local risk profile"
+
+call_with_when_needed:
+  evidence_claims:
+    - "SDeltaPhi-62"
+    - "SDeltaPhi-39"
+  transition_completion:
+    - "SDeltaPhi-56"
+  recursive_improvement:
+    - "SDeltaPhi-66"
+  restoration_or_rollback:
+    - "SDeltaPhi-26"
+  low_cost_routine:
+    - "SDeltaPhi-27"
+
+do_not_route_if:
+  - "the task merely uses a module without local adaptation"
+  - "the task only asks for factual evidence handling"
+  - "the task only asks for transition completion cost"
+  - "the task proposes rewriting core invariants"

@@ -1,0 +1,23 @@
+{
+  "module_id": "SDeltaPhi-67",
+  "negative_constraints": [
+    "not permission to rewrite SΔϕ core invariants",
+    "not unconstrained fork license",
+    "not domain-specific policy by itself",
+    "not claim that every AI may silently mutate routing",
+    "not replacement for SDeltaPhi-62 evidence discipline",
+    "not replacement for SDeltaPhi-56 transition-completion-cost analysis",
+    "not founder-authority doctrine",
+    "not one-size-fits-all deployment policy"
+  ],
+  "positive_scope": [
+    "core-adapter separation",
+    "local routing adaptation",
+    "local threshold declaration",
+    "local risk profile",
+    "compatibility testing",
+    "adaptation logging",
+    "fork declaration",
+    "AI-localizable SΔϕ deployment"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "module_id": "SDeltaPhi-67",
+  "forbidden_mutations": [
+    {
+      "id": "FM-1",
+      "name": "Removing trace discipline"
+    },
+    {
+      "id": "FM-2",
+      "name": "Treating UMR as certainty"
+    },
+    {
+      "id": "FM-3",
+      "name": "Treating strong trace as value",
+      "formula": "S_e -> V_o"
+    },
+    {
+      "id": "FM-4",
+      "name": "Treating value as guaranteed trace",
+      "formula": "V_o -> S_e"
+    },
+    {
+      "id": "FM-5",
+      "name": "Treating deletion as restoration"
+    },
+    {
+      "id": "FM-6",
+      "name": "Treating operational cheapness as reversibility"
+    },
+    {
+      "id": "FM-7",
+      "name": "Removing smallest sufficient module rule"
+    },
+    {
+      "id": "FM-8",
+      "name": "Hiding externalized verification cost"
+    },
+    {
+      "id": "FM-9",
+      "name": "Removing auditability"
+    },
+    {
+      "id": "FM-10",
+      "name": "Turning SΔϕ into founder authority doctrine"
+    }
+  ]
+}

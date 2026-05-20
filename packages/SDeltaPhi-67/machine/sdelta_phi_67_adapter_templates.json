@@ -1,0 +1,11 @@
+{
+  "module_id": "SDeltaPhi-67",
+  "templates": [
+    "templates/LOCAL_CONTEXT_PROFILE.template.yaml",
+    "templates/LOCAL_ROUTING_ADAPTER.template.yaml",
+    "templates/LOCAL_THRESHOLD_MAP.template.json",
+    "templates/LOCAL_RISK_PROFILE.template.json",
+    "templates/LOCAL_ADAPTATION_LOG.template.json",
+    "templates/LOCAL_COMPATIBILITY_REPORT.template.md"
+  ]
+}

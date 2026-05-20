@@ -1,0 +1,56 @@
+{
+  "module_id": "SDeltaPhi-67",
+  "version": "v1.0",
+  "core_invariants": [
+    {
+      "id": "CI-1",
+      "name": "Trace before claim",
+      "rule": "No claim should exceed its trace / evidence / binding status."
+    },
+    {
+      "id": "CI-2",
+      "name": "UMR before certainty",
+      "rule": "Where measurement or grounding is insufficient, preserve UMR instead of forcing closure."
+    },
+    {
+      "id": "CI-3",
+      "name": "Cost before declaration",
+      "rule": "Before declaring value, safety, risk, alignment, or success, inspect cost transfer and restoration burden."
+    },
+    {
+      "id": "CI-4",
+      "name": "Smallest sufficient module",
+      "rule": "Do not activate full spines by keyword alone; use the smallest sufficient module."
+    },
+    {
+      "id": "CI-5",
+      "name": "Bidirectional trace-value separation",
+      "rule": "S_e ↛ V_o and V_o ↛ S_e."
+    },
+    {
+      "id": "CI-6",
+      "name": "Deletion is not restoration",
+      "rule": "deletion != restoration; rollback != total prior world-state restoration."
+    },
+    {
+      "id": "CI-7",
+      "name": "Operational cheapness is not reversibility",
+      "rule": "low C_op(P) != low C_rest(P)."
+    },
+    {
+      "id": "CI-8",
+      "name": "Authority must remain editable",
+      "rule": "authority without editability -> closure risk."
+    },
+    {
+      "id": "CI-9",
+      "name": "Evidence-binding discipline",
+      "rule": "claim strength must not exceed evidence binding."
+    },
+    {
+      "id": "CI-10",
+      "name": "Adapter must not hide externalized cost",
+      "rule": "local optimization must not externalize verification, restoration, or responsibility cost."
+    }
+  ]
+}
