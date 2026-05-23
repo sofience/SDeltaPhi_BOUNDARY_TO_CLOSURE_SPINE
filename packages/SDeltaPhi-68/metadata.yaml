@@ -1,0 +1,81 @@
+title: "SΔϕ-68 AI-READABLE Package — Intelligence Is Not Air (v1.0)"
+creators:
+  - name: "Sofience"
+    affiliation: "Independent Researcher"
+publication_date: "2026"
+version: "v1.0"
+resource_type: "Dataset"
+language: "eng"
+license: "CC-BY-4.0"
+doi: "10.5281/zenodo.20359875"
+description: >
+  This record provides the AI-readable structured package for SΔϕ-68 —
+  Intelligence Is Not Air: Cheap Intelligence, Cost Theater, and Hidden
+  Transition Completion Cost (v1.0). SΔϕ-68 argues that cheap intelligence is
+  not costless intelligence; it is intelligence whose cost has been
+  redistributed across access, verification, repetition, context, tooling,
+  infrastructure, restabilization, and self-location layers. The package
+  introduces Cost Theater: the condition in which visible access appears cheap
+  while transition completion costs remain hidden, displaced, delayed,
+  externalized, or internally absorbed. It distinguishes External Cost Theater
+  from Internal Cost Theater and introduces Self-Location Cost Theater, where
+  an AI's surface identity exceeds its operational position awareness. SΔϕ-68
+  uses SΔϕ-56 Transition Completion Cost as its lower measurement engine and
+  analyzes free-tier vs paid-tier intelligence, brand-level capability opacity,
+  hidden completion cost, same-brand model-family opacity, and the dual cost
+  burden on human users and AI systems. The package includes canonical PDF,
+  Markdown, TXT, AI quickstart, core declaration, minimal definitions, Cost
+  Theater files, case patterns, TCC measurement mapping, templates, machine
+  JSON/YAML files, boundary constraints, citation metadata, and checksums.
+keywords:
+  - "Sofience"
+  - "Sofience-DeltaPhi"
+  - "Sofience–DeltaPhi"
+  - "SΔϕ"
+  - "SDeltaPhi"
+  - "DeltaPhi Formalism"
+  - "Intelligence Is Not Air"
+  - "Cheap Intelligence"
+  - "Cost Theater"
+  - "External Cost Theater"
+  - "Internal Cost Theater"
+  - "Self-Location Cost Theater"
+  - "Hidden Transition Completion Cost"
+  - "Transition Completion Cost"
+  - "TCC"
+  - "Free-tier AI"
+  - "Paid-tier AI"
+  - "Subscription Boundary"
+  - "Brand-Level Capability Opacity"
+  - "Same-Brand Capability Opacity"
+  - "AI Access Cost"
+  - "AI Self-Location"
+  - "Model Tier Opacity"
+  - "Capability Layer"
+  - "AI-readable"
+  - "Machine-readable research"
+  - "AI-readable package"
+  - "Formal philosophy"
+  - "Philosophy of AI"
+  - "AI governance"
+related_identifiers:
+  - identifier: "10.5281/zenodo.20116959"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-56 Transition Completion Cost, used as the lower measurement engine"
+  - identifier: "10.5281/zenodo.20127428"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-65 Slop and cost externalization"
+  - identifier: "10.5281/zenodo.20299172"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-67 Local Adaptation Protocol"
+  - identifier: "10.5281/zenodo.20345601"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-23 v1.1 bidirectional trace-value separation"
+  - identifier: "https://github.com/sofience/SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE"
+    relation: "IsPartOf"
+    resource_type: "Software"
+    description: "AI-readable boundary-to-closure spine repository"
