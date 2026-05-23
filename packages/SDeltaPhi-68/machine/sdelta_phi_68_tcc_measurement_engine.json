@@ -1,0 +1,17 @@
+{
+  "module_id": "SDeltaPhi-68",
+  "lower_measurement_engine": "SDeltaPhi-56 v1.3 Transition Completion Cost",
+  "role": "Quantifies the hidden completion costs behind apparently cheap intelligence.",
+  "real_cost_formula": [
+    "C_direct_price",
+    "TCC_access",
+    "TCC_context",
+    "TCC_verification",
+    "TCC_repetition",
+    "TCC_tooling",
+    "TCC_restabilization",
+    "C_infrastructure",
+    "C_self_location"
+  ],
+  "rule": "Do not compare intelligence access by direct price alone; compare total transition completion cost."
+}

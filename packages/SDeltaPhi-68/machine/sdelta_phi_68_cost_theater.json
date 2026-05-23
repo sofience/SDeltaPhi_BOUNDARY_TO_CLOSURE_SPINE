@@ -1,0 +1,20 @@
+{
+  "module_id": "SDeltaPhi-68",
+  "concept": "Cost Theater",
+  "formula": "C_visible down while TCC_total remains high, hidden, delayed, displaced, or externalized",
+  "types": {
+    "external_cost_theater": "user-side hidden completion cost",
+    "internal_cost_theater": "AI-side operational self-location cost",
+    "self_location_cost_theater": "AI surface identity differs from operational position awareness",
+    "brand_level_capability_opacity": "brand access is mistaken for capability-layer access"
+  },
+  "audit_questions": [
+    "What cost appears low?",
+    "What transition is being completed?",
+    "What verification cost remains?",
+    "What repetition cost remains?",
+    "What context or tooling cost remains?",
+    "Who bears restabilization burden?",
+    "Is the route actually available?"
+  ]
+}

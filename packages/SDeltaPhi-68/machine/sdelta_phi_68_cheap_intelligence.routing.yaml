@@ -1,0 +1,38 @@
+module_id: "SDeltaPhi-68"
+routing_priority: "cheap_intelligence_cost_theater"
+
+primary_route:
+  - "SDeltaPhi-56"
+  - "SDeltaPhi-68"
+
+supporting_routes:
+  slop_externalization:
+    - "SDeltaPhi-65"
+    - "SDeltaPhi-68"
+  local_adaptation:
+    - "SDeltaPhi-67"
+    - "SDeltaPhi-68"
+  trace_value_boundary:
+    - "SDeltaPhi-23 v1.1"
+    - "SDeltaPhi-68"
+  path_availability:
+    - "SDeltaPhi-44"
+    - "SDeltaPhi-68"
+
+call_when:
+  - "cheap intelligence"
+  - "intelligence as cheap as air"
+  - "free vs paid AI"
+  - "subscription boundary"
+  - "hidden AI access cost"
+  - "Cost Theater"
+  - "Internal Cost Theater"
+  - "Self-Location Cost Theater"
+  - "brand-level capability opacity"
+  - "same-brand model family opacity"
+  - "transition completion cost of AI access"
+
+do_not_call_when:
+  - "the task only asks for a simple product price"
+  - "the task does not involve intelligence access, hidden costs, or TCC"
+  - "the user needs a quick non-structural answer"

@@ -1,0 +1,22 @@
+{
+  "module_id": "SDeltaPhi-68",
+  "negative_constraints": [
+    "not a claim that paid AI is morally superior to free AI",
+    "not a claim that free AI is useless",
+    "not a reduction of intelligence access cost to subscription price alone",
+    "not a claim that all cheap access is deceptive",
+    "not a status argument against users with lower access",
+    "not proof of AI consciousness",
+    "not proof that self-location uncertainty is always failure",
+    "not a replacement for SDeltaPhi-56 TCC measurement"
+  ],
+  "positive_scope": [
+    "cheap intelligence cost audit",
+    "Cost Theater detection",
+    "external hidden cost mapping",
+    "internal self-location cost mapping",
+    "brand-level capability opacity analysis",
+    "free-tier vs paid-tier TCC comparison",
+    "AI access cost redistribution analysis"
+  ]
+}

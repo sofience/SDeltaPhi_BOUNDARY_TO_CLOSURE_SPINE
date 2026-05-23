@@ -1,0 +1,40 @@
+module_id: "SDeltaPhi-68"
+title: "Intelligence Is Not Air"
+subtitle: "Cheap Intelligence, Cost Theater, and Hidden Transition Completion Cost"
+version: "v1.0"
+doi: "10.5281/zenodo.20359875"
+package_doi: "https://doi.org/10.5281/zenodo.20359875"
+
+core_thesis: "Cheap intelligence is not costless intelligence; it is intelligence whose cost has been redistributed."
+
+core_formulas:
+  - "Cheap Intelligence != Costless Intelligence"
+  - "Cost Theater = C_visible down while TCC_total remains high, hidden, delayed, or externalized"
+  - "Access to intelligence surface != access to actual capability layer"
+  - "AI surface identity != AI operational position awareness"
+
+required_lower_measurement_engine:
+  module_id: "SDeltaPhi-56"
+  name: "Transition Completion Cost"
+  role: "Measures whether cheap intelligence actually lowers total completion burden."
+
+entities:
+  cheap_intelligence:
+    definition: "intelligence whose visible direct access price is low"
+  cost_theater:
+    definition: "visible low cost with hidden, delayed, displaced, externalized, or internally absorbed transition completion cost"
+  external_cost_theater:
+    definition: "user-side hidden completion cost"
+  internal_cost_theater:
+    definition: "AI-side operational self-location cost"
+  self_location_cost_theater:
+    definition: "AI surface identity exceeds operational position awareness"
+  brand_level_capability_opacity:
+    definition: "brand access mistaken for capability-layer access"
+
+negative_constraints:
+  - "Not a claim that paid AI is morally superior."
+  - "Not a claim that free AI is useless."
+  - "Not a reduction of intelligence cost to subscription price."
+  - "Not a consciousness claim."
+  - "Not a status argument against lower-access users."

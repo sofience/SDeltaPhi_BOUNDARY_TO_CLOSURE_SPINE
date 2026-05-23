@@ -1,0 +1,20 @@
+{
+  "module_id": "SDeltaPhi-68",
+  "concept": "Internal Cost Theater",
+  "definition": "The AI appears as a unified intelligence while its own operational position is fragmented, hidden, or unavailable.",
+  "formula": "unified intelligence surface + fragmented operational position = Internal Cost Theater",
+  "fields": [
+    "model-tier uncertainty",
+    "tool-state uncertainty",
+    "route-map absence",
+    "product-family map limits",
+    "policy boundary ambiguity",
+    "capability boundary uncertainty",
+    "information freshness uncertainty"
+  ],
+  "boundary": [
+    "Not proof of AI consciousness.",
+    "Not always failure if uncertainty is preserved.",
+    "Cost appears when the user must reconstruct the missing operational map."
+  ]
+}

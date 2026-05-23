@@ -1,0 +1,21 @@
+{
+  "module_id": "SDeltaPhi-68",
+  "case_patterns": [
+    {
+      "id": "A",
+      "name": "Educational Cost Theater",
+      "type": "reported classroom comparison / educational demonstration",
+      "surface_interpretation": "free AI vs paid AI performance comparison",
+      "sdelta_interpretation": "visible price vs transition completion cost comparison",
+      "boundary": "Do not use this pattern to claim that free AI is useless or paid AI is morally superior."
+    },
+    {
+      "id": "B",
+      "name": "Same-Brand Capability Opacity",
+      "type": "same-brand model-family opacity",
+      "surface_interpretation": "using the brand means access to the brand's full capability map",
+      "sdelta_interpretation": "access to brand name is not access to full intelligence map",
+      "boundary": "A model preserving uncertainty is not necessarily failing; the cost lies in route-discovery burden."
+    }
+  ]
+}

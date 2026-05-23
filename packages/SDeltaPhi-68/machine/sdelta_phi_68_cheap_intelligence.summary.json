@@ -1,0 +1,43 @@
+{
+  "module_id": "SDeltaPhi-68",
+  "title": "Intelligence Is Not Air",
+  "subtitle": "Cheap Intelligence, Cost Theater, and Hidden Transition Completion Cost",
+  "version": "v1.0",
+  "doi": "10.5281/zenodo.20359875",
+  "package_doi": "https://doi.org/10.5281/zenodo.20359875",
+  "one_sentence": "SΔϕ-68 defines cheap intelligence as redistributed-cost intelligence and introduces Cost Theater as the condition in which visible access appears cheap while transition completion costs remain hidden, displaced, externalized, or internalized as AI self-location uncertainty.",
+  "core_thesis": "Cheap intelligence is not costless intelligence; it is intelligence whose cost has been redistributed across access, verification, repetition, context, tooling, infrastructure, restabilization, and self-location layers.",
+  "core_formulas": [
+    "Cheap Intelligence != Costless Intelligence",
+    "Cost Theater = C_visible down while TCC_total remains high, hidden, delayed, or externalized",
+    "Access to intelligence surface != access to actual capability layer",
+    "AI surface identity != AI operational position awareness"
+  ],
+  "key_concepts": [
+    "Cost Theater",
+    "External Cost Theater",
+    "Internal Cost Theater",
+    "Self-Location Cost Theater",
+    "Brand-Level Capability Opacity",
+    "Free-tier vs Paid-tier Intelligence",
+    "Hidden Transition Completion Cost",
+    "TCC as lower measurement engine"
+  ],
+  "requires": [
+    "SDeltaPhi-56 v1.3 Transition Completion Cost"
+  ],
+  "related_modules": [
+    "SDeltaPhi-23 v1.1",
+    "SDeltaPhi-44",
+    "SDeltaPhi-65",
+    "SDeltaPhi-67"
+  ],
+  "negative_constraints": [
+    "Do not claim paid AI is morally superior to free AI.",
+    "Do not claim free AI is useless.",
+    "Do not reduce intelligence access cost to subscription price alone.",
+    "Do not treat brand-level access as capability-level access.",
+    "Do not treat an AI system's name as proof of self-knowledge.",
+    "Do not treat Internal Cost Theater as proof of AI consciousness."
+  ]
+}
