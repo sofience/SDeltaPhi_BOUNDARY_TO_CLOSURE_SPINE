@@ -1,0 +1,9 @@
+title: "SΔϕ Repository Integration Patch v1.6 — Default Closure Governance Spine"
+version: "v1.6"
+type: "repository-integration-patch"
+target_repository: "https://github.com/sofience/SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE"
+purpose: >
+  Provides indexes, routing files, pipeline files, documentation, README and llms.txt insertions,
+  and validation script for integrating SDeltaPhi-29 through SDeltaPhi-32, plus SDeltaPhi-67 and SDeltaPhi-68.
+core_route: "SDeltaPhi-26 -> SDeltaPhi-27 -> SDeltaPhi-28 -> SDeltaPhi-29 -> SDeltaPhi-30 -> SDeltaPhi-31 -> SDeltaPhi-32"
+license: "CC-BY-4.0"
