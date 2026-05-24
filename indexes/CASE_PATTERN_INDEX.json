@@ -1,0 +1,37 @@
+{
+  "index_id": "CASE_PATTERN_INDEX",
+  "version": "v1.6",
+  "case_policy": "Case patterns are audit triggers, not final legal, moral, or factual judgments.",
+  "patterns": [
+    {
+      "module": "SDeltaPhi-29",
+      "name": "Mandatory AI Image Filtering as Editable Default Test",
+      "type": "default-governance test",
+      "not_for": "blanket censorship or legitimacy claim"
+    },
+    {
+      "module": "SDeltaPhi-30",
+      "name": "Declared Participation",
+      "type": "formal openness vs operational authority test",
+      "not_for": "assuming consultation equals authority"
+    },
+    {
+      "module": "SDeltaPhi-30",
+      "name": "Formal Appeal",
+      "type": "formal appeal vs operational rollback test",
+      "not_for": "assuming appeal button equals rollback reality"
+    },
+    {
+      "module": "SDeltaPhi-31",
+      "name": "Public Petition without Reopening",
+      "type": "symbolic rupture vs operational reopening test",
+      "not_for": "policy merits judgment"
+    },
+    {
+      "module": "SDeltaPhi-32",
+      "name": "Reserve-Force Intensification and Reopening Legitimacy",
+      "type": "legitimate intervention audit trigger",
+      "not_for": "legal responsibility or final factual causation"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "index_id": "INTERVENTION_LEGITIMACY_MAP",
+  "version": "v1.6",
+  "primary_module": "SDeltaPhi-32",
+  "upstream": [
+    "SDeltaPhi-29",
+    "SDeltaPhi-30",
+    "SDeltaPhi-31"
+  ],
+  "supporting": [
+    "SDeltaPhi-44",
+    "SDeltaPhi-56",
+    "SDeltaPhi-68"
+  ],
+  "core_formula": "I_legit iff Rb_p ∧ Ex_p ∧ Ed_p ∧ ¬RC",
+  "legitimacy_conditions": {
+    "Rb_p": "rollback preserved after intervention",
+    "Ex_p": "exception re-entry preserved after intervention",
+    "Ed_p": "editability preserved after intervention",
+    "not_RC": "no replacement closure"
+  },
+  "false_intervention_patterns": [
+    "overwrite",
+    "coercive correction",
+    "replacement closure",
+    "declared intention without preserved editability",
+    "opposition to closure that installs another closure"
+  ],
+  "responsibility_rule": "Responsibility arises at the earliest non-action node where recognized closure, available authority, rollback availability, and withheld action coincide.",
+  "authority_layers": [
+    "direct intervention authority",
+    "diagnostic authority",
+    "interpretive awareness",
+    "no authority"
+  ]
+}

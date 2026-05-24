@@ -1,0 +1,183 @@
+{
+  "version": "v1.6-additions",
+  "purpose": "Module roles, routing hints, and constraints for 29-32, 67, 68.",
+  "modules": {
+    "SDeltaPhi-29": {
+      "title": "Editable Default",
+      "role": "Defines governable default conditions: editable default, distributed authority, rollback window, exception channel.",
+      "upstream": [
+        "SDeltaPhi-28"
+      ],
+      "downstream": [
+        "SDeltaPhi-30"
+      ],
+      "supporting": [
+        "SDeltaPhi-44",
+        "SDeltaPhi-56",
+        "SDeltaPhi-67",
+        "SDeltaPhi-68"
+      ],
+      "call_when": [
+        "editable default",
+        "distributed authority",
+        "rollback window",
+        "exception channel",
+        "governable default",
+        "mandatory technical filtering"
+      ],
+      "do_not_call_when": [
+        "no default path exists",
+        "task only asks whether something is morally good or bad"
+      ],
+      "core_formula": "D* governable iff Ed ∧ Ad ∧ Wr ∧ Ce",
+      "doi": "10.5281/zenodo.20362414",
+      "package_path": "packages/SDeltaPhi-29/"
+    },
+    "SDeltaPhi-30": {
+      "title": "Diagnosing Closed Defaults",
+      "role": "Diagnoses whether declared editability is operationally real.",
+      "upstream": [
+        "SDeltaPhi-29"
+      ],
+      "downstream": [
+        "SDeltaPhi-31"
+      ],
+      "supporting": [
+        "SDeltaPhi-44",
+        "SDeltaPhi-56",
+        "SDeltaPhi-68"
+      ],
+      "call_when": [
+        "declared openness",
+        "formal appeal",
+        "consultation",
+        "closed default diagnosis",
+        "closure drift",
+        "operational editability"
+      ],
+      "do_not_call_when": [
+        "no claim of openness or editability exists",
+        "no default or closure question exists"
+      ],
+      "core_formula": "D* editable-real iff Rv ∧ Rb ∧ Ex ∧ Ad",
+      "doi": "10.5281/zenodo.20362950",
+      "package_path": "packages/SDeltaPhi-30/"
+    },
+    "SDeltaPhi-31": {
+      "title": "Reopening Closed Defaults",
+      "role": "Defines reopening as enacted editability: trigger recognition, cost assumption, reopening act, persistence of re-entry.",
+      "upstream": [
+        "SDeltaPhi-30"
+      ],
+      "downstream": [
+        "SDeltaPhi-32"
+      ],
+      "supporting": [
+        "SDeltaPhi-44",
+        "SDeltaPhi-56",
+        "SDeltaPhi-68"
+      ],
+      "call_when": [
+        "reopening closed default",
+        "symbolic rupture",
+        "petition without reopening",
+        "one-time exception",
+        "persistence of re-entry"
+      ],
+      "do_not_call_when": [
+        "closed default has not been diagnosed",
+        "task asks only whether a policy is good or bad"
+      ],
+      "core_formula": "D*closed → operationally open iff T_r ∧ C_a ∧ R_o ∧ P_r",
+      "doi": "10.5281/zenodo.20364025",
+      "package_path": "packages/SDeltaPhi-31/"
+    },
+    "SDeltaPhi-32": {
+      "title": "Legitimate Intervention",
+      "role": "Audits whether intervention remains legitimate reopening or becomes overwrite, coercive correction, or replacement closure.",
+      "upstream": [
+        "SDeltaPhi-31"
+      ],
+      "downstream": [],
+      "supporting": [
+        "SDeltaPhi-44",
+        "SDeltaPhi-56",
+        "SDeltaPhi-68"
+      ],
+      "call_when": [
+        "legitimate intervention",
+        "replacement closure",
+        "coercive correction",
+        "authority stratification",
+        "earliest non-action node",
+        "failure to intervene"
+      ],
+      "do_not_call_when": [
+        "no intervention or non-action question exists",
+        "task only asks for moral praise or condemnation"
+      ],
+      "core_formula": "I_legit iff Rb_p ∧ Ex_p ∧ Ed_p ∧ ¬RC",
+      "doi": "10.5281/zenodo.20365012",
+      "package_path": "packages/SDeltaPhi-32/"
+    },
+    "SDeltaPhi-67": {
+      "title": "Local Adaptation Protocol",
+      "role": "Defines what AI systems may localize, fork, or adapt without violating SΔϕ invariants.",
+      "upstream": [
+        "SDeltaPhi-00"
+      ],
+      "downstream": [
+        "SDeltaPhi-29",
+        "SDeltaPhi-30",
+        "SDeltaPhi-31",
+        "SDeltaPhi-32"
+      ],
+      "supporting": [
+        "SDeltaPhi-56",
+        "SDeltaPhi-62"
+      ],
+      "call_when": [
+        "local adaptation",
+        "AI-forkable",
+        "AI-localizable",
+        "adapter",
+        "local context profile"
+      ],
+      "do_not_call_when": [
+        "request does not involve local modification or AI adaptation"
+      ],
+      "doi": "10.5281/zenodo.20299172",
+      "package_path": "packages/SDeltaPhi-67/"
+    },
+    "SDeltaPhi-68": {
+      "title": "Intelligence Is Not Air",
+      "role": "Analyzes cheap intelligence, Cost Theater, internal Cost Theater, and hidden TCC.",
+      "upstream": [
+        "SDeltaPhi-56"
+      ],
+      "downstream": [
+        "SDeltaPhi-29",
+        "SDeltaPhi-30",
+        "SDeltaPhi-31",
+        "SDeltaPhi-32"
+      ],
+      "supporting": [
+        "SDeltaPhi-65",
+        "SDeltaPhi-67"
+      ],
+      "call_when": [
+        "cheap intelligence",
+        "Cost Theater",
+        "free paid AI",
+        "AI access cost",
+        "self-location cost",
+        "brand-level capability opacity"
+      ],
+      "do_not_call_when": [
+        "task is not about access cost, hidden burden, or AI capability opacity"
+      ],
+      "doi": "10.5281/zenodo.20359875",
+      "package_path": "packages/SDeltaPhi-68/"
+    }
+  }
+}

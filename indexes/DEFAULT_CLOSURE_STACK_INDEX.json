@@ -1,0 +1,28 @@
+{
+  "index_id": "DEFAULT_CLOSURE_STACK_INDEX",
+  "version": "v1.6",
+  "spine": [
+    "SDeltaPhi-26",
+    "SDeltaPhi-27",
+    "SDeltaPhi-28",
+    "SDeltaPhi-29",
+    "SDeltaPhi-30",
+    "SDeltaPhi-31",
+    "SDeltaPhi-32"
+  ],
+  "core_stack": {
+    "SDeltaPhi-28": "Default Power",
+    "SDeltaPhi-29": "Editable Default",
+    "SDeltaPhi-30": "Diagnosing Closed Defaults",
+    "SDeltaPhi-31": "Reopening Closed Defaults",
+    "SDeltaPhi-32": "Legitimate Intervention"
+  },
+  "minimal_activation_rule": "Call the smallest sufficient module. Do not activate full spine by keyword alone.",
+  "supporting_modules": {
+    "SDeltaPhi-44": "path closure vs prohibition",
+    "SDeltaPhi-56": "transition completion cost",
+    "SDeltaPhi-62": "world model pre-check / trace-UMR-binding",
+    "SDeltaPhi-67": "local adaptation constraints",
+    "SDeltaPhi-68": "Cost Theater and hidden TCC"
+  }
+}

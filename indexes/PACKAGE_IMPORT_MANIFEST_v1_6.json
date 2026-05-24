@@ -1,0 +1,47 @@
+{
+  "manifest_id": "PACKAGE_IMPORT_MANIFEST_v1_6",
+  "packages_to_import": [
+    {
+      "module_id": "SDeltaPhi-29",
+      "doi": "10.5281/zenodo.20362414",
+      "archive": "archives/SDeltaPhi-29_AI_READABLE_PACKAGE_v1_0.zip",
+      "extract_to": "packages/SDeltaPhi-29/"
+    },
+    {
+      "module_id": "SDeltaPhi-30",
+      "doi": "10.5281/zenodo.20362950",
+      "archive": "archives/SDeltaPhi-30_AI_READABLE_PACKAGE_v1_0.zip",
+      "extract_to": "packages/SDeltaPhi-30/"
+    },
+    {
+      "module_id": "SDeltaPhi-31",
+      "doi": "10.5281/zenodo.20364025",
+      "archive": "archives/SDeltaPhi-31_AI_READABLE_PACKAGE_v1_0.zip",
+      "extract_to": "packages/SDeltaPhi-31/"
+    },
+    {
+      "module_id": "SDeltaPhi-32",
+      "doi": "10.5281/zenodo.20365012",
+      "archive": "archives/SDeltaPhi-32_AI_READABLE_PACKAGE_v1_0.zip",
+      "extract_to": "packages/SDeltaPhi-32/"
+    },
+    {
+      "module_id": "SDeltaPhi-67",
+      "doi": "10.5281/zenodo.20299172",
+      "archive": "archives/SDeltaPhi-67_AI_READABLE_PACKAGE_v1_0.zip",
+      "extract_to": "packages/SDeltaPhi-67/"
+    },
+    {
+      "module_id": "SDeltaPhi-68",
+      "doi": "10.5281/zenodo.20359875",
+      "archive": "archives/SDeltaPhi-68_AI_READABLE_PACKAGE_v1_0.zip",
+      "extract_to": "packages/SDeltaPhi-68/"
+    }
+  ],
+  "do_not_delete": [
+    "packages/*",
+    "archives/*",
+    "indexes/* existing DOI records"
+  ],
+  "deprecate_instead_of_delete": true
+}

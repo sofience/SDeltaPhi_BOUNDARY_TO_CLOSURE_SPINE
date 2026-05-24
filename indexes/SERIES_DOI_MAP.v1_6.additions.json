@@ -1,0 +1,16 @@
+{
+  "version": "v1.6-additions",
+  "purpose": "Add new SDeltaPhi package DOIs to repository DOI map.",
+  "additions": {
+    "SDeltaPhi-00": "10.5281/zenodo.18731366",
+    "SDeltaPhi-23": "10.5281/zenodo.20345601",
+    "SDeltaPhi-29": "10.5281/zenodo.20362414",
+    "SDeltaPhi-30": "10.5281/zenodo.20362950",
+    "SDeltaPhi-31": "10.5281/zenodo.20364025",
+    "SDeltaPhi-32": "10.5281/zenodo.20365012",
+    "SDeltaPhi-56": "10.5281/zenodo.20116959",
+    "SDeltaPhi-65": "10.5281/zenodo.20127428",
+    "SDeltaPhi-67": "10.5281/zenodo.20299172",
+    "SDeltaPhi-68": "10.5281/zenodo.20359875"
+  }
+}
