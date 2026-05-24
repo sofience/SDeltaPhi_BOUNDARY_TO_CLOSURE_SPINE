@@ -1,0 +1,29 @@
+{
+  "module_id": "SDeltaPhi-31",
+  "core_operations": [
+    {
+      "symbol": "T_r",
+      "name": "Trigger Recognition",
+      "question": "Has an anomaly been recognized as a trigger rather than tolerated as background noise?",
+      "failure_mode": "anomaly exists but is not recognized as trigger"
+    },
+    {
+      "symbol": "C_a",
+      "name": "Cost Assumption",
+      "question": "Who assumes the cost of interrupting the cheapest continuation?",
+      "failure_mode": "cost is avoided, displaced, or unassigned"
+    },
+    {
+      "symbol": "R_o",
+      "name": "Reopening Act",
+      "question": "Has an excluded or suppressed alternative become operational again?",
+      "failure_mode": "critique occurs but no alternative path is restored"
+    },
+    {
+      "symbol": "P_r",
+      "name": "Persistence of Re-entry",
+      "question": "Does the re-entry path persist beyond the first rupture?",
+      "failure_mode": "one-time exception without durable re-entry"
+    }
+  ]
+}

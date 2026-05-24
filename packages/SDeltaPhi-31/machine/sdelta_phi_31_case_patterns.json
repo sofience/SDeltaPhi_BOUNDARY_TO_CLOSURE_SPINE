@@ -1,0 +1,25 @@
+{
+  "module_id": "SDeltaPhi-31",
+  "case_patterns": [
+    {
+      "name": "Symbolic Critique",
+      "classification": "symbolic rupture only",
+      "rule": "critique occurred but reopening did not occur"
+    },
+    {
+      "name": "One-Time Exception",
+      "classification": "partial rupture / symbolic reopening risk",
+      "rule": "one-time exception is not persistent reopening"
+    },
+    {
+      "name": "Reopened Appeal Path",
+      "classification": "operational reopening likely",
+      "rule": "appeal path restored and future exceptions can re-enter"
+    },
+    {
+      "name": "Public Petition without Reopening",
+      "classification": "possible symbolic rupture rather than confirmed operational reopening",
+      "rule": "petitioned exception entered visibility but did not complete T_r, C_a, R_o, P_r"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "module_id": "SDeltaPhi-31",
+  "negative_constraints": [
+    "not a claim that diagnosis reopens closure",
+    "not a claim that critique is intervention",
+    "not a claim that anomaly existence is trigger recognition",
+    "not a claim that visibility is reopening",
+    "not a claim that petition automatically reopens closure",
+    "not a claim that symbolic disruption is operational reopening",
+    "not a claim that one-time exception is persistence of re-entry",
+    "not a policy merits engine for public petition cases"
+  ],
+  "positive_scope": [
+    "reopening intervention audit",
+    "symbolic rupture diagnosis",
+    "trigger recognition assessment",
+    "cost assumption assessment",
+    "reopening act assessment",
+    "persistence of re-entry assessment"
+  ]
+}

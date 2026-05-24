@@ -1,0 +1,34 @@
+module_id: "SDeltaPhi-31"
+title: "Reopening Closed Defaults"
+subtitle: "Minimal Intervention Conditions after Governance Diagnostics"
+version: "v1.0"
+doi: "10.5281/zenodo.20364025"
+package_doi: "https://doi.org/10.5281/zenodo.20364025"
+
+core_thesis: "A closed default is not reopened by diagnosis alone."
+core_formula: "D*closed -> operationally open iff T_r and C_a and R_o and P_r"
+
+variables:
+  D_star_closed:
+    meaning: "closed default state"
+  T_r:
+    name: "Trigger Recognition"
+    meaning: "anomaly recognized as trigger rather than background noise"
+  C_a:
+    name: "Cost Assumption"
+    meaning: "someone assumes the cost of interrupting the cheapest continuation"
+  R_o:
+    name: "Reopening Act"
+    meaning: "an excluded or suppressed alternative becomes operational again"
+  P_r:
+    name: "Persistence of Re-entry"
+    meaning: "future exceptions can continue to re-enter through a durable path"
+
+failure_condition: "not T_r or not C_a or not R_o or not P_r -> symbolic rupture only"
+cost_asymmetry: "C(P_default) < C(P_reopen)"
+
+negative_constraints:
+  - "Diagnosis is not reopening."
+  - "Critique is not intervention."
+  - "Petition is not automatic reopening."
+  - "One-time exception is not persistence of re-entry."

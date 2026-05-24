@@ -1,0 +1,34 @@
+module_id: "SDeltaPhi-31"
+routing_priority: "reopening_closed_defaults"
+
+primary_route:
+  - "SDeltaPhi-30"
+  - "SDeltaPhi-31"
+
+supporting_routes:
+  cost_assumption:
+    - "SDeltaPhi-56"
+    - "SDeltaPhi-31"
+  path_reopening:
+    - "SDeltaPhi-44"
+    - "SDeltaPhi-31"
+  hidden_burden:
+    - "SDeltaPhi-68"
+    - "SDeltaPhi-31"
+
+call_when:
+  - "closed default reopening"
+  - "diagnosis is not enough"
+  - "symbolic rupture"
+  - "public petition without reopening"
+  - "one-time exception"
+  - "reopened appeal path"
+  - "trigger recognition"
+  - "cost assumption"
+  - "reopening act"
+  - "persistence of re-entry"
+
+do_not_call_when:
+  - "the default has not been diagnosed as closed"
+  - "the task only asks whether a policy is good or bad"
+  - "there is no intervention or reopening question"

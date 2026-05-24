@@ -1,0 +1,14 @@
+{
+  "module_id": "SDeltaPhi-31",
+  "sequence": [
+    "detect anomaly",
+    "recognize anomaly as trigger",
+    "assume interruption cost",
+    "make alternative path operational",
+    "preserve future re-entry",
+    "monitor re-closure"
+  ],
+  "stop_before_step_4": "reopening has not occurred",
+  "stop_before_step_5": "reopening may collapse into one-time exception",
+  "stop_before_step_6": "reopened paths may be reabsorbed by original default"
+}

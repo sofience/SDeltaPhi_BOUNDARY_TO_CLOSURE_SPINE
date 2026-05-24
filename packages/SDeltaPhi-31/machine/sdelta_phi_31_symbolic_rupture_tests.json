@@ -1,0 +1,12 @@
+{
+  "module_id": "SDeltaPhi-31",
+  "symbolic_rupture_occurs_when": [
+    "critique occurs without operational alternative",
+    "petition occurs without trigger recognition",
+    "protest occurs without cost assumption",
+    "one-time exception occurs without persistent re-entry",
+    "diagnosis occurs without intervention",
+    "visibility occurs without path change"
+  ],
+  "rule": "If any of T_r, C_a, R_o, or P_r fails, reopening risks collapsing into symbolic rupture only."
+}

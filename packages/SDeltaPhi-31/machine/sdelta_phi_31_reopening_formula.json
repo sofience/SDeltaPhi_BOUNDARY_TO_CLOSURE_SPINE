@@ -1,0 +1,13 @@
+{
+  "module_id": "SDeltaPhi-31",
+  "formula": "D*closed -> operationally open iff T_r and C_a and R_o and P_r",
+  "variables": {
+    "D*closed": "closed default state",
+    "T_r": "trigger recognition",
+    "C_a": "cost assumption",
+    "R_o": "reopening act",
+    "P_r": "persistence of re-entry"
+  },
+  "failure_condition": "not T_r or not C_a or not R_o or not P_r implies symbolic rupture only",
+  "cost_asymmetry": "C(P_default) < C(P_reopen)"
+}

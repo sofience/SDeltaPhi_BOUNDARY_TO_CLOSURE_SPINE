@@ -1,0 +1,39 @@
+{
+  "module_id": "SDeltaPhi-31",
+  "title": "Reopening Closed Defaults",
+  "subtitle": "Minimal Intervention Conditions after Governance Diagnostics",
+  "version": "v1.0",
+  "doi": "10.5281/zenodo.20364025",
+  "package_doi": "https://doi.org/10.5281/zenodo.20364025",
+  "core_thesis": "A closed default is not reopened by diagnosis alone; reopening requires trigger recognition, cost assumption, reopening act, and persistence of re-entry.",
+  "core_formula": "D*closed -> operationally open iff T_r and C_a and R_o and P_r",
+  "core_operations": {
+    "T_r": "Trigger Recognition",
+    "C_a": "Cost Assumption",
+    "R_o": "Reopening Act",
+    "P_r": "Persistence of Re-entry"
+  },
+  "failure_condition": "not T_r or not C_a or not R_o or not P_r implies symbolic rupture only",
+  "cost_asymmetry": "C(P_default) < C(P_reopen)",
+  "one_sentence": "SDeltaPhi-31 defines reopening as enacted editability: the intervention sequence through which diagnosed closure becomes operationally open.",
+  "case_patterns": [
+    "Symbolic Critique",
+    "One-Time Exception",
+    "Reopened Appeal Path",
+    "Public Petition without Reopening"
+  ],
+  "related_modules": [
+    "SDeltaPhi-29",
+    "SDeltaPhi-30",
+    "SDeltaPhi-44",
+    "SDeltaPhi-56",
+    "SDeltaPhi-68"
+  ],
+  "negative_constraints": [
+    "Do not treat diagnosis as reopening.",
+    "Do not treat critique as intervention.",
+    "Do not treat petition as automatic reopening.",
+    "Do not treat one-time exception as persistence of re-entry.",
+    "Do not use public petition case pattern to decide policy merits."
+  ]
+}
