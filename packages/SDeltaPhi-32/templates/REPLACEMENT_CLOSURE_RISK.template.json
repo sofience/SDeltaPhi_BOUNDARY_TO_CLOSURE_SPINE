@@ -1,0 +1,12 @@
+{
+  "assessment_id": "replacement-closure-risk-example",
+  "base_module": "SDeltaPhi-32",
+  "intervention": "",
+  "old_closure_removed": "yes | no | uncertain",
+  "new_non_editable_default_installed": "yes | no | uncertain",
+  "rollback_preserved": "yes | no | uncertain",
+  "exception_reentry_preserved": "yes | no | uncertain",
+  "authority_more_distributed": "yes | no | uncertain",
+  "replacement_closure_risk": "low | medium | high | present | unknown",
+  "notes": ""
+}

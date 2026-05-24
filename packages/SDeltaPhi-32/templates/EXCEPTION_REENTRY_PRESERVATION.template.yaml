@@ -1,0 +1,9 @@
+test_id: "exception-reentry-preservation-example"
+base_module: "SDeltaPhi-32"
+intervention: ""
+
+excluded_paths_can_reenter: "yes | no | uncertain"
+immediate_reclosure_risk: "low | medium | high | unknown"
+exception_channel_after_intervention: "expanded | preserved | narrowed | eliminated | unknown"
+result: "preserved | narrowed | eliminated | uncertain"
+notes: ""

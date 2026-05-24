@@ -1,0 +1,11 @@
+map_id: "authority-stratification-map-example"
+base_module: "SDeltaPhi-32"
+path_or_closure: ""
+
+actors:
+  direct_intervention_authority: []
+  diagnostic_authority: []
+  interpretive_awareness: []
+  no_authority: []
+
+notes: ""

@@ -1,0 +1,29 @@
+audit_id: "legitimate-intervention-audit-example"
+base_module: "SDeltaPhi-32"
+intervention_target: ""
+closed_default_path: ""
+intervention_description: ""
+
+rollback_preservation:
+  rollback_remains_possible: "yes | no | uncertain"
+  rollback_cost_after_intervention: "low | medium | high | unknown"
+  status: "preserved | eliminated | uncertain"
+
+exception_reentry_preservation:
+  excluded_paths_can_reenter: "yes | no | uncertain"
+  immediate_reclosure_risk: "low | medium | high | unknown"
+  status: "preserved | narrowed | eliminated | uncertain"
+
+editability_preservation:
+  revision_possible_after_intervention: "yes | no | uncertain"
+  local_autonomy_preserved: "yes | no | uncertain"
+  imposed_correction_detected: "yes | no | uncertain"
+  status: "preserved | overwritten | uncertain"
+
+replacement_closure:
+  new_non_editable_default_installed: "yes | no | uncertain"
+  authority_concentration_shifted: "yes | no | uncertain"
+  status: "absent | present | uncertain"
+
+legitimacy_classification: "legitimate_reopening | overwrite | coercive_correction | replacement_closure | uncertain"
+notes: ""

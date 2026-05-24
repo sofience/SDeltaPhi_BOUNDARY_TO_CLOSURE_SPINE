@@ -1,0 +1,11 @@
+{
+  "report_id": "editability-preservation-report-example",
+  "base_module": "SDeltaPhi-32",
+  "intervention": "",
+  "revision_possible_after_intervention": "yes | no | uncertain",
+  "local_autonomy_preserved": "yes | no | uncertain",
+  "distributed_authority_preserved": "yes | no | uncertain",
+  "imposed_correction_detected": "yes | no | uncertain",
+  "result": "editability_preserved | editability_destroyed | uncertain",
+  "notes": ""
+}

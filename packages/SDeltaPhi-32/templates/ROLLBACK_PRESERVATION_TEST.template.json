@@ -1,0 +1,10 @@
+{
+  "test_id": "rollback-preservation-test-example",
+  "base_module": "SDeltaPhi-32",
+  "intervention": "",
+  "rollback_possible_after_intervention": "yes | no | uncertain",
+  "rollback_cost": "low | medium | high | unknown",
+  "appeal_or_reversal_route": "available | unavailable | unknown",
+  "result": "preserved | eliminated | uncertain",
+  "notes": ""
+}

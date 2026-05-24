@@ -1,0 +1,13 @@
+{
+  "assessment_id": "responsibility-node-assessment-example",
+  "base_module": "SDeltaPhi-32",
+  "closure_path": "",
+  "recognized_closure": "yes | no | uncertain",
+  "rollback_available": "yes | no | uncertain",
+  "authority_layer": "direct_intervention | diagnostic | interpretive_awareness | no_authority | unknown",
+  "available_action": "modify | suspend | restore | disclose | escalate | record | none | unknown",
+  "action_withheld": "yes | no | uncertain",
+  "earliest_non_action_node": "yes | no | uncertain",
+  "responsibility_classification": "direct_intervention_responsibility | diagnostic_responsibility | no_structural_responsibility | uncertain",
+  "notes": ""
+}
