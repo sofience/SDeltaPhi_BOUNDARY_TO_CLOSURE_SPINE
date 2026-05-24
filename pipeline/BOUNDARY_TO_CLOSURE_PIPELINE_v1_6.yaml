@@ -1,18 +1,71 @@
 pipeline_id: BOUNDARY_TO_CLOSURE_PIPELINE_v1_6
-version: v1.6
+version: v1.6-default-closure-governance
+generated: '2026-05-24'
 purpose: Default closure governance and intervention legitimacy pipeline.
 
 steps:
-  - {step: 1, name: Do-not-over-activate check, instruction: Use smallest sufficient module before full spine activation.}
-  - {step: 2, name: Trace / factual precheck, module: SDeltaPhi-62, instruction: Verify whether the case requires factual grounding, trace, source, or UMR boundary.}
-  - {step: 3, name: Transition-cost check, module: SDeltaPhi-56, instruction: Measure rollback, restoration, and transition completion cost where required.}
-  - {step: 4, name: Default power detection, module: SDeltaPhi-28, instruction: Identify whether a low-cost path has become default power.}
-  - {step: 5, name: Governable default check, module: SDeltaPhi-29, formula: D* governable iff Ed ∧ Ad ∧ Wr ∧ Ce}
-  - {step: 6, name: Operational editability diagnosis, module: SDeltaPhi-30, formula: D* editable-real iff Rv ∧ Rb ∧ Ex ∧ Ad}
-  - {step: 7, name: Reopening audit, module: SDeltaPhi-31, formula: D*closed -> operationally open iff T_r ∧ C_a ∧ R_o ∧ P_r}
-  - {step: 8, name: Legitimate intervention audit, module: SDeltaPhi-32, formula: I_legit iff Rb_p ∧ Ex_p ∧ Ed_p ∧ ¬RC}
-  - {step: 9, name: Boundary constraints, instruction: Apply negative constraints from all called modules.}
-  - {step: 10, name: Human low-cost output, instruction: Output minimal classification, uncertainty, and next audit question.}
+  - step: 1
+    name: Do-not-over-activate check
+    instruction: Use smallest sufficient module before full spine activation.
+
+  - step: 2
+    name: Trace / factual precheck
+    module: SDeltaPhi-62
+    instruction: Verify whether the case requires factual grounding, trace, source, uncertainty marking, or UMR boundary.
+
+  - step: 3
+    name: Transition-cost check
+    module: SDeltaPhi-56
+    instruction: Measure rollback, restoration, and transition completion cost where required.
+
+  - step: 4
+    name: Default power detection
+    module: SDeltaPhi-28
+    instruction: Identify whether a low-cost path has become default power.
+
+  - step: 5
+    name: Governable default check
+    module: SDeltaPhi-29
+    formula: D* governable iff Ed ∧ Ad ∧ Wr ∧ Ce
+    instruction: Test whether the default is editable, auditable, writable, and constraint-exposed.
+
+  - step: 6
+    name: Operational editability diagnosis
+    module: SDeltaPhi-30
+    formula: D* editable-real iff Rv ∧ Rb ∧ Ex ∧ Ad
+    instruction: Distinguish declared openness from actual revisability, rollback, exception re-entry, and auditability.
+
+  - step: 7
+    name: Reopening audit
+    module: SDeltaPhi-31
+    formula: D*closed -> operationally open iff T_r ∧ C_a ∧ R_o ∧ P_r
+    instruction: Test whether reopening is operational rather than merely symbolic.
+
+  - step: 8
+    name: Legitimate intervention audit
+    module: SDeltaPhi-32
+    formula: I_legit iff Rb_p ∧ Ex_p ∧ Ed_p ∧ ¬RC
+    instruction: Test whether intervention preserves rollback, exception re-entry, editability, and avoids replacement closure.
+
+  - step: 9
+    name: Cost Theater / hidden TCC check
+    module: SDeltaPhi-68
+    instruction: Check whether the proposed low-cost or governance path transfers cost elsewhere or performs compliance symbolically.
+    optional: true
+
+  - step: 10
+    name: Local adaptation guardrail
+    module: SDeltaPhi-67
+    instruction: Check whether local adaptation changes the default while preserving editability and avoiding closure.
+    optional: true
+
+  - step: 11
+    name: Boundary constraints
+    instruction: Apply negative constraints from all called modules.
+
+  - step: 12
+    name: Human low-cost output
+    instruction: Output minimal classification, uncertainty, evidence boundary, and next audit question.
 
 failure_modes_to_avoid:
   - jumping from default detection to moral judgment
@@ -20,3 +73,18 @@ failure_modes_to_avoid:
   - treating petition as automatic reopening
   - treating intervention as automatically legitimate
   - using case patterns as final legal or factual conclusions
+  - opposing closure by installing replacement closure
+  - treating low-cost continuation as proof of legitimacy
+  - omitting SDeltaPhi-62 where factual or evidential claims are present
+  - omitting SDeltaPhi-56 where rollback, restoration, or action-gate cost is central
+
+minimal_output_contract:
+  required_fields:
+    - classification
+    - called_modules
+    - evidence_boundary
+    - transition_cost_status
+    - editability_status
+    - replacement_closure_risk
+    - uncertainty_or_UMR
+    - next_audit_question
