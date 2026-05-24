@@ -1,0 +1,22 @@
+{
+  "module_id": "SDeltaPhi-32",
+  "negative_constraints": [
+    "not a moral purity test",
+    "not a claim that intervention is automatically legitimate",
+    "not a claim that declared intention determines legitimacy",
+    "not a claim that correction remains legitimate if rollback is eliminated",
+    "not a claim that replacement closure is reopening",
+    "not a collapse of all awareness into responsibility",
+    "not a legal responsibility engine for reserve-force cases"
+  ],
+  "positive_scope": [
+    "legitimate intervention audit",
+    "replacement closure detection",
+    "coercive correction detection",
+    "authority stratification",
+    "responsibility node assessment",
+    "rollback preservation analysis",
+    "exception re-entry preservation analysis",
+    "editability preservation analysis"
+  ]
+}

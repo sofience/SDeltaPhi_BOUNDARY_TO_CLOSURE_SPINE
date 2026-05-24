@@ -1,0 +1,25 @@
+{
+  "module_id": "SDeltaPhi-32",
+  "patterns": [
+    {
+      "name": "Overwrite",
+      "definition": "forced replacement of one path by another without preserving rollback or distributed editability"
+    },
+    {
+      "name": "Coercive Correction",
+      "definition": "declared good plus narrowed re-entry and loss of local autonomy"
+    },
+    {
+      "name": "Replacement Closure",
+      "definition": "one closed default dismantled only to install another non-editable default"
+    }
+  ],
+  "signals": [
+    "rollback eliminated",
+    "exception re-entry narrowed",
+    "editability destroyed",
+    "authority concentration shifted",
+    "local autonomy removed",
+    "declared good used to suppress re-entry"
+  ]
+}

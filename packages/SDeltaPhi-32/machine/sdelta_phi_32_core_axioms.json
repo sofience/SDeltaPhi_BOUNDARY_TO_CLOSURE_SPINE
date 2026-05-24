@@ -1,0 +1,25 @@
+{
+  "module_id": "SDeltaPhi-32",
+  "axioms": [
+    {
+      "id": "A1",
+      "name": "Reopening is not replacement"
+    },
+    {
+      "id": "A2",
+      "name": "Rollback is a minimal legitimacy condition"
+    },
+    {
+      "id": "A3",
+      "name": "Exception re-entry must remain possible"
+    },
+    {
+      "id": "A4",
+      "name": "Responsibility follows unexercised authority at its operative level"
+    },
+    {
+      "id": "A5",
+      "name": "Declared intention does not determine legitimacy"
+    }
+  ]
+}

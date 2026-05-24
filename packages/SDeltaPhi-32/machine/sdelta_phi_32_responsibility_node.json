@@ -1,0 +1,15 @@
+{
+  "module_id": "SDeltaPhi-32",
+  "responsibility_rule": "Responsibility arises at the earliest non-action node where recognized closure, available authority, rollback availability, and withheld action coincide.",
+  "formula_terms": [
+    "recognized_closure",
+    "available_authority",
+    "rollback_available",
+    "non_action"
+  ],
+  "distinctions": [
+    "source of danger is not always first responsibility node",
+    "diagnostic authority is not direct intervention authority",
+    "interpretive awareness without capacity does not establish structural responsibility"
+  ]
+}

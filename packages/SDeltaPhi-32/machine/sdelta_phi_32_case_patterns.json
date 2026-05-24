@@ -1,0 +1,28 @@
+{
+  "module_id": "SDeltaPhi-32",
+  "case_patterns": [
+    {
+      "name": "Reserve-Force Intensification and Reopening Legitimacy",
+      "type": "structural audit pattern",
+      "not_for": "legal responsibility or final factual causation",
+      "audit_questions": [
+        "Does rollback remain possible when risk signals appear?",
+        "Can exception signals re-enter command decisions?",
+        "Can training design remain editable?",
+        "Does the intervention avoid transferring irreversible cost as replacement closure?"
+      ]
+    },
+    {
+      "name": "Replacement Closure",
+      "type": "false intervention pattern"
+    },
+    {
+      "name": "Coercive Correction",
+      "type": "false intervention pattern"
+    },
+    {
+      "name": "Failure to Intervene",
+      "type": "responsibility node pattern"
+    }
+  ]
+}

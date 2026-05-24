@@ -1,0 +1,22 @@
+{
+  "module_id": "SDeltaPhi-32",
+  "authority_layers": [
+    {
+      "name": "Direct intervention authority",
+      "definition": "capacity to modify a path, suspend closure, or restore editability through operative action"
+    },
+    {
+      "name": "Diagnostic authority",
+      "definition": "capacity to identify, disclose, record, or amplify recognized closure"
+    },
+    {
+      "name": "Interpretive awareness",
+      "definition": "recognition of closure without effective means to modify, disclose, or escalate"
+    },
+    {
+      "name": "No authority",
+      "definition": "absence of recognized influence and operative capacity"
+    }
+  ],
+  "rule": "Do not collapse authority layers into a single responsibility category."
+}

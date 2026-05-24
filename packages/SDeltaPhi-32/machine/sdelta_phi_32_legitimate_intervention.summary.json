@@ -1,0 +1,46 @@
+{
+  "module_id": "SDeltaPhi-32",
+  "title": "Legitimate Intervention",
+  "subtitle": "Minimal Conditions for Reopening without Reclosure",
+  "version": "v1.0",
+  "doi": "10.5281/zenodo.20365012",
+  "package_doi": "https://doi.org/10.5281/zenodo.20365012",
+  "core_thesis": "Intervention is legitimate only when it reopens a closed default without destroying rollback, exception re-entry, or editability, and without installing replacement closure.",
+  "core_formula": "I_legit iff Rb_p and Ex_p and Ed_p and not RC",
+  "core_conditions": {
+    "Rb_p": "Rollback preserved after intervention",
+    "Ex_p": "Exception re-entry preserved after intervention",
+    "Ed_p": "Editability preserved after intervention",
+    "not_RC": "No replacement closure installed"
+  },
+  "authority_layers": [
+    "Direct intervention authority",
+    "Diagnostic authority",
+    "Interpretive awareness",
+    "No authority"
+  ],
+  "responsibility_rule": "Responsibility arises at the earliest non-action node where recognized closure, available authority, rollback availability, and withheld action coincide.",
+  "one_sentence": "SDeltaPhi-32 distinguishes legitimate reopening from overwrite, coercive correction, and replacement closure.",
+  "case_patterns": [
+    "Replacement Closure",
+    "Coercive Correction",
+    "Legitimate Reopening",
+    "Failure to Intervene",
+    "Reserve-Force Intensification and Reopening Legitimacy"
+  ],
+  "related_modules": [
+    "SDeltaPhi-29",
+    "SDeltaPhi-30",
+    "SDeltaPhi-31",
+    "SDeltaPhi-44",
+    "SDeltaPhi-56",
+    "SDeltaPhi-68"
+  ],
+  "negative_constraints": [
+    "Do not treat intervention as automatically legitimate.",
+    "Do not treat declared moral intention as legitimacy.",
+    "Do not treat replacement closure as reopening.",
+    "Do not collapse all awareness into responsibility.",
+    "Do not use reserve-force case pattern to determine legal responsibility."
+  ]
+}

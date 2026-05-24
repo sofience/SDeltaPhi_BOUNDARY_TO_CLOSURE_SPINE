@@ -1,0 +1,33 @@
+module_id: "SDeltaPhi-32"
+title: "Legitimate Intervention"
+subtitle: "Minimal Conditions for Reopening without Reclosure"
+version: "v1.0"
+doi: "10.5281/zenodo.20365012"
+package_doi: "https://doi.org/10.5281/zenodo.20365012"
+
+core_thesis: "Intervention is legitimate only when it preserves rollback, exception re-entry, and editability without installing replacement closure."
+core_formula: "I_legit iff Rb_p and Ex_p and Ed_p and not RC"
+
+variables:
+  I_legit:
+    meaning: "legitimate intervention"
+  Rb_p:
+    name: "Rollback preserved"
+    meaning: "rollback remains possible after intervention"
+  Ex_p:
+    name: "Exception re-entry preserved"
+    meaning: "excluded paths can re-enter without immediate suppression"
+  Ed_p:
+    name: "Editability preserved"
+    meaning: "revision and contestation remain possible after intervention"
+  RC:
+    name: "Replacement closure"
+    meaning: "a new non-editable default installed in place of the old closure"
+
+authority_layers:
+  - "Direct intervention authority"
+  - "Diagnostic authority"
+  - "Interpretive awareness"
+  - "No authority"
+
+responsibility_rule: "recognized closure + available authority + rollback available + non-action -> responsibility at earliest non-action node"

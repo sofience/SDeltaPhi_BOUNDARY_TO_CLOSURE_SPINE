@@ -1,0 +1,12 @@
+{
+  "module_id": "SDeltaPhi-32",
+  "tests": [
+    "Does rollback remain possible after intervention?",
+    "Can excluded exceptions re-enter without immediate suppression?",
+    "Has editability been preserved or replaced by imposed correction?",
+    "Has authority become more distributed, or merely shifted concentration?",
+    "Did the intervention reopen a path, or only substitute a preferred closure?"
+  ],
+  "not_measuring": "moral purity",
+  "measuring": "structural conditions of openness"
+}

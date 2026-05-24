@@ -1,0 +1,34 @@
+module_id: "SDeltaPhi-32"
+routing_priority: "legitimate_intervention_audit"
+
+primary_route:
+  - "SDeltaPhi-31"
+  - "SDeltaPhi-32"
+
+supporting_routes:
+  rollback_and_cost:
+    - "SDeltaPhi-56"
+    - "SDeltaPhi-32"
+  path_change:
+    - "SDeltaPhi-44"
+    - "SDeltaPhi-32"
+  hidden_burden:
+    - "SDeltaPhi-68"
+    - "SDeltaPhi-32"
+
+call_when:
+  - "legitimate intervention"
+  - "replacement closure"
+  - "coercive correction"
+  - "overwrite"
+  - "declared intention is not legitimacy"
+  - "authority stratification"
+  - "earliest non-action node"
+  - "failure to intervene"
+  - "reserve-force intensification"
+  - "intervention without rollback"
+
+do_not_call_when:
+  - "there is no intervention or non-action question"
+  - "the task asks only for moral praise or condemnation"
+  - "no default, closure, or reopening path is involved"
