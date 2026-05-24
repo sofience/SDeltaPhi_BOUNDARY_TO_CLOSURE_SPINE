@@ -1,0 +1,84 @@
+title: "SΔϕ-29 AI-READABLE Package — Editable Default (v1.0)"
+creators:
+  - name: "Sofience"
+    affiliation: "Independent Researcher"
+publication_date: "2026"
+version: "v1.0"
+resource_type: "Dataset"
+language: "eng"
+license: "CC-BY-4.0"
+doi: "10.5281/zenodo.20362414"
+description: >
+  This record provides the AI-readable structured package for SΔϕ-29 —
+  Editable Default: Minimal Conditions for Distributed Authority, Rollback,
+  and Exception Re-entry after SΔϕ-28 (v1.0). SΔϕ-29 extends SΔϕ-28 by asking
+  under what conditions a default remains governable rather than absolute. If
+  default power fixes paths by making one continuation cheapest, governance
+  must be redefined as the capacity to keep defaults structurally editable.
+  The central claim is that a dominant default remains governable only when
+  four minimal conditions are preserved: Editable Default, Distributed
+  Authority, Rollback Window, and Exception Channel. In formal terms, D* is
+  governable iff Ed and Ad and Wr and Ce. If any of these fail, the dominant
+  default tends toward a closure regime. The package includes canonical PDF,
+  Markdown, and TXT versions; AI quickstart; core declaration; minimal
+  definitions; editable default, distributed authority, rollback window,
+  exception channel, governable default formula, closure regime, rollback
+  threshold, exception re-entry protocol, authority distribution map, and
+  default governance audit files; a mandatory AI image filtering case pattern;
+  templates; machine-readable schemas; boundary constraints; citation metadata;
+  package manifest; and checksums.
+keywords:
+  - "Sofience"
+  - "Sofience-DeltaPhi"
+  - "Sofience–DeltaPhi"
+  - "SΔϕ"
+  - "SDeltaPhi"
+  - "DeltaPhi Formalism"
+  - "Editable Default"
+  - "Default Power"
+  - "Default Governance"
+  - "Governable Default"
+  - "Distributed Authority"
+  - "Rollback Window"
+  - "Exception Channel"
+  - "Exception Re-entry"
+  - "Default Closure"
+  - "Closure Regime"
+  - "Rollback Threshold"
+  - "Low-Cost Path"
+  - "AI Image Filtering"
+  - "Mandatory Technical Filtering"
+  - "Platform Governance"
+  - "AI Governance"
+  - "Transition Completion Cost"
+  - "TCC"
+  - "AI-readable"
+  - "AI-readable package"
+  - "Machine-readable research"
+  - "Formal philosophy"
+  - "Philosophy of AI"
+related_identifiers:
+  - identifier: "10.5281/zenodo.18731366"
+    relation: "IsPartOf"
+    resource_type: "Publication"
+    description: "SΔϕ Formalism series overview"
+  - identifier: "10.5281/zenodo.20293012"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-27 Low-Cost Convergence and restoration cost dynamics"
+  - identifier: "10.5281/zenodo.20116959"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-56 Transition Completion Cost, used for rollback window measurement"
+  - identifier: "10.5281/zenodo.20299172"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-67 Local Adaptation Protocol"
+  - identifier: "10.5281/zenodo.20359875"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-68 Intelligence Is Not Air and Cost Theater"
+  - identifier: "https://github.com/sofience/SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE"
+    relation: "IsPartOf"
+    resource_type: "Software"
+    description: "AI-readable boundary-to-closure spine repository"
