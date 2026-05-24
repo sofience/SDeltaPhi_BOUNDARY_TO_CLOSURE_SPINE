@@ -1,0 +1,12 @@
+{
+  "log_id": "exception-channel-log-example",
+  "base_module": "SDeltaPhi-29",
+  "default_path": "",
+  "exception_signal": "",
+  "exception_type": "anomaly | minority_path | contrary_evidence | edge_case | public_interest | local_knowledge | other",
+  "can_reenter": "yes | no | uncertain",
+  "can_affect_outcome": "yes | no | uncertain",
+  "review_route": "",
+  "reentry_latency": "low | medium | high | unknown",
+  "status": "live | symbolic | blocked | unknown"
+}

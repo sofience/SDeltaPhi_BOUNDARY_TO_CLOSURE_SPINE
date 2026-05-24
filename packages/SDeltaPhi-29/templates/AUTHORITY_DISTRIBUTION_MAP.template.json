@@ -1,0 +1,17 @@
+{
+  "map_id": "authority-distribution-map-example",
+  "base_module": "SDeltaPhi-29",
+  "default_path": "",
+  "authorities": {
+    "design_authority": "",
+    "revision_authority": "",
+    "appeal_authority": "",
+    "exit_authority": "",
+    "audit_authority": "",
+    "technical_evaluation_authority": "",
+    "rollback_authority": "",
+    "exception_review_authority": ""
+  },
+  "authority_collapse_risk": "low | medium | high | unknown",
+  "notes": ""
+}

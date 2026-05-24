@@ -1,0 +1,33 @@
+audit_id: "editable-default-audit-example"
+base_module: "SDeltaPhi-29"
+default_path: ""
+domain: "platform | organization | policy | AI system | interface | governance | other"
+
+editable_default:
+  can_be_revised: "yes | no | uncertain"
+  can_be_contested: "yes | no | uncertain"
+  can_be_bypassed: "yes | no | uncertain"
+  can_be_reopened: "yes | no | uncertain"
+
+distributed_authority:
+  design_authority: ""
+  revision_authority: ""
+  appeal_authority: ""
+  exit_authority: ""
+  audit_authority: ""
+  rollback_authority: ""
+  authority_collapse_risk: "low | medium | high | unknown"
+
+rollback_window:
+  active: "yes | no | uncertain"
+  rollback_cost: "low | medium | high | unknown"
+  threshold_crossed: "yes | no | uncertain"
+
+exception_channel:
+  live: "yes | no | uncertain"
+  anomaly_reentry: "yes | no | uncertain"
+  minority_path_preserved: "yes | no | uncertain"
+  contrary_evidence_preserved: "yes | no | uncertain"
+
+governable_default_status: "governable | closure_risk | closed | unknown"
+notes: ""

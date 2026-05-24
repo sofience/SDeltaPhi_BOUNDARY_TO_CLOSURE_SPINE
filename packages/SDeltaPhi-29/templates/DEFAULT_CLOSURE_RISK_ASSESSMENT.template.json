@@ -1,0 +1,14 @@
+{
+  "assessment_id": "default-closure-risk-example",
+  "base_module": "SDeltaPhi-29",
+  "default_path": "",
+  "conditions": {
+    "Ed_editable_default": "pass | fail | uncertain",
+    "Ad_distributed_authority": "pass | fail | uncertain",
+    "Wr_rollback_window": "pass | fail | uncertain",
+    "Ce_exception_channel": "pass | fail | uncertain"
+  },
+  "formula": "D* governable iff Ed and Ad and Wr and Ce",
+  "closure_risk": "low | medium | high | already_closed | unknown",
+  "recommended_action": "preserve | reopen | distribute_authority | restore_exception_channel | rollback_before_threshold | unknown"
+}

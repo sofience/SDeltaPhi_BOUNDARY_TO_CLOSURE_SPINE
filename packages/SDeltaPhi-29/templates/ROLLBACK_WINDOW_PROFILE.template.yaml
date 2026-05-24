@@ -1,0 +1,19 @@
+profile_id: "rollback-window-profile-example"
+base_modules:
+  - "SDeltaPhi-29"
+  - "SDeltaPhi-56"
+
+default_path: ""
+rollback_target: ""
+
+rollback_window:
+  active: "yes | no | uncertain"
+  rollback_cost: "low | medium | high | unknown"
+  restoration_cost: "low | medium | high | unknown"
+  threshold_crossed: "yes | no | uncertain"
+
+time_sensitivity:
+  time_to_material_harm: "short | medium | long | unknown"
+  review_latency: "short | medium | long | unknown"
+
+result: "operational_rollback | nominal_rollback | closure_risk | unknown"
