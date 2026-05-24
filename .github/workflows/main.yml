@@ -1,0 +1,25 @@
+name: Validate SDeltaPhi v1.6 Patch
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show repository location
+        run: |
+          pwd
+          ls -la
+
+      - name: Validate v1.6 default closure files
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          python scripts/validate_v1_6_default_closure.py
