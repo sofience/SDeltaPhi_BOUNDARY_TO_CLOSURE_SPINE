@@ -1,0 +1,87 @@
+title: "SΔϕ-30 AI-READABLE Package — Diagnosing Closed Defaults (v1.0)"
+creators:
+  - name: "Sofience"
+    affiliation: "Independent Researcher"
+publication_date: "2026"
+version: "v1.0"
+resource_type: "Dataset"
+language: "eng"
+license: "CC-BY-4.0"
+doi: "10.5281/zenodo.20362950"
+description: >
+  This record provides the AI-readable structured package for SΔϕ-30 —
+  Diagnosing Closed Defaults: Minimal Tests for Editable Governance after
+  SΔϕ-29 (v1.0). SΔϕ-30 extends SΔϕ-29 by distinguishing formally declared
+  editability from operationally real editability. Many systems present
+  themselves as revisable, participatory, open, consultative, or appealable
+  while functioning in practice as closed-default regimes. The central claim is
+  that editability claimed is not editability real. A system is editable only
+  when revision is exercised, rollback remains timely, exceptions can
+  materially re-enter, and authority is distributed in a way that can actually
+  modify the default path. In formal terms, D* is editable-real iff Rv and Rb
+  and Ex and Ad, where D* is the current default path, Rv is exercised revision,
+  Rb is timely rollback, Ex is material exception re-entry, and Ad is materially
+  distributed authority. The package includes canonical PDF, Markdown, and TXT
+  versions; AI quickstart; core declaration; minimal definitions; formal vs
+  operational editability; editability-real formula; Revision Reality Test;
+  Rollback Reality Test; Exception Re-entry Test; Authority Distribution Test;
+  closure drift; diagnostic summary table; closed-default signal catalog;
+  declared openness vs operative closure; diagnostic audit protocol; case
+  patterns; templates; machine-readable schemas; boundary constraints; citation
+  metadata; package manifest; and checksums.
+keywords:
+  - "Sofience"
+  - "Sofience-DeltaPhi"
+  - "Sofience–DeltaPhi"
+  - "SΔϕ"
+  - "SDeltaPhi"
+  - "DeltaPhi Formalism"
+  - "Diagnosing Closed Defaults"
+  - "Closed Default"
+  - "Editable Governance"
+  - "Operational Editability"
+  - "Formal Editability"
+  - "Revision Reality Test"
+  - "Rollback Reality Test"
+  - "Exception Re-entry Test"
+  - "Authority Distribution Test"
+  - "Closure Drift"
+  - "Default Governance"
+  - "Default Power"
+  - "Distributed Authority"
+  - "Rollback Window"
+  - "Exception Channel"
+  - "Formal Openness"
+  - "Operational Re-openability"
+  - "Consultation"
+  - "Appeal Channel"
+  - "Transition Completion Cost"
+  - "TCC"
+  - "AI Governance"
+  - "Platform Governance"
+  - "AI-readable"
+  - "AI-readable package"
+  - "Machine-readable research"
+  - "Formal philosophy"
+  - "Philosophy of AI"
+related_identifiers:
+  - identifier: "10.5281/zenodo.18731366"
+    relation: "IsPartOf"
+    resource_type: "Publication"
+    description: "SΔϕ Formalism series overview"
+  - identifier: "10.5281/zenodo.20362414"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-29 Editable Default, upstream module extended by SΔϕ-30"
+  - identifier: "10.5281/zenodo.20116959"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-56 Transition Completion Cost, used for rollback reality assessment"
+  - identifier: "10.5281/zenodo.20359875"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-68 Cost Theater, related to visible openness with hidden closure"
+  - identifier: "https://github.com/sofience/SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE"
+    relation: "IsPartOf"
+    resource_type: "Software"
+    description: "AI-readable boundary-to-closure spine repository"
