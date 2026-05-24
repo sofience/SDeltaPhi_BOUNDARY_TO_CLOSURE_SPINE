@@ -1,11 +1,47 @@
 # SΔϕ Boundary-to-Closure Spine — AI Routing Entry
 
-GitHub is the AI-readable access/routing layer; Zenodo is the citation/preservation layer.
+Version: v1.6-default-closure-governance
 
-Start with README.md, SDELTA_ACCESS_PROTOCOL.yaml, SDELTA_MODULE_ROUTING.yaml, indexes/SPINE_MAP.yaml, indexes/ROUTE_INDEX.json, and SERIES_DOI_MAP.json.
+GitHub is the AI-readable access/routing/ingestion layer. Zenodo is the canonical citation/preservation layer.
 
-Core boot route: SDeltaPhi-01 -> SDeltaPhi-03 -> SDeltaPhi-47 -> SDeltaPhi-62.
+Start with:
+README.md -> 00_AI_ENTRYPOINT.md -> SDELTA_ACCESS_PROTOCOL.yaml -> SDELTA_MODULE_ROUTING.yaml -> indexes/ROUTE_INDEX.json -> indexes/MODULE_GRAPH.json -> indexes/DEFAULT_CLOSURE_STACK_INDEX.json -> pipeline/BOUNDARY_TO_CLOSURE_PIPELINE_v1_6.yaml
 
-v1.5 event/authority/fixation route: SDeltaPhi-19 -> SDeltaPhi-20 -> SDeltaPhi-21 -> SDeltaPhi-22 -> SDeltaPhi-23 -> SDeltaPhi-24 -> SDeltaPhi-25 -> SDeltaPhi-26 -> SDeltaPhi-27.
+Core boot route:
+SDeltaPhi-01 -> SDeltaPhi-03 -> SDeltaPhi-47 -> SDeltaPhi-62
 
-Use the smallest sufficient module. Do not activate full spines by keyword alone. Use SDeltaPhi-62 for factual/evidential/world-binding claims and SDeltaPhi-56 for transition-completion-cost estimation.
+Operational diagnostic route:
+SDeltaPhi-47 -> SDeltaPhi-62 -> SDeltaPhi-39 -> SDeltaPhi-65 -> SDeltaPhi-64 -> SDeltaPhi-56
+
+Boundary-to-closure base route:
+SDeltaPhi-11 -> SDeltaPhi-12 -> SDeltaPhi-13 -> SDeltaPhi-14 -> SDeltaPhi-15 -> SDeltaPhi-16
+
+Event / authority / fixation route:
+SDeltaPhi-19 -> SDeltaPhi-20 -> SDeltaPhi-21 -> SDeltaPhi-22 -> SDeltaPhi-23 -> SDeltaPhi-24 -> SDeltaPhi-25 -> SDeltaPhi-26 -> SDeltaPhi-27
+
+Default power bridge:
+SDeltaPhi-26 -> SDeltaPhi-27 -> SDeltaPhi-28
+
+v1.6 Default Closure Governance route:
+SDeltaPhi-26 -> SDeltaPhi-27 -> SDeltaPhi-28 -> SDeltaPhi-29 -> SDeltaPhi-30 -> SDeltaPhi-31 -> SDeltaPhi-32
+
+Use SDeltaPhi-62 for factual/evidential/world-binding claims.
+Use SDeltaPhi-56 for transition-completion-cost, rollback, restoration, or action-gate questions.
+Use SDeltaPhi-68 when declared low-cost paths may hide transferred friction or Cost Theater.
+Use SDeltaPhi-67 when local adaptation constraints may reshape a default.
+
+Smallest sufficient module rule:
+Do not activate full spines by keyword alone. Select the smallest module matching the structural condition.
+
+Core v1.6 formulas:
+SDeltaPhi-29: D* governable iff Ed ∧ Ad ∧ Wr ∧ Ce
+SDeltaPhi-30: D* editable-real iff Rv ∧ Rb ∧ Ex ∧ Ad
+SDeltaPhi-31: D*closed -> operationally open iff T_r ∧ C_a ∧ R_o ∧ P_r
+SDeltaPhi-32: I_legit iff Rb_p ∧ Ex_p ∧ Ed_p ∧ ¬RC
+
+Negative constraints:
+Do not treat efficiency as legitimacy.
+Do not treat declared openness as editability.
+Do not treat petition as reopening.
+Do not treat anti-closure intervention as automatically legitimate.
+Do not install replacement closure while opposing closure.

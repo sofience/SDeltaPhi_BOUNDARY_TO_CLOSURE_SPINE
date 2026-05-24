@@ -1,29 +1,46 @@
-SDeltaPhi Boundary-to-Closure Spine Routing Patch v1.5
+SDeltaPhi Boundary-to-Closure Spine Routing Patch v1.6
+Patch name: Default Closure Governance Spine
+Generated: 2026-05-24
+Target repository: SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE
+Patch repository: SDeltaPhi_REPO_INTEGRATION_v1_6_DEFAULT_CLOSURE
 
-Replacement files:
+REPLACEMENT FILES
 - README.md
 - 00_AI_ENTRYPOINT.md
 - llms.txt
+- MANIFEST.txt
 - SDELTA_MODULE_ROUTING.yaml
 - SDELTA_ACCESS_PROTOCOL.yaml
-- SERIES_INDEX.json
-- SERIES_DOI_MAP.json
-- MANIFEST.txt
-
-Mirrored routing files:
 - routing/SDELTA_MODULE_ROUTING.yaml
 - routing/SDELTA_ACCESS_PROTOCOL.yaml
 
-New / updated index files:
-- indexes/MODULE_GRAPH.json
+NEW / UPDATED INDEX FILES
 - indexes/SPINE_MAP.yaml
 - indexes/ROUTE_INDEX.json
-- indexes/PACKAGE_STATUS.json
+- indexes/MODULE_GRAPH.json
+- indexes/DEFAULT_CLOSURE_STACK_INDEX.json
+- indexes/INTERVENTION_LEGITIMACY_MAP.json
+- indexes/PACKAGE_IMPORT_MANIFEST_v1_6.json
 
-Patch support:
-- PATCH_APPLY_GUIDE.md
-- PATCH_CHECKSUMS.sha256
-- checksums.sha256
+NEW / UPDATED PIPELINE FILES
+- pipeline/BOUNDARY_TO_CLOSURE_PIPELINE_v1_6.yaml
 
-Core v1.5 addition:
-SDeltaPhi-19 -> SDeltaPhi-20 -> SDeltaPhi-21 -> SDeltaPhi-22 -> SDeltaPhi-23 -> SDeltaPhi-24 -> SDeltaPhi-25 -> SDeltaPhi-26 -> SDeltaPhi-27
+NEW PATCH SUPPORT FILES
+- CHANGELOG_v1_6_DEFAULT_CLOSURE.md
+- docs/V1_6_PATCH_NOTES.md
+- FILE_OPERATIONS_v1_6.yaml
+- scripts/validate_v1_6_default_closure.py
+
+CORE v1.6 ADDITION
+SDeltaPhi-26 -> SDeltaPhi-27 -> SDeltaPhi-28 -> SDeltaPhi-29 -> SDeltaPhi-30 -> SDeltaPhi-31 -> SDeltaPhi-32
+
+CORE v1.6 FORMULAS
+SDeltaPhi-29: D* governable iff Ed ∧ Ad ∧ Wr ∧ Ce
+SDeltaPhi-30: D* editable-real iff Rv ∧ Rb ∧ Ex ∧ Ad
+SDeltaPhi-31: D*closed -> operationally open iff T_r ∧ C_a ∧ R_o ∧ P_r
+SDeltaPhi-32: I_legit iff Rb_p ∧ Ex_p ∧ Ed_p ∧ ¬RC
+
+DELETE / DEPRECATE POLICY
+Do not hard-delete packages, archives, DOI maps, or provenance records.
+Move outdated v1.4/v1.5 patch notes and checksum files to docs/legacy/ after replacement, unless they are needed for provenance.
+Regenerate checksums after applying this patch.

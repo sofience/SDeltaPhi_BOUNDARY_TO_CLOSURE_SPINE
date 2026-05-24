@@ -1,0 +1,52 @@
+patch_id: SDeltaPhi_REPO_INTEGRATION_v1_6_DEFAULT_CLOSURE
+version: v1.6-default-closure-governance
+generated: '2026-05-24'
+target_repository: SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE
+policy:
+  do_not_delete:
+    - packages/*
+    - archives/*
+    - DOI maps
+    - canonical package files
+    - provenance records
+  deprecate_instead_of_delete: true
+  preferred_legacy_location: docs/legacy/
+replace_files:
+  - README.md
+  - 00_AI_ENTRYPOINT.md
+  - MANIFEST.txt
+  - llms.txt
+  - SDELTA_MODULE_ROUTING.yaml
+  - SDELTA_ACCESS_PROTOCOL.yaml
+  - routing/SDELTA_MODULE_ROUTING.yaml
+  - routing/SDELTA_ACCESS_PROTOCOL.yaml
+create_or_update_files:
+  - indexes/SPINE_MAP.yaml
+  - indexes/ROUTE_INDEX.json
+  - indexes/MODULE_GRAPH.json
+  - indexes/DEFAULT_CLOSURE_STACK_INDEX.json
+  - indexes/INTERVENTION_LEGITIMACY_MAP.json
+  - indexes/PACKAGE_IMPORT_MANIFEST_v1_6.json
+  - pipeline/BOUNDARY_TO_CLOSURE_PIPELINE_v1_6.yaml
+  - CHANGELOG_v1_6_DEFAULT_CLOSURE.md
+  - docs/V1_6_PATCH_NOTES.md
+  - scripts/validate_v1_6_default_closure.py
+archive_or_deprecate:
+  - CHANGELOG_v1_4_1_FORMAT_FIX.md
+  - CHANGELOG_v1_4_ROOT_SPINE.md
+  - AI_READABILITY_FORMAT_FIX_REPORT.md
+  - MIRROR_STATUS.md
+  - PACKAGE_PRIORITY.md
+  - PATCH_CHECKSUMS.sha256
+  - checksums.sha256
+regenerate_after_apply:
+  - PATCH_CHECKSUMS.sha256
+  - checksums.sha256
+root_route:
+  - SDeltaPhi-26
+  - SDeltaPhi-27
+  - SDeltaPhi-28
+  - SDeltaPhi-29
+  - SDeltaPhi-30
+  - SDeltaPhi-31
+  - SDeltaPhi-32
