@@ -1,0 +1,33 @@
+module_id: "SDeltaPhi-30"
+routing_priority: "closed_default_diagnosis"
+
+primary_route:
+  - "SDeltaPhi-29"
+  - "SDeltaPhi-30"
+
+supporting_routes:
+  rollback_reality:
+    - "SDeltaPhi-56"
+    - "SDeltaPhi-30"
+  path_closure:
+    - "SDeltaPhi-44"
+    - "SDeltaPhi-30"
+  cost_theater_analogy:
+    - "SDeltaPhi-68"
+    - "SDeltaPhi-30"
+
+call_when:
+  - "declared editability"
+  - "formal openness"
+  - "closed default"
+  - "appeal button"
+  - "participatory governance"
+  - "consultation vs authority"
+  - "rollback after fixation"
+  - "exceptions logged but ignored"
+  - "revision in principle but inert in practice"
+
+do_not_call_when:
+  - "there is no default path"
+  - "the task only asks for a simple moral judgment"
+  - "the system has not claimed openness or editability"

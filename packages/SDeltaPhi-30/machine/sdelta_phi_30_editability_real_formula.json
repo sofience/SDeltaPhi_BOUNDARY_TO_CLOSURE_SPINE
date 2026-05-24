@@ -1,0 +1,13 @@
+{
+  "module_id": "SDeltaPhi-30",
+  "formula": "D* editable-real iff Rv and Rb and Ex and Ad",
+  "variables": {
+    "D*": "current default path",
+    "Rv": "exercised revision",
+    "Rb": "timely rollback",
+    "Ex": "material exception re-entry",
+    "Ad": "materially distributed authority"
+  },
+  "closure_drift_formula": "not Rv or not Rb or not Ex or not Ad implies D* drifts toward closure regime",
+  "interpretation": "Editability must be operationally diagnosed rather than assumed from declared openness."
+}

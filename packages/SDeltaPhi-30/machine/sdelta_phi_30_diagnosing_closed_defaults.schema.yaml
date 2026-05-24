@@ -1,0 +1,39 @@
+module_id: "SDeltaPhi-30"
+title: "Diagnosing Closed Defaults"
+subtitle: "Minimal Tests for Editable Governance after SDeltaPhi-29"
+version: "v1.0"
+doi: "10.5281/zenodo.20362950"
+package_doi: "https://doi.org/10.5281/zenodo.20362950"
+
+core_thesis: "Editability claimed is not editability real."
+core_formula: "D* editable-real iff Rv and Rb and Ex and Ad"
+
+variables:
+  D_star:
+    meaning: "current default path"
+  Rv:
+    name: "Revision Reality"
+    meaning: "revision is exercised"
+  Rb:
+    name: "Rollback Reality"
+    meaning: "rollback remains timely"
+  Ex:
+    name: "Exception Re-entry"
+    meaning: "exceptions materially alter dominant path"
+  Ad:
+    name: "Authority Distribution"
+    meaning: "multiple actors can materially modify the default path"
+
+closure_drift: "not Rv or not Rb or not Ex or not Ad -> D* drifts toward closure regime"
+
+diagnostic_tests:
+  - "Revision Reality Test"
+  - "Rollback Reality Test"
+  - "Exception Re-entry Test"
+  - "Authority Distribution Test"
+
+negative_constraints:
+  - "Declared openness is not operational editability."
+  - "Feedback collection is not exception re-entry."
+  - "Consultation is not distributed authority."
+  - "Appeal button is not rollback reality."

@@ -1,0 +1,21 @@
+{
+  "module_id": "SDeltaPhi-30",
+  "negative_constraints": [
+    "not a claim that every stable default is closed",
+    "not a moral judgment engine before diagnostic tests",
+    "not a replacement for SDeltaPhi-56 when measuring rollback cost",
+    "not a claim that feedback collection equals exception re-entry",
+    "not a claim that consultation equals distributed authority",
+    "not a claim that an appeal button equals rollback reality",
+    "not a claim that formal reversibility equals timely rollback"
+  ],
+  "positive_scope": [
+    "closed default diagnosis",
+    "formal vs operational editability",
+    "revision reality testing",
+    "rollback reality testing",
+    "exception re-entry testing",
+    "authority distribution testing",
+    "closure drift diagnosis"
+  ]
+}

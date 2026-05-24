@@ -1,0 +1,29 @@
+{
+  "module_id": "SDeltaPhi-30",
+  "core_tests": [
+    {
+      "symbol": "Rv",
+      "name": "Revision Reality Test",
+      "question": "Is the default actually revised, or merely declared revisable?",
+      "failure_mode": "revisable in principle, inert in practice"
+    },
+    {
+      "symbol": "Rb",
+      "name": "Rollback Reality Test",
+      "question": "Does rollback remain possible while restoration cost is still manageable?",
+      "failure_mode": "rollback exists only after fixation"
+    },
+    {
+      "symbol": "Ex",
+      "name": "Exception Re-entry Test",
+      "question": "Can exceptions materially alter the dominant path?",
+      "failure_mode": "exceptions logged but unable to modify the default"
+    },
+    {
+      "symbol": "Ad",
+      "name": "Authority Distribution Test",
+      "question": "Can multiple actors materially alter the default path?",
+      "failure_mode": "consultation distributed, revision power centralized"
+    }
+  ]
+}

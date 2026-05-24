@@ -1,0 +1,25 @@
+{
+  "module_id": "SDeltaPhi-30",
+  "table": [
+    {
+      "test": "Revision Reality",
+      "what_it_asks": "Is revision exercised?",
+      "failure_mode": "Revisable in principle, inert in practice"
+    },
+    {
+      "test": "Rollback Reality",
+      "what_it_asks": "Is reversal still timely?",
+      "failure_mode": "Rollback exists only after fixation"
+    },
+    {
+      "test": "Exception Re-entry",
+      "what_it_asks": "Can anomalies alter the dominant path?",
+      "failure_mode": "Exceptions logged but unable to modify the default"
+    },
+    {
+      "test": "Authority Distribution",
+      "what_it_asks": "Can multiple actors materially change the default?",
+      "failure_mode": "Consultation distributed, revision power centralized"
+    }
+  ]
+}

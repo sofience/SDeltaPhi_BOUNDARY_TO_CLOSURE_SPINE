@@ -1,0 +1,32 @@
+{
+  "module_id": "SDeltaPhi-30",
+  "title": "Diagnosing Closed Defaults",
+  "subtitle": "Minimal Tests for Editable Governance after SDeltaPhi-29",
+  "version": "v1.0",
+  "doi": "10.5281/zenodo.20362950",
+  "package_doi": "https://doi.org/10.5281/zenodo.20362950",
+  "core_thesis": "Editability claimed is not editability real; editable governance must be diagnosed operationally through exercised revision, timely rollback, material exception re-entry, and materially distributed authority.",
+  "core_formula": "D* editable-real iff Rv and Rb and Ex and Ad",
+  "core_tests": {
+    "Rv": "Revision Reality Test",
+    "Rb": "Rollback Reality Test",
+    "Ex": "Exception Re-entry Test",
+    "Ad": "Authority Distribution Test"
+  },
+  "closure_drift": "not Rv or not Rb or not Ex or not Ad implies D* drifts toward closure regime",
+  "one_sentence": "SDeltaPhi-30 provides minimal tests for distinguishing formal openness from operational re-openability in default governance.",
+  "related_modules": [
+    "SDeltaPhi-28",
+    "SDeltaPhi-29",
+    "SDeltaPhi-44",
+    "SDeltaPhi-56",
+    "SDeltaPhi-68"
+  ],
+  "negative_constraints": [
+    "Do not treat declared openness as operational editability.",
+    "Do not treat feedback collection as exception re-entry.",
+    "Do not treat consultation as distributed authority.",
+    "Do not treat an appeal button as rollback reality.",
+    "Do not infer closure solely from a default's existence."
+  ]
+}
