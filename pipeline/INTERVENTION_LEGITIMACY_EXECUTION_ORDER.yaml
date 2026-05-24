@@ -1,0 +1,16 @@
+pipeline_id: INTERVENTION_LEGITIMACY_EXECUTION_ORDER
+version: v1.6
+execute_when: [intervention, correction, reopening, replacement closure, coercive correction, failure to intervene, responsibility after available intervention]
+order:
+  - {module: SDeltaPhi-31, question: Did reopening occur or only symbolic rupture?}
+  - {module: SDeltaPhi-32, question: Was the intervention legitimate reopening or replacement closure?}
+  - {module: SDeltaPhi-56, question: What rollback and reopening costs are relevant?, optional: true}
+  - {module: SDeltaPhi-44, question: Was a path actually reopened or only renamed?, optional: true}
+  - {module: SDeltaPhi-68, question: Does visible correction hide transition burden?, optional: true}
+output_schema:
+  intervention_description: ''
+  reopening_status: operationally_open | symbolic_rupture_only | partial | unknown
+  legitimacy_status: legitimate_reopening | overwrite | coercive_correction | replacement_closure | uncertain
+  authority_layer: direct_intervention | diagnostic | interpretive_awareness | no_authority | unknown
+  responsibility_node: ''
+  boundary_note: ''

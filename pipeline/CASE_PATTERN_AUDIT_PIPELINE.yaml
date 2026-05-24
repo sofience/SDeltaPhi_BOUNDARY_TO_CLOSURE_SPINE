@@ -1,0 +1,15 @@
+pipeline_id: CASE_PATTERN_AUDIT_PIPELINE
+version: v1.6
+purpose: Use case patterns as audit triggers rather than final judgments.
+rules:
+  - A case pattern is an example of where to ask SΔϕ questions.
+  - A case pattern is not proof of factual causation.
+  - A case pattern is not a legal conclusion.
+  - A case pattern is not a policy endorsement or rejection.
+  - Use appendix public cases only after verifying current facts if formal citation is required.
+case_pattern_execution:
+  - {step: identify module, example: SDeltaPhi-32 for reserve-force intensification}
+  - {step: state boundary, example: not legal responsibility, not final causation}
+  - {step: apply module tests, example: rollback, exception re-entry, editability, no replacement closure}
+  - {step: output audit-trigger classification, example: requires legitimate intervention audit}
+  - {step: defer final factual judgment if records are incomplete}

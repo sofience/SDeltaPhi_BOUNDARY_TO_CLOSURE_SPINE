@@ -1,0 +1,15 @@
+pipeline_id: DEFAULT_GOVERNANCE_EXECUTION_ORDER
+version: v1.6
+execute_when: [default path, policy default, platform default, AI filtering default, institutional default, closed default]
+order:
+  - {module: SDeltaPhi-28, question: What is the default path and why is it low-cost?}
+  - {module: SDeltaPhi-29, question: Is the default governable? Check Ed, Ad, Wr, Ce.}
+  - {module: SDeltaPhi-30, question: Is declared editability operationally real? Check Rv, Rb, Ex, Ad.}
+  - {module: SDeltaPhi-31, question: If closed, has reopening occurred? Check T_r, C_a, R_o, P_r.}
+  - {module: SDeltaPhi-32, question: If intervention occurred, is it legitimate? Check rollback, exception re-entry, editability, no replacement closure.}
+output_schema:
+  default_path: ''
+  called_modules: []
+  classification: default_power | governable_default | formal_only | closed | symbolically_ruptured | operationally_reopened | legitimate_intervention | replacement_closure | uncertain
+  next_audit_question: ''
+  boundary_note: ''
