@@ -1,0 +1,24 @@
+overlay_id: SDELTA_MODULE_ROUTING_v1_6
+purpose: Overlay routing additions for default-closure governance spine.
+
+add_routes:
+  default_closure_governance_spine:
+    route: [SDeltaPhi-26, SDeltaPhi-27, SDeltaPhi-28, SDeltaPhi-29, SDeltaPhi-30, SDeltaPhi-31, SDeltaPhi-32]
+    rule: Use only when the issue concerns default power, closure, editability, reopening, and intervention legitimacy.
+
+  intervention_legitimacy:
+    route: [SDeltaPhi-31, SDeltaPhi-32]
+    support: [SDeltaPhi-44, SDeltaPhi-56, SDeltaPhi-68]
+
+  cost_theater:
+    route: [SDeltaPhi-56, SDeltaPhi-68]
+    optional_support: [SDeltaPhi-65, SDeltaPhi-67, SDeltaPhi-29, SDeltaPhi-30, SDeltaPhi-31, SDeltaPhi-32]
+
+  local_adaptation_guardrail:
+    route: [SDeltaPhi-67, SDeltaPhi-29, SDeltaPhi-30, SDeltaPhi-31, SDeltaPhi-32]
+
+global_guardrails:
+  - Do not over-activate.
+  - Prefer smallest sufficient module.
+  - Distinguish audit trigger from final judgment.
+  - Preserve boundary constraints from each called module.

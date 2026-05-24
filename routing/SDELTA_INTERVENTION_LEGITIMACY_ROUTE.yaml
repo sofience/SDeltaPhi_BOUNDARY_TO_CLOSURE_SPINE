@@ -1,0 +1,38 @@
+route_id: SDELTA_INTERVENTION_LEGITIMACY_ROUTE
+version: v1.6
+purpose: Route from reopening intervention to legitimacy audit.
+
+primary_route:
+  - SDeltaPhi-31
+  - SDeltaPhi-32
+
+supporting_modules:
+  SDeltaPhi-44: distinguish actual path reopening from nominal path change
+  SDeltaPhi-56: measure rollback feasibility and cost transfer
+  SDeltaPhi-68: detect visible correction with hidden burden
+
+call_when:
+  - legitimate intervention
+  - replacement closure
+  - coercive correction
+  - overwrite
+  - failure to intervene
+  - earliest non-action node
+  - authority stratification
+  - intervention under declared good
+
+do_not_call_when:
+  - no intervention or non-action question exists
+  - the task asks only for moral praise or condemnation
+  - the default has not been diagnosed or implied as closed
+
+execution_order:
+  - Identify target closed default.
+  - Check whether reopening sequence exists through SDeltaPhi-31.
+  - Audit rollback preservation.
+  - Audit exception re-entry preservation.
+  - Audit editability preservation.
+  - Check replacement closure risk.
+  - Stratify authority.
+  - Identify earliest non-action node if non-action is central.
+  - Output minimal classification with boundary note.

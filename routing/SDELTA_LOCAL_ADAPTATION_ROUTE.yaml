@@ -1,0 +1,28 @@
+route_id: SDELTA_LOCAL_ADAPTATION_ROUTE
+version: v1.6
+purpose: Route AI-localizable / AI-forkable adaptation work through default-closure guardrails.
+
+primary_route:
+  - SDeltaPhi-67
+
+guardrail_route:
+  - SDeltaPhi-29
+  - SDeltaPhi-30
+  - SDeltaPhi-31
+  - SDeltaPhi-32
+
+call_when:
+  - local adaptation
+  - AI-forkable
+  - AI-localizable
+  - adapter
+  - local context profile
+  - model-specific modification
+  - local routing profile
+
+guardrails:
+  - Local adaptation must not become closed default.
+  - Check editable default conditions with SDeltaPhi-29.
+  - Diagnose operational editability with SDeltaPhi-30.
+  - If closure appears, route reopening through SDeltaPhi-31.
+  - If intervention is proposed, audit legitimacy with SDeltaPhi-32.

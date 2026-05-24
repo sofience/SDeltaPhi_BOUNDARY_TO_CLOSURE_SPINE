@@ -1,0 +1,37 @@
+route_id: SDELTA_DEFAULT_CLOSURE_GOVERNANCE_ROUTE
+version: v1.6
+purpose: Extend the default-power bridge into editable-default, diagnosis, reopening, and legitimate intervention audit.
+
+route:
+  - module_id: SDeltaPhi-26
+    role: event fixation by restoration cost
+  - module_id: SDeltaPhi-27
+    role: low-cost convergence
+  - module_id: SDeltaPhi-28
+    role: default power as low-cost path assignment
+  - module_id: SDeltaPhi-29
+    role: editable default conditions
+    formula: D* governable iff Ed ∧ Ad ∧ Wr ∧ Ce
+  - module_id: SDeltaPhi-30
+    role: closed default diagnosis
+    formula: D* editable-real iff Rv ∧ Rb ∧ Ex ∧ Ad
+  - module_id: SDeltaPhi-31
+    role: reopening intervention
+    formula: D*closed -> operationally open iff T_r ∧ C_a ∧ R_o ∧ P_r
+  - module_id: SDeltaPhi-32
+    role: legitimate intervention audit
+    formula: I_legit iff Rb_p ∧ Ex_p ∧ Ed_p ∧ ¬RC
+
+activation_policy:
+  - Call the smallest sufficient module.
+  - Do not activate the full spine by keyword alone.
+  - If factual claims are uncertain, route through SDeltaPhi-62 or external verification.
+  - If cost estimation is required, route through SDeltaPhi-56.
+  - If intervention legitimacy is requested, do not stop at SDeltaPhi-31; continue to SDeltaPhi-32.
+
+boundary_constraints:
+  - default power detection is not moral judgment
+  - declared openness is not operational editability
+  - petition is not automatic reopening
+  - intervention is not automatically legitimate
+  - case patterns are audit triggers, not final factual or legal conclusions

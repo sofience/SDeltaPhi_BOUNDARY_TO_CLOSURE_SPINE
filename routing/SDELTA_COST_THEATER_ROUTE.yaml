@@ -1,0 +1,31 @@
+route_id: SDELTA_COST_THEATER_ROUTE
+version: v1.6
+purpose: Route hidden cost, cheap intelligence, and Cost Theater cases.
+
+primary_route:
+  - SDeltaPhi-56
+  - SDeltaPhi-68
+
+supporting_modules:
+  SDeltaPhi-65: slop and cost externalization
+  SDeltaPhi-67: local adaptation protocol
+  SDeltaPhi-29: editable default check for cheap/default access
+  SDeltaPhi-30: diagnose declared openness vs operational editability
+  SDeltaPhi-31: check whether hidden-cost closure is reopened
+  SDeltaPhi-32: audit intervention legitimacy if correction is proposed
+
+call_when:
+  - cheap intelligence
+  - Cost Theater
+  - internal Cost Theater
+  - free vs paid AI
+  - AI access cost
+  - self-location cost
+  - hidden TCC
+  - brand-level capability opacity
+
+guardrails:
+  - Do not claim free access is useless.
+  - Do not claim paid access is morally superior.
+  - Separate visible price from total transition completion cost.
+  - If default access creates governance closure, route to SDeltaPhi-29-32.
