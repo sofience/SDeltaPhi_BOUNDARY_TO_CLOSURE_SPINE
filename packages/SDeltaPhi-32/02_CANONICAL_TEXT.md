@@ -1,0 +1,644 @@
+# SΔϕ-32 — Legitimate Intervention
+
+**Minimal Conditions for Reopening without Reclosure (v1.0)**  
+Series: Sofience-DeltaPhi Formalism (SΔϕ)  
+Author: Sofience  
+Version: v1.0  
+Package DOI: https://doi.org/10.5281/zenodo.20365012
+
+## Abstract
+
+After the diagnosis of closed defaults and the specification of reopening conditions, a further problem emerges:
+
+```text
+not every intervention that claims to reopen a closed path is structurally legitimate.
+```
+
+Some interventions merely replace one closure with another.
+
+SΔϕ-32 defines the minimal conditions under which intervention qualifies as legitimate reopening rather than coercive overwrite or replacement closure.
+
+Within the Sofience-DeltaPhi Formalism, legitimacy is determined not by declared intention, but by whether rollback remains possible, exception re-entry is preserved, and editability is not destroyed in the name of correction.
+
+SΔϕ-32 also connects intervention to responsibility:
+
+```text
+once converging closure is recognized
+and reopening remains possible,
+failure to intervene becomes attributable
+at the earliest non-action node
+with available authority.
+```
+
+## 1. Problem
+
+A closed default may be diagnosed.
+
+Conditions for reopening may also be specified.
+
+Yet a decisive problem remains:
+
+```text
+Who may intervene?
+When may they intervene?
+Under what conditions does intervention remain reopening
+rather than a new form of closure?
+```
+
+Not every act of correction is legitimate.
+
+Not every act of opening preserves openness.
+
+An intervention may claim to restore editability while imposing a replacement default.
+
+After governance diagnostics, the central question is no longer simply whether closure exists, but whether the act of reopening preserves the very conditions that make reopening meaningful.
+
+## 2. Core Declaration
+
+Intervention is not automatically legitimate.
+
+Reopening is not replacement.
+
+Declared intention does not determine legitimacy.
+
+Legitimate intervention preserves:
+
+```text
+rollback
+exception re-entry
+editability
+no replacement closure
+```
+
+## 3. Minimal Distinctions
+
+## Reopening
+
+Restoration of editability and exception re-entry without installing a new non-reversible default in place of the old one.
+
+## Overwrite
+
+Forced replacement of one path by another without preserving rollback or distributed editability.
+
+## Coercive Correction
+
+Intervention justified by a declared good, but structurally resulting in narrowed re-entry and loss of local autonomy.
+
+## Replacement Closure
+
+False reopening in which one closed default is dismantled only to install another, equally non-editable default.
+
+These distinctions establish that intervention must not be judged by intention alone, but by the structural fate of editability after intervention.
+
+## 4. Minimal Axioms
+
+## Axiom 1 - Reopening is not replacement
+
+An intervention qualifies as reopening only if it restores editability without fixing a new non-reversible default in place of the old one.
+
+## Axiom 2 - Rollback is a minimal legitimacy condition
+
+Where rollback is eliminated at the moment of intervention, reopening is false and closure has merely changed form.
+
+## Axiom 3 - Exception re-entry must remain possible
+
+Intervention is legitimate only if previously excluded or suppressed paths may re-enter the system without immediate reclosure.
+
+## Axiom 4 - Responsibility follows unexercised authority at its operative level
+
+Responsibility is established only where recognized closure coincides with available authority at the relevant operative level, and action is nevertheless withheld before editability is lost.
+
+## Axiom 5 - Declared intention does not determine legitimacy
+
+The legitimacy of intervention is not decided by moral intention, but by whether editability, rollback, and exception re-entry remain structurally preserved after intervention.
+
+## 5. Legitimate Intervention Formula
+
+SΔϕ-32 can be expressed as:
+
+```text
+I_legit iff Rb_p ∧ Ex_p ∧ Ed_p ∧ ¬RC
+```
+
+Where:
+
+```text
+I_legit = legitimate intervention
+Rb_p = rollback preserved after intervention
+Ex_p = exception re-entry preserved after intervention
+Ed_p = editability preserved after intervention
+RC = replacement closure
+```
+
+If rollback is eliminated, exception re-entry is narrowed, editability is destroyed, or replacement closure is installed, the intervention is not legitimate reopening.
+
+## 6. Reopening Is Not Replacement
+
+Opposition to an existing closure is not itself reopening.
+
+Correction is not automatically legitimate intervention.
+
+Anti-closure action is not automatically openness preservation.
+
+```text
+Reopening
+≠
+Replacement
+```
+
+```text
+Correction
+≠
+Legitimate Intervention
+```
+
+```text
+Anti-closure action
+≠
+Openness preservation
+```
+
+An intervention that destroys rollback, narrows exception re-entry, or centralizes authority into a new closed default becomes structurally similar to the closure it claimed to resist.
+
+## 7. Rollback as Legitimacy Condition
+
+Rollback is a minimal legitimacy condition.
+
+If intervention eliminates rollback at the moment of correction, the system may appear reopened while becoming closed in another form.
+
+Test question:
+
+```text
+Does rollback remain possible after intervention?
+```
+
+Failure signs:
+
+```text
+the old default is removed but the new path cannot be reversed
+affected actors cannot appeal the intervention
+the correction path cannot be revised
+restoration cost becomes prohibitive immediately after correction
+```
+
+## 8. Exception Re-entry Preservation
+
+Intervention is legitimate only if excluded paths can re-enter without immediate suppression.
+
+Test question:
+
+```text
+Can excluded exceptions re-enter without immediate reclosure?
+```
+
+Failure signs:
+
+```text
+exceptions are displayed temporarily but cannot alter the new path
+local signals are accepted only if they confirm the intervention
+suppressed paths are replaced by newly suppressed paths
+exception channels narrow after correction
+```
+
+## 9. Editability Preservation
+
+Correction that destroys editability is not legitimate reopening.
+
+A legitimate intervention preserves the conditions under which the system can still revise itself after correction.
+
+After intervention, the following must remain possible:
+
+```text
+revision
+rollback
+exception re-entry
+authority redistribution
+local adaptation
+future contestation
+```
+
+If these are destroyed in the name of correction, intervention becomes closure.
+
+## 10. Overwrite and Replacement Closure
+
+## Overwrite
+
+```text
+old path removed
++ new path imposed
++ rollback not preserved
++ distributed editability lost
+= overwrite
+```
+
+## Replacement Closure
+
+```text
+one closed default dismantled
+only to install another closed default
+= replacement closure
+```
+
+Replacement closure often appears as decisive correction. It may solve one visible closure while creating another more difficult closure.
+
+## 11. Coercive Correction
+
+Coercive correction occurs when intervention is justified by a declared good but structurally results in narrowed re-entry and loss of local autonomy.
+
+```text
+Coercive Correction =
+declared good
++ imposed correction path
++ narrowed re-entry
++ loss of local autonomy
++ reduced editability
+```
+
+The declared moral purpose of an intervention does not by itself establish legitimacy.
+
+## 12. Declared Intention Is Not Legitimacy
+
+The legitimacy of intervention is not decided by moral intention.
+
+It is decided by the structural state of the system after intervention.
+
+```text
+declared good
+≠
+legitimate reopening
+```
+
+```text
+opposition to closure
+≠
+openness preservation
+```
+
+A good intention can still produce replacement closure.
+
+A corrective intervention can still destroy editability.
+
+## 13. Authority Stratification
+
+Authority is not binary.
+
+It appears in layered forms, and responsibility must track those layers rather than treating all recognition as equivalent.
+
+## Direct Intervention Authority
+
+The capacity to modify a path, suspend a closure, or restore editability through operative action.
+
+## Diagnostic Authority
+
+The capacity to identify, disclose, record, or amplify recognized closure in ways that may alter the broader field of intervention, even without direct path modification.
+
+## Interpretive Awareness
+
+Recognition of converging closure without effective means to modify, disclose, or escalate it in an operative manner.
+
+## No Authority
+
+The absence of both recognized influence and operative capacity with respect to the path in question.
+
+These layers must not be collapsed into a single category. Otherwise, responsibility becomes over-distributed and the non-action of those with direct intervention power is obscured by the mere awareness of those without operative capacity.
+
+## 14. Responsibility after Available Intervention
+
+Responsibility begins where legitimate intervention remains possible yet is withheld.
+
+However, mere recognition of closure does not by itself establish responsibility.
+
+Responsibility emerges only where recognition coincides with authority at the relevant operative level.
+
+```text
+Responsibility arises where:
+Recognized Closure
+∧ Available Authority
+∧ Rollback Available
+∧ Non-Action
+```
+
+Responsibility belongs not first to the source of danger, but to the earliest recognized point of possible reopening that failed to act within its own authority range.
+
+Where only diagnostic authority exists, responsibility takes a narrower form:
+
+```text
+failure to disclose
+failure to escalate
+failure to preserve the signal of closure
+```
+
+Where only interpretive awareness exists, without operative or diagnostic capacity, structural responsibility is not established.
+
+## 15. Earliest Non-Action Node
+
+The source of danger is not always the first responsibility node.
+
+```text
+source of danger
+≠
+earliest non-action node
+```
+
+The earliest non-action node is the first point where:
+
+```text
+recognized closure
++ available authority
++ rollback availability
++ possible legitimate intervention
++ withheld action
+```
+
+coincide.
+
+This node is the point at which responsibility becomes structurally attributable.
+
+## 16. Diagnostic Tests for Legitimate Intervention
+
+1. Does rollback remain possible after intervention?
+2. Can excluded exceptions re-enter without immediate suppression?
+3. Has editability been preserved or replaced by imposed correction?
+4. Has authority become more distributed, or merely shifted concentration?
+5. Did the intervention reopen a path, or only substitute a preferred closure?
+
+These tests do not measure moral purity.
+
+They measure whether an intervention preserves the structural conditions of openness.
+
+## 17. False Intervention Signal Catalog
+
+Signals of false intervention include:
+
+```text
+rollback eliminated at intervention point
+exceptions narrowed after correction
+old closure replaced by new non-editable default
+authority concentration shifted rather than distributed
+declared good used to suppress re-entry
+local autonomy removed in the name of correction
+criticism of old closure used to justify overwrite
+```
+
+These signals do not automatically prove illegitimacy, but they trigger SΔϕ-32 audit.
+
+## 18. Case Pattern - Replacement Closure
+
+A system removes an old harmful default.
+
+However, the intervention installs a new default that cannot be rolled back, contested, or reopened.
+
+Diagnosis:
+
+```text
+false reopening
+→ replacement closure
+```
+
+Boundary:
+
+This pattern does not judge whether the old default was harmful. It tests whether the correction preserved openness.
+
+## 19. Case Pattern - Coercive Correction
+
+An intervention is justified by a declared good.
+
+However:
+
+```text
+exception re-entry narrows
+local autonomy is removed
+authority centralizes
+rollback becomes impossible
+```
+
+Diagnosis:
+
+```text
+declared good
+≠
+legitimate intervention
+```
+
+## 20. Case Pattern - Legitimate Reopening
+
+A closed path is interrupted.
+
+After intervention:
+
+```text
+rollback remains possible
+exceptions can re-enter
+editability is preserved
+authority becomes more distributed
+no replacement closure is installed
+```
+
+Diagnosis:
+
+```text
+legitimate reopening likely
+```
+
+## 21. Case Pattern - Failure to Intervene
+
+A recognized closure is converging.
+
+Rollback remains available.
+
+An actor has direct intervention authority.
+
+No action is taken until editability is lost.
+
+Diagnosis:
+
+```text
+responsibility attaches to earliest non-action node
+```
+
+## 22. Case Pattern - Reserve-Force Intensification and Reopening Legitimacy
+
+A state faces military manpower pressure and seeks to compensate by intensifying reserve-force training or increasing reliance on previously discharged reservists.
+
+This may appear as an intervention that reopens a constrained defense-capacity path.
+
+SΔϕ-32 does not begin by judging whether reserve-force intensification is necessary or unnecessary.
+
+It asks whether the intervention preserves rollback, exception re-entry, editability, and no replacement closure.
+
+Structural questions:
+
+```text
+Rollback:
+Can training be reduced, stopped, medically interrupted, or modified when risk signals appear?
+
+Exception re-entry:
+Can individual health signals, heat exposure, overburden, equipment burden, field complaints, and medical concerns re-enter command decisions?
+
+Editability:
+Can training design change in response to risk, or is the "intensification" path fixed?
+
+No replacement closure:
+Does the intervention solve manpower pressure by transferring irreversible cost to reservists without preserving safety rollback and exception channels?
+```
+
+Classification:
+
+```text
+requires legitimate intervention audit
+```
+
+## Boundary
+
+This pattern is not used to determine legal responsibility or final factual causation in any specific death or injury case.
+
+It is used only to test whether reserve-force intensification preserves SΔϕ-32 legitimacy conditions.
+
+## 23. Illustrative Public Case Note - South Korean Reservist Death during Ssangyong Training
+
+This note is included as an illustrative public case, not as a legal or factual conclusion.
+
+It does not determine final cause of death, military legal responsibility, or institutional fault.
+
+Public reporting in May 2026 described the death of a man in his twenties during reserve-force training in Pocheon, South Korea. The case was reported as occurring during mobilized reserve training, with military and police authorities investigating the circumstances. Public materials also describe South Korea's recent emphasis on reserve-force refinement and training-system improvement.
+
+SΔϕ-32 uses this note only as a structural example:
+
+```text
+military manpower pressure
++ reserve-force intensification
++ critical event during training
+→ legitimate intervention audit required
+```
+
+## Four-condition reading
+
+```text
+Rollback preserved?
+Were medical interruption, training reduction, withdrawal, emergency response, or risk-based modification routes operational and timely?
+
+Exception re-entry preserved?
+Could health signals, heat exposure, field complaints, physical limits, equipment burden, or medical concerns affect command decisions?
+
+Editability preserved?
+Could the training design be changed when risk appeared, or was the intensification path fixed?
+
+No replacement closure?
+Did the intervention avoid transferring the cost of manpower pressure onto reservists as a new non-editable burden?
+```
+
+## Minimal conclusion
+
+This case is best treated as an illustrative audit trigger, not as a completed SΔϕ-32 judgment.
+
+It should be used to test whether rollback, exception re-entry, editability, and non-replacement conditions were preserved.
+
+## Source note
+
+This illustrative note should be verified against public records and contemporaneous reporting before being used as a formal historical claim. In this AI-readable package, it functions as a structural example, not as a final legal, military, or policy judgment.
+
+## 24. Relation to SΔϕ Modules
+
+## SΔϕ-29 - Editable Default
+
+Defines the minimal governance conditions under which a default remains legitimate.
+
+## SΔϕ-30 - Diagnosing Closed Defaults
+
+Diagnoses whether claimed editability is operationally real.
+
+## SΔϕ-31 - Reopening Closed Defaults
+
+Defines the intervention sequence through which closure becomes operationally open.
+
+## SΔϕ-32 - Legitimate Intervention
+
+Audits whether intervention remains reopening or becomes overwrite, coercive correction, or replacement closure.
+
+## SΔϕ-44 - Path Closure vs Prohibition
+
+Helps distinguish reopening from nominal path change.
+
+## SΔϕ-56 - Transition Completion Cost
+
+Used to assess rollback feasibility, reopening cost, and cost transfer.
+
+## SΔϕ-68 - Cost Theater
+
+Helps detect visible correction with hidden transition burden.
+
+## 25. Boundary Constraints and Misreadings
+
+Do not treat intervention as automatically legitimate.
+
+Do not treat opposition to closure as reopening.
+
+Do not treat declared moral intention as legitimacy.
+
+Do not treat correction as legitimate if rollback is eliminated.
+
+Do not treat exception re-entry as preserved if excluded paths immediately reclose.
+
+Do not treat replacement closure as reopening.
+
+Do not collapse all awareness into responsibility.
+
+Do not assign responsibility where authority is absent.
+
+Do not obscure direct intervention responsibility by over-distributing blame to those with only interpretive awareness.
+
+Do not treat diagnostic authority as direct intervention authority.
+
+Do not use this package as a moral purity test.
+
+Do not use the reserve-force case pattern to determine legal responsibility or final factual causation.
+
+## 26. Minimal Prompts
+
+## Prompt 1 - Legitimate Intervention Audit
+
+Apply SΔϕ-32.
+Determine whether this intervention preserves rollback, exception re-entry, editability, and avoids replacement closure.
+
+## Prompt 2 - Replacement Closure Check
+
+Apply SΔϕ-32.
+Did the intervention reopen a path or install a new non-editable default?
+
+## Prompt 3 - Coercive Correction Check
+
+Apply SΔϕ-32.
+Is the intervention justified by a declared good while narrowing re-entry and local autonomy?
+
+## Prompt 4 - Authority Stratification
+
+Apply SΔϕ-32.
+Classify authority as direct intervention authority, diagnostic authority, interpretive awareness, or no authority.
+
+## Prompt 5 - Responsibility Node Assessment
+
+Apply SΔϕ-32.
+Identify the earliest non-action node where recognized closure, available authority, rollback availability, and withheld action coincide.
+
+## Prompt 6 - Reserve-Force Intensification Case
+
+Apply SΔϕ-32 to a reserve-force intensification case.
+Do not determine legal responsibility first. Audit rollback preservation, exception re-entry, editability, and replacement closure risk.
+
+## 27. Conclusion
+
+Reopening is not identical with intervention, and intervention is not identical with legitimacy.
+
+A system may diagnose closure correctly and still reproduce closure through the form of its correction.
+
+The minimal problem after governance diagnostics is therefore not only whether closure exists, but whether the act of reopening preserves rollback, exception re-entry, and editability itself.
+
+Within SΔϕ, legitimate intervention is defined by preserved rollback, preserved exception re-entry, and preserved editability.
+
+Where these are absent, intervention becomes replacement closure.
+
+Where these remain possible but are not enacted, responsibility emerges at the earliest non-action point under available authority.
+
+## One-Line Summary
+
+SΔϕ-32 distinguishes legitimate reopening from overwrite, coercive correction, and replacement closure by testing whether intervention preserves rollback, exception re-entry, editability, and no replacement closure.

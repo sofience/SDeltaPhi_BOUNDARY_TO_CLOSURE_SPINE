@@ -1,0 +1,98 @@
+title: "SΔϕ-32 AI-READABLE Package — Legitimate Intervention (v1.0)"
+creators:
+  - name: "Sofience"
+    affiliation: "Independent Researcher"
+publication_date: "2026"
+version: "v1.0"
+resource_type: "Dataset"
+language: "eng"
+license: "CC-BY-4.0"
+doi: "10.5281/zenodo.20365012"
+description: >
+  This record provides the AI-readable structured package for SΔϕ-32 —
+  Legitimate Intervention: Minimal Conditions for Reopening without Reclosure
+  (v1.0). SΔϕ-32 extends SΔϕ-31 by asking when an intervention that claims to
+  reopen a closed path remains structurally legitimate rather than becoming
+  overwrite, coercive correction, or replacement closure. The central claim is
+  that intervention is not automatically legitimate, reopening is not
+  replacement, and declared intention does not determine legitimacy. Legitimate
+  intervention is defined by preserved rollback, preserved exception re-entry,
+  preserved editability, and no replacement closure. In formal terms, I_legit
+  iff Rb_p and Ex_p and Ed_p and not RC, where Rb_p is rollback preserved,
+  Ex_p is exception re-entry preserved, Ed_p is editability preserved, and RC is
+  replacement closure. The package also defines authority stratification:
+  direct intervention authority, diagnostic authority, interpretive awareness,
+  and no authority. Responsibility arises at the earliest non-action node where
+  recognized closure, available authority, rollback availability, and withheld
+  action coincide. The package includes canonical PDF, Markdown, and TXT
+  versions; AI quickstart; core declaration; minimal definitions; reopening is
+  not replacement; legitimate intervention formula; rollback preservation;
+  exception re-entry preservation; editability preservation; overwrite and
+  replacement closure; coercive correction; authority stratification;
+  responsibility node analysis; case patterns including reserve-force
+  intensification; appendix notes; templates; machine-readable JSON and YAML
+  files; boundary constraints; citation metadata; package manifest; and
+  checksums.
+keywords:
+  - "Sofience"
+  - "Sofience-DeltaPhi"
+  - "Sofience–DeltaPhi"
+  - "SΔϕ"
+  - "SDeltaPhi"
+  - "DeltaPhi Formalism"
+  - "Legitimate Intervention"
+  - "Reopening without Reclosure"
+  - "Replacement Closure"
+  - "Overwrite"
+  - "Coercive Correction"
+  - "Rollback Preservation"
+  - "Exception Re-entry Preservation"
+  - "Editability Preservation"
+  - "Authority Stratification"
+  - "Direct Intervention Authority"
+  - "Diagnostic Authority"
+  - "Interpretive Awareness"
+  - "Earliest Non-Action Node"
+  - "Responsibility Node"
+  - "Declared Intention"
+  - "Default Governance"
+  - "AI Governance"
+  - "Platform Governance"
+  - "Reserve-Force Intensification"
+  - "Transition Completion Cost"
+  - "TCC"
+  - "AI-readable"
+  - "AI-readable package"
+  - "Machine-readable research"
+  - "Machine-readable protocol"
+  - "Formal philosophy"
+  - "Philosophy of AI"
+related_identifiers:
+  - identifier: "10.5281/zenodo.18731366"
+    relation: "IsPartOf"
+    resource_type: "Publication"
+    description: "SΔϕ Formalism series overview"
+  - identifier: "10.5281/zenodo.20362414"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-29 Editable Default"
+  - identifier: "10.5281/zenodo.20362950"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-30 Diagnosing Closed Defaults"
+  - identifier: "10.5281/zenodo.20364025"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-31 Reopening Closed Defaults, intervention layer extended by SΔϕ-32"
+  - identifier: "10.5281/zenodo.20116959"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-56 Transition Completion Cost"
+  - identifier: "10.5281/zenodo.20359875"
+    relation: "References"
+    resource_type: "Dataset"
+    description: "SΔϕ-68 Cost Theater and hidden transition completion cost"
+  - identifier: "https://github.com/sofience/SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE"
+    relation: "IsPartOf"
+    resource_type: "Software"
+    description: "AI-readable boundary-to-closure spine repository"
