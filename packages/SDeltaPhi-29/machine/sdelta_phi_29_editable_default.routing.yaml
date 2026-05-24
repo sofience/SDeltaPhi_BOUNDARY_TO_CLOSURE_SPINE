@@ -1,0 +1,36 @@
+module_id: "SDeltaPhi-29"
+routing_priority: "editable_default_governance"
+
+primary_route:
+  - "SDeltaPhi-28"
+  - "SDeltaPhi-29"
+
+supporting_routes:
+  rollback_measurement:
+    - "SDeltaPhi-56"
+    - "SDeltaPhi-29"
+  path_closure:
+    - "SDeltaPhi-44"
+    - "SDeltaPhi-29"
+  local_adaptation:
+    - "SDeltaPhi-67"
+    - "SDeltaPhi-29"
+  cost_theater:
+    - "SDeltaPhi-68"
+    - "SDeltaPhi-29"
+
+call_when:
+  - "default governance"
+  - "editable default"
+  - "distributed authority"
+  - "rollback window"
+  - "exception channel"
+  - "default closure risk"
+  - "mandatory technical filtering"
+  - "AI image filtering default"
+  - "low-cost path becoming uneditable"
+
+do_not_call_when:
+  - "there is no dominant default path"
+  - "the task only asks for a moral judgment without governance analysis"
+  - "the user needs only a simple definition of default settings"

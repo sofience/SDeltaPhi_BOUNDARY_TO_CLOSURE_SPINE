@@ -1,0 +1,13 @@
+{
+  "module_id": "SDeltaPhi-29",
+  "formula": "D* governable iff Ed and Ad and Wr and Ce",
+  "dominant_default": "D*",
+  "conditions": [
+    "Ed",
+    "Ad",
+    "Wr",
+    "Ce"
+  ],
+  "closure_condition": "not Ed or not Ad or not Wr or not Ce implies D* tends toward a closure regime",
+  "interpretation": "A default is not governable unless all four minimal conditions remain active."
+}

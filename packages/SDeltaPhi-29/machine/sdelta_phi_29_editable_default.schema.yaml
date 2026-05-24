@@ -1,0 +1,33 @@
+module_id: "SDeltaPhi-29"
+title: "Editable Default"
+subtitle: "Minimal Conditions for Distributed Authority, Rollback, and Exception Re-entry after SDeltaPhi-28"
+version: "v1.0"
+doi: "10.5281/zenodo.20362414"
+package_doi: "https://doi.org/10.5281/zenodo.20362414"
+
+core_thesis: "A dominant default remains governable only when editable default, distributed authority, rollback window, and exception channel are preserved."
+core_formula: "D* governable iff Ed and Ad and Wr and Ce"
+
+conditions:
+  Ed:
+    name: "Editable Default"
+    definition: "dominant path remains revisable, contestable, bypassable, or reopenable"
+  Ad:
+    name: "Distributed Authority"
+    definition: "design, revision, appeal, exit, audit, and rollback authority do not collapse into one center"
+  Wr:
+    name: "Rollback Window"
+    definition: "revision remains materially feasible before restoration cost crosses threshold"
+  Ce:
+    name: "Exception Channel"
+    definition: "non-default signals can re-enter and affect transition path"
+
+closure_condition: "not Ed or not Ad or not Wr or not Ce -> closure regime risk"
+
+case_patterns:
+  - "Mandatory AI Image Filtering as Editable Default Test"
+
+negative_constraints:
+  - "Not a claim that all defaults are bad."
+  - "Not a claim that formal appeal equals distributed authority."
+  - "Not a blanket claim that AI image filtering is censorship or legitimacy."

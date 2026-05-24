@@ -1,0 +1,26 @@
+{
+  "module_id": "SDeltaPhi-29",
+  "tests": [
+    {
+      "id": "T1",
+      "name": "Editable Default Test",
+      "question": "Can the default still be revised, contested, bypassed, or reopened?"
+    },
+    {
+      "id": "T2",
+      "name": "Distributed Authority Test",
+      "question": "Are design, revision, appeal, exit, audit, and rollback authority distributed?"
+    },
+    {
+      "id": "T3",
+      "name": "Rollback Window Test",
+      "question": "Is rollback still materially feasible before restoration cost crosses threshold?"
+    },
+    {
+      "id": "T4",
+      "name": "Exception Channel Test",
+      "question": "Can non-default signals re-enter and affect the transition path?"
+    }
+  ],
+  "closure_risk_rule": "Any failed test increases closure regime risk."
+}

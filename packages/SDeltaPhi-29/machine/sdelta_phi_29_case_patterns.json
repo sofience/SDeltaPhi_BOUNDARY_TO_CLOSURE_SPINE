@@ -1,0 +1,26 @@
+{
+  "module_id": "SDeltaPhi-29",
+  "case_patterns": [
+    {
+      "id": "A",
+      "name": "Mandatory AI Image Filtering as Editable Default Test",
+      "type": "public policy / platform governance / technical filtering default",
+      "surface_question": "Is this filtering policy justified?",
+      "sdelta_question": "Does the filtering default remain governable?",
+      "signals": [
+        "mandatory default path",
+        "authority concentration risk",
+        "rollback-window sensitivity",
+        "exception-channel dependency",
+        "false-positive and false-negative restoration burden"
+      ],
+      "audit_conditions": {
+        "Ed": "filtering default is editable and contestable",
+        "Ad": "authority over design, review, appeal, technical evaluation, and audit is distributed",
+        "Wr": "rollback remains materially feasible after false positives or false negatives",
+        "Ce": "public-interest, journalistic, educational, evidence-preservation, artistic, or contextual exceptions can re-enter review"
+      },
+      "boundary": "Do not use this case pattern as a blanket claim that filtering is censorship or legitimacy."
+    }
+  ]
+}

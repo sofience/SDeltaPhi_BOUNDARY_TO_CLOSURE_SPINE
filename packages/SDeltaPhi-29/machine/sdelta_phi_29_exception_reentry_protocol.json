@@ -1,0 +1,19 @@
+{
+  "module_id": "SDeltaPhi-29",
+  "protocol_name": "Exception Re-entry Protocol",
+  "live_exception_channel_requires": [
+    "exception signal can be submitted",
+    "exception signal can be reviewed",
+    "exception signal can affect the transition path",
+    "exception signal is not compressed into silence by default convergence"
+  ],
+  "exception_types": [
+    "anomaly",
+    "minority path",
+    "contrary evidence",
+    "edge case",
+    "public-interest context",
+    "local knowledge",
+    "appeal evidence"
+  ]
+}

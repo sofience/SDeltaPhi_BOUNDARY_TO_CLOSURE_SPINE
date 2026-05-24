@@ -1,0 +1,25 @@
+{
+  "module_id": "SDeltaPhi-29",
+  "core_conditions": [
+    {
+      "symbol": "Ed",
+      "name": "Editable Default",
+      "pass_condition": "dominant path can still be revised, contested, bypassed, or reopened"
+    },
+    {
+      "symbol": "Ad",
+      "name": "Distributed Authority",
+      "pass_condition": "design, revision, appeal, exit, audit, and rollback authority are not monopolized by one center"
+    },
+    {
+      "symbol": "Wr",
+      "name": "Rollback Window",
+      "pass_condition": "rollback remains materially feasible before restoration cost threshold is crossed"
+    },
+    {
+      "symbol": "Ce",
+      "name": "Exception Channel",
+      "pass_condition": "non-default signals can re-enter and affect transition path"
+    }
+  ]
+}

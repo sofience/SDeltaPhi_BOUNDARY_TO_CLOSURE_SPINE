@@ -1,0 +1,20 @@
+{
+  "module_id": "SDeltaPhi-29",
+  "negative_constraints": [
+    "not a claim that all defaults are bad",
+    "not a claim that editability is infinite reversibility",
+    "not a claim that formal appeal equals distributed authority",
+    "not a claim that nominal rollback equals active rollback window",
+    "not a claim that exception handling is live if non-default signals cannot re-enter",
+    "not a claim that efficient default convergence is governance",
+    "not a blanket censorship or legitimacy claim for AI image filtering"
+  ],
+  "positive_scope": [
+    "editable default audit",
+    "distributed authority mapping",
+    "rollback window assessment",
+    "exception channel assessment",
+    "default closure risk diagnosis",
+    "mandatory technical filtering governance test"
+  ]
+}
