@@ -1,0 +1,21 @@
+{
+  "assessment_id": "closure-drift-assessment-example",
+  "base_module": "SDeltaPhi-30",
+  "default_path": "",
+  "tests": {
+    "Rv_revision_reality": "pass | fail | uncertain",
+    "Rb_rollback_reality": "pass | fail | uncertain",
+    "Ex_exception_reentry": "pass | fail | uncertain",
+    "Ad_authority_distribution": "pass | fail | uncertain"
+  },
+  "closure_drift_signal": "low | medium | high | already_closed | unknown",
+  "surface_language": [
+    "convenience",
+    "stability",
+    "safety",
+    "efficiency",
+    "openness",
+    "participation"
+  ],
+  "operative_condition": "editable_real | formal_only | closure_drifting | closed | unknown"
+}

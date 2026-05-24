@@ -1,0 +1,15 @@
+test_id: "authority-distribution-test-example"
+base_module: "SDeltaPhi-30"
+default_path: ""
+
+consultation_distributed: "yes | no | uncertain"
+revision_power_distributed: "yes | no | uncertain"
+
+actors:
+  can_advise: []
+  can_trigger_revision: []
+  can_enforce_revision: []
+  can_modify_default: []
+
+result: "pass | fail | uncertain"
+notes: ""

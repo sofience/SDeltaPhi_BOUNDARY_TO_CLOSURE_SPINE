@@ -1,0 +1,13 @@
+test_id: "rollback-reality-test-example"
+base_modules:
+  - "SDeltaPhi-30"
+  - "SDeltaPhi-56"
+
+default_path: ""
+rollback_declared: "yes | no | uncertain"
+timely_rollback_possible: "yes | no | uncertain"
+rollback_before_fixation: "yes | no | uncertain"
+restoration_cost: "low | medium | high | unknown"
+threshold_crossed: "yes | no | uncertain"
+result: "pass | fail | uncertain"
+notes: ""

@@ -1,0 +1,12 @@
+{
+  "test_id": "revision-reality-test-example",
+  "base_module": "SDeltaPhi-30",
+  "default_path": "",
+  "revision_declared": "yes | no | uncertain",
+  "revision_exercised": "yes | no | uncertain",
+  "recent_revision_cases": [],
+  "revision_route_cost": "low | medium | high | unknown",
+  "criteria_transparent": "yes | no | uncertain",
+  "result": "pass | fail | uncertain",
+  "notes": ""
+}

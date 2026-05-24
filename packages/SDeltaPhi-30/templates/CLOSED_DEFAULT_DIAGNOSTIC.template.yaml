@@ -1,0 +1,32 @@
+diagnostic_id: "closed-default-diagnostic-example"
+base_module: "SDeltaPhi-30"
+default_path: ""
+domain: "platform | organization | policy | AI system | interface | governance | other"
+
+revision_reality:
+  revision_exercised: "yes | no | uncertain"
+  recent_revision_cases: []
+  criteria_transparent: "yes | no | uncertain"
+  route_cost: "low | medium | high | unknown"
+  status: "real | formal_only | absent | unknown"
+
+rollback_reality:
+  timely_rollback_possible: "yes | no | uncertain"
+  rollback_before_fixation: "yes | no | uncertain"
+  restoration_cost: "low | medium | high | unknown"
+  status: "operational | symbolic | expired | unknown"
+
+exception_reentry:
+  exceptions_logged: "yes | no | uncertain"
+  exceptions_can_modify_default: "yes | no | uncertain"
+  anomaly_reentry: "yes | no | uncertain"
+  status: "material | recorded_only | blocked | unknown"
+
+authority_distribution:
+  consultation_distributed: "yes | no | uncertain"
+  revision_power_distributed: "yes | no | uncertain"
+  actors_who_can_modify_default: []
+  status: "materially_distributed | consultative_only | centralized | unknown"
+
+editability_classification: "editable_real | formal_only | closure_drifting | closed | unknown"
+notes: ""

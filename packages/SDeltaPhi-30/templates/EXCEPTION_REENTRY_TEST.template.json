@@ -1,0 +1,11 @@
+{
+  "test_id": "exception-reentry-test-example",
+  "base_module": "SDeltaPhi-30",
+  "default_path": "",
+  "exceptions_recorded": "yes | no | uncertain",
+  "exceptions_can_reenter": "yes | no | uncertain",
+  "exceptions_can_modify_default": "yes | no | uncertain",
+  "examples": [],
+  "result": "pass | fail | uncertain",
+  "notes": ""
+}
