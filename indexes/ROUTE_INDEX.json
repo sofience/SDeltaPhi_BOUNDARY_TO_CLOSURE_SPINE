@@ -1,0 +1,82 @@
+{
+  "index_id": "ROUTE_INDEX",
+  "version": "v1.6-default-closure-governance",
+  "generated": "2026-05-24",
+  "repository": "SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE",
+  "routing_principle": "Use the smallest sufficient module; do not activate full spines by keyword alone.",
+  "routes": {
+    "minimal_ai_boot_route": {
+      "modules": ["SDeltaPhi-01", "SDeltaPhi-03", "SDeltaPhi-47", "SDeltaPhi-62"],
+      "use_when": "Minimal SΔϕ base is required: phase change, irreversibility, operation trace, and world-model pre-check."
+    },
+    "operational_diagnostic_route": {
+      "modules": ["SDeltaPhi-47", "SDeltaPhi-62", "SDeltaPhi-39", "SDeltaPhi-65", "SDeltaPhi-64", "SDeltaPhi-56"],
+      "use_when": "Factual claims, hallucination risk, Slop classification, language fixation, transition-cost estimation, or evidence boundary control."
+    },
+    "boundary_to_closure_base_route": {
+      "modules": ["SDeltaPhi-11", "SDeltaPhi-12", "SDeltaPhi-13", "SDeltaPhi-14", "SDeltaPhi-15", "SDeltaPhi-16"],
+      "use_when": "Boundary formation, relational persistence, closure pressure, or closure failure."
+    },
+    "post_closure_editability_bridge": {
+      "modules": ["SDeltaPhi-16", "SDeltaPhi-17", "SDeltaPhi-18", "SDeltaPhi-19"],
+      "use_when": "A closed or near-closed structure must be held open without premature finalization."
+    },
+    "event_authority_fixation_route": {
+      "modules": ["SDeltaPhi-19", "SDeltaPhi-20", "SDeltaPhi-21", "SDeltaPhi-22", "SDeltaPhi-23", "SDeltaPhi-24", "SDeltaPhi-25", "SDeltaPhi-26", "SDeltaPhi-27"],
+      "use_when": "Maintenance mode, intuition, judgment, authority assignment/editing, event registration, restoration cost, rollback failure, low-cost convergence, or path fixation."
+    },
+    "eventhood_fixation_route": {
+      "modules": ["SDeltaPhi-24", "SDeltaPhi-25", "SDeltaPhi-26", "SDeltaPhi-27"],
+      "use_when": "Misfit-triggered reopening, latent difference, event registration, restoration-cost fixation, or exception compression."
+    },
+    "default_power_bridge": {
+      "modules": ["SDeltaPhi-26", "SDeltaPhi-27", "SDeltaPhi-28"],
+      "use_when": "Low-cost continuation has become default power or a default path assigns future options."
+    },
+    "default_closure_governance_spine": {
+      "modules": ["SDeltaPhi-26", "SDeltaPhi-27", "SDeltaPhi-28", "SDeltaPhi-29", "SDeltaPhi-30", "SDeltaPhi-31", "SDeltaPhi-32"],
+      "use_when": "Default power, governability, editability, closed-default diagnosis, reopening, or intervention legitimacy.",
+      "support": ["SDeltaPhi-44", "SDeltaPhi-56", "SDeltaPhi-62", "SDeltaPhi-67", "SDeltaPhi-68"],
+      "formulas": {
+        "SDeltaPhi-29": "D* governable iff Ed ∧ Ad ∧ Wr ∧ Ce",
+        "SDeltaPhi-30": "D* editable-real iff Rv ∧ Rb ∧ Ex ∧ Ad",
+        "SDeltaPhi-31": "D*closed -> operationally open iff T_r ∧ C_a ∧ R_o ∧ P_r",
+        "SDeltaPhi-32": "I_legit iff Rb_p ∧ Ex_p ∧ Ed_p ∧ ¬RC"
+      }
+    },
+    "intervention_legitimacy_route": {
+      "modules": ["SDeltaPhi-31", "SDeltaPhi-32"],
+      "support": ["SDeltaPhi-44", "SDeltaPhi-56", "SDeltaPhi-68"],
+      "use_when": "A proposed intervention must be tested for rollback preservation, exception re-entry, editability preservation, and absence of replacement closure."
+    },
+    "cost_theater_route": {
+      "modules": ["SDeltaPhi-56", "SDeltaPhi-68"],
+      "optional_support": ["SDeltaPhi-65", "SDeltaPhi-67", "SDeltaPhi-29", "SDeltaPhi-30", "SDeltaPhi-31", "SDeltaPhi-32"],
+      "use_when": "Declared low-cost paths may hide transferred friction, symbolic compliance, unmeasured implementation burden, or governance theater."
+    },
+    "local_adaptation_guardrail": {
+      "modules": ["SDeltaPhi-67", "SDeltaPhi-29", "SDeltaPhi-30", "SDeltaPhi-31", "SDeltaPhi-32"],
+      "use_when": "A default must be adapted locally without becoming a closed or replacement default."
+    }
+  },
+  "module_triggers": {
+    "SDeltaPhi-62": ["fact", "evidence", "trace", "world-binding", "claim strength", "hallucination risk"],
+    "SDeltaPhi-56": ["transition completion cost", "rollback", "restoration cost", "action gate", "friction"],
+    "SDeltaPhi-28": ["default power", "default path", "low-cost path assignment"],
+    "SDeltaPhi-29": ["editable default", "governable default", "writability", "auditability"],
+    "SDeltaPhi-30": ["closed default", "declared openness", "operational editability", "exception re-entry"],
+    "SDeltaPhi-31": ["reopening", "appeal", "petition", "operationally open"],
+    "SDeltaPhi-32": ["intervention", "legitimate intervention", "replacement closure", "coercive correction"],
+    "SDeltaPhi-67": ["local adaptation", "local constraint", "implementation terrain"],
+    "SDeltaPhi-68": ["Cost Theater", "hidden TCC", "symbolic compliance", "transferred friction"]
+  },
+  "negative_activation_rules": [
+    "Do not activate full spines by keyword alone.",
+    "Do not treat efficiency as legitimacy.",
+    "Do not treat declared openness as operational editability.",
+    "Do not treat petition as automatic reopening.",
+    "Do not treat intervention as automatically legitimate.",
+    "Do not oppose closure by installing replacement closure.",
+    "Do not use case patterns as final legal, moral, or factual conclusions."
+  ]
+}

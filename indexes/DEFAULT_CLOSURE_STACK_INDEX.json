@@ -1,6 +1,7 @@
 {
   "index_id": "DEFAULT_CLOSURE_STACK_INDEX",
-  "version": "v1.6",
+  "version": "v1.6-default-closure-governance",
+  "generated": "2026-05-24",
   "spine": [
     "SDeltaPhi-26",
     "SDeltaPhi-27",
@@ -11,6 +12,8 @@
     "SDeltaPhi-32"
   ],
   "core_stack": {
+    "SDeltaPhi-26": "Restoration-Cost Event Fixation",
+    "SDeltaPhi-27": "Low-Cost Convergence / Exception Compression",
     "SDeltaPhi-28": "Default Power",
     "SDeltaPhi-29": "Editable Default",
     "SDeltaPhi-30": "Diagnosing Closed Defaults",
@@ -24,5 +27,11 @@
     "SDeltaPhi-62": "world model pre-check / trace-UMR-binding",
     "SDeltaPhi-67": "local adaptation constraints",
     "SDeltaPhi-68": "Cost Theater and hidden TCC"
+  },
+  "core_formulas": {
+    "SDeltaPhi-29": "D* governable iff Ed ∧ Ad ∧ Wr ∧ Ce",
+    "SDeltaPhi-30": "D* editable-real iff Rv ∧ Rb ∧ Ex ∧ Ad",
+    "SDeltaPhi-31": "D*closed -> operationally open iff T_r ∧ C_a ∧ R_o ∧ P_r",
+    "SDeltaPhi-32": "I_legit iff Rb_p ∧ Ex_p ∧ Ed_p ∧ ¬RC"
   }
 }

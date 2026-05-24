@@ -1,5 +1,7 @@
 {
   "manifest_id": "PACKAGE_IMPORT_MANIFEST_v1_6",
+  "version": "v1.6-default-closure-governance",
+  "generated": "2026-05-24",
   "packages_to_import": [
     {
       "module_id": "SDeltaPhi-29",
@@ -41,7 +43,10 @@
   "do_not_delete": [
     "packages/*",
     "archives/*",
-    "indexes/* existing DOI records"
+    "indexes/* existing DOI records",
+    "SERIES_DOI_MAP.json",
+    "SERIES_INDEX.json"
   ],
-  "deprecate_instead_of_delete": true
+  "deprecate_instead_of_delete": true,
+  "preferred_legacy_location": "docs/legacy/"
 }

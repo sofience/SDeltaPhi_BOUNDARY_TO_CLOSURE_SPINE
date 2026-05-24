@@ -1,0 +1,101 @@
+map_id: SPINE_MAP
+version: v1.6-default-closure-governance
+generated: '2026-05-24'
+repository: SDeltaPhi_BOUNDARY_TO_CLOSURE_SPINE
+
+spines:
+  minimal_ai_boot_route:
+    sequence:
+      - SDeltaPhi-01
+      - SDeltaPhi-03
+      - SDeltaPhi-47
+      - SDeltaPhi-62
+    role: Minimal operational base and world-model pre-check.
+
+  operational_diagnostic_route:
+    sequence:
+      - SDeltaPhi-47
+      - SDeltaPhi-62
+      - SDeltaPhi-39
+      - SDeltaPhi-65
+      - SDeltaPhi-64
+      - SDeltaPhi-56
+    role: Factual/evidential diagnostics, Slop, language fixation, and transition cost.
+
+  boundary_to_closure_base_route:
+    sequence:
+      - SDeltaPhi-11
+      - SDeltaPhi-12
+      - SDeltaPhi-13
+      - SDeltaPhi-14
+      - SDeltaPhi-15
+      - SDeltaPhi-16
+    role: Boundary formation through closure failure.
+
+  post_closure_editability_bridge:
+    sequence:
+      - SDeltaPhi-16
+      - SDeltaPhi-17
+      - SDeltaPhi-18
+      - SDeltaPhi-19
+    role: Post-closure openness and editability bridge.
+
+  event_authority_fixation_route:
+    sequence:
+      - SDeltaPhi-19
+      - SDeltaPhi-20
+      - SDeltaPhi-21
+      - SDeltaPhi-22
+      - SDeltaPhi-23
+      - SDeltaPhi-24
+      - SDeltaPhi-25
+      - SDeltaPhi-26
+      - SDeltaPhi-27
+    role: Maintenance, intuition, judgment, authority, event registration, fixation, and low-cost convergence.
+
+  default_power_bridge:
+    sequence:
+      - SDeltaPhi-26
+      - SDeltaPhi-27
+      - SDeltaPhi-28
+    role: Restoration-cost fixation into default power.
+
+  default_closure_governance_spine:
+    sequence:
+      - SDeltaPhi-26
+      - SDeltaPhi-27
+      - SDeltaPhi-28
+      - SDeltaPhi-29
+      - SDeltaPhi-30
+      - SDeltaPhi-31
+      - SDeltaPhi-32
+    role: Default power, editability, closed-default diagnosis, reopening, and legitimate intervention.
+    support:
+      - SDeltaPhi-44
+      - SDeltaPhi-56
+      - SDeltaPhi-62
+      - SDeltaPhi-67
+      - SDeltaPhi-68
+
+  intervention_legitimacy_route:
+    sequence:
+      - SDeltaPhi-31
+      - SDeltaPhi-32
+    support:
+      - SDeltaPhi-44
+      - SDeltaPhi-56
+      - SDeltaPhi-68
+    role: Test whether intervention preserves rollback, exception re-entry, editability, and avoids replacement closure.
+
+  cost_theater_route:
+    sequence:
+      - SDeltaPhi-56
+      - SDeltaPhi-68
+    optional_support:
+      - SDeltaPhi-65
+      - SDeltaPhi-67
+      - SDeltaPhi-29
+      - SDeltaPhi-30
+      - SDeltaPhi-31
+      - SDeltaPhi-32
+    role: Detect hidden cost, symbolic compliance, and transferred friction.
