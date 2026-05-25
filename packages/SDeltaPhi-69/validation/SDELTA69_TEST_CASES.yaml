@@ -1,0 +1,22 @@
+test_cases:
+  - id: policy_repeal_shutdown_law
+    type: policy
+    expected_label: overwrite_with_residual_cost
+    core_question: "Does repeal erase compliance and cultural residue?"
+  - id: historical_liberation_colonial_rule
+    type: macro_history
+    expected_label: high_residue_irreversibility
+    core_question: "Does liberation erase the history of colonial rule?"
+    caution: "Do not collapse all later outcomes into a single cause."
+  - id: narrative_memory_reset
+    type: narrative
+    expected_label: overwrite_with_residual_cost
+    core_question: "Does memory reset erase reader-visible events?"
+  - id: ai_checkpoint_rollback
+    type: technical
+    expected_label: overwrite_with_residual_cost
+    core_question: "Does checkpoint rollback erase downstream effects?"
+  - id: low_residue_file_restore
+    type: technical
+    expected_label: true_surface_return_with_low_residue
+    core_question: "Was a local file restored before any downstream use?"
