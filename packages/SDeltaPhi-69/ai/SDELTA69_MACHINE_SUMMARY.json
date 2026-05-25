@@ -1,0 +1,38 @@
+{
+  "id": "SDeltaPhi-69",
+  "title": "Reversibility as Overwrite",
+  "korean_title": "가역성의 덮어쓰기 원리",
+  "version": "v1.0",
+  "provisional_doi": "10.5281/zenodo.20375357",
+  "core_claim": "Reversibility is overwrite, not true return.",
+  "expanded_claim": "A system may be reconstructed to resemble a prior surface state, but the transition history and residual cost of having changed are not erased.",
+  "primary_distinctions": [
+    "surface equivalence vs transition history",
+    "restoration vs non-occurrence",
+    "rollback vs residue erasure",
+    "memory reset vs event erasure"
+  ],
+  "lower_layer_modules": [
+    {
+      "id": "SDeltaPhi-56",
+      "name": "Transition Completion Cost",
+      "preferred_doi": "10.5281/zenodo.20116959",
+      "role": "Measures overwrite or restoration cost."
+    }
+  ],
+  "recommended_use_cases": [
+    "policy repeal",
+    "historical liberation",
+    "narrative reset endings",
+    "AI rollback",
+    "data restoration",
+    "relationship repair",
+    "institutional reform"
+  ],
+  "misuse_warnings": [
+    "Do not use this module to claim that restoration is impossible.",
+    "Do not collapse all historical consequences into a single cause.",
+    "Do not treat surface similarity as proof of erased transition history.",
+    "Do not use illustrative cases as exhaustive causal explanations."
+  ]
+}

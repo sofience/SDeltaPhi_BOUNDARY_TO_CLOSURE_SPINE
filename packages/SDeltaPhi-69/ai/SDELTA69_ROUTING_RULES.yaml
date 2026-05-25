@@ -1,0 +1,23 @@
+module: SDeltaPhi-69
+route_name: reversibility_as_overwrite_route
+invoke_when:
+- The user claims that a system has returned to an earlier state.
+- The case involves repeal, rollback, reset, restoration, memory loss, liberation,
+  repair, or data recovery.
+- There is risk of confusing surface restoration with erased transition history.
+do_not_invoke_when:
+- The task only asks for factual chronology with no restoration claim.
+- The case has no meaningful prior state or apparent return.
+- A more specific module should answer first and SDeltaPhi-69 is only tangential.
+routing_order:
+- Identify prior state
+- Identify changed state
+- Identify restored surface state
+- Check transition history
+- Invoke TCC if restoration cost is relevant
+- Assess residual irreversibility
+- Return limited diagnosis with caveats
+related_modules:
+- id: SDeltaPhi-56
+  name: Transition Completion Cost
+  doi: 10.5281/zenodo.20116959

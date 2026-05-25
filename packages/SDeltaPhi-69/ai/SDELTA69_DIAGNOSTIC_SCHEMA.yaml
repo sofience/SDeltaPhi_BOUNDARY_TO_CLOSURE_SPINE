@@ -1,0 +1,37 @@
+diagnostic_name: SDeltaPhi_69_Reversibility_As_Overwrite
+core_question: Is the apparent return a true restoration or a surface overwrite?
+inputs:
+  prior_state:
+    description: The earlier state that the system appears to return to.
+  changed_state:
+    description: The state after transition occurred.
+  restored_surface_state:
+    description: The state after rollback, repeal, reset, or restoration.
+  transition_history:
+    description: Events, costs, and path changes that occurred between prior and restored
+      states.
+  residual_costs:
+    description: Costs or traces that remain after apparent restoration.
+diagnostic_steps:
+- step: surface_equivalence_check
+  question: Does the restored state resemble the prior state?
+- step: transition_history_check
+  question: Did a non-zero transition occur between the two states?
+- step: tcc_restore_estimation
+  question: What cost was required to reconstruct the apparent prior state?
+- step: residual_irreversibility_check
+  question: What remains after restoration?
+- step: overwrite_diagnosis
+  question: Is this restoration, overwrite, partial repair, or unresolved residue?
+outputs:
+- surface_equivalence_score
+- transition_history_gap
+- tcc_restore_estimate
+- residual_irreversibility_level
+- diagnosis_label
+diagnosis_labels:
+- true_surface_return_with_low_residue
+- overwrite_with_residual_cost
+- failed_restoration
+- symbolic_reversal_only
+- high_residue_irreversibility
