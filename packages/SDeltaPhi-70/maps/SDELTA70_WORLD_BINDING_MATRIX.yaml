@@ -1,0 +1,22 @@
+matrix_name: SDELTA70_WORLD_BINDING_MATRIX
+purpose: "Classify whether internal Δϕ binds to the world."
+
+axes:
+  internal_delta_phi:
+    low: "Weak internal experience or thought."
+    medium: "Noticeable internal change."
+    high: "Strong internal experience, insight, affect, or simulation."
+  external_binding:
+    none: "No record, action, relation, body, institution, or repeated practice."
+    weak: "Private or unstable external trace."
+    local: "Shared within limited community or repeated practice."
+    strong: "Institutional, linguistic, legal, scientific, or civilizational binding."
+  binding_cost:
+    low: "World-facing transition can begin with low TCC."
+    medium: "Transition requires effort but remains feasible."
+    high: "Transition requires high, risky, punitive, or repeatedly failed cost."
+
+interpretation:
+  high_internal_low_external: "Nihility risk."
+  high_cost_before_transition: "Helplessness risk."
+  strong_external_binding: "Binding Fiction or institutionalized world-binding."

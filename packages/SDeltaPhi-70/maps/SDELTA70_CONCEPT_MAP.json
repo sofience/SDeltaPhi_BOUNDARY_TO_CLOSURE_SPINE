@@ -1,0 +1,76 @@
+{
+  "nodes": [
+    {
+      "id": "internal_delta_phi",
+      "label": "Internal Δϕ"
+    },
+    {
+      "id": "world_binding",
+      "label": "World-Binding"
+    },
+    {
+      "id": "nihility",
+      "label": "Nihility"
+    },
+    {
+      "id": "helplessness",
+      "label": "Helplessness"
+    },
+    {
+      "id": "fictional_habitation",
+      "label": "Fictional Habitation"
+    },
+    {
+      "id": "binding_fiction",
+      "label": "Binding Fiction"
+    },
+    {
+      "id": "editing_fiction",
+      "label": "Editing Fiction"
+    },
+    {
+      "id": "closed_fiction",
+      "label": "Closed Fiction"
+    },
+    {
+      "id": "exit_fiction",
+      "label": "Exit Fiction"
+    },
+    {
+      "id": "tcc",
+      "label": "TCC"
+    }
+  ],
+  "edges": [
+    {
+      "from": "internal_delta_phi",
+      "to": "nihility",
+      "relation": "high internal Δϕ with weak World-Binding"
+    },
+    {
+      "from": "tcc",
+      "to": "helplessness",
+      "relation": "high World-Binding cost"
+    },
+    {
+      "from": "fictional_habitation",
+      "to": "binding_fiction",
+      "relation": "strengthens world habitation"
+    },
+    {
+      "from": "fictional_habitation",
+      "to": "closed_fiction",
+      "relation": "fails external binding"
+    },
+    {
+      "from": "fictional_habitation",
+      "to": "exit_fiction",
+      "relation": "proposes exit from present-world cost terrain"
+    },
+    {
+      "from": "binding_fiction",
+      "to": "editing_fiction",
+      "relation": "ongoing revision or standardization"
+    }
+  ]
+}

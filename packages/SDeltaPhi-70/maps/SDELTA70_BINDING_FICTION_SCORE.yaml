@@ -1,0 +1,41 @@
+score_name: Binding Fiction Score
+scale: 1-5
+note: "This score is not a moral hierarchy. It measures strength of World-Binding, not truth, virtue, or superiority."
+
+scores:
+  1:
+    category: Closed / Volatile Fiction
+    definition: "Internal Δϕ occurs but fails to bind externally."
+    examples:
+      - "unrecorded private thoughts"
+      - "passing fantasies"
+      - "abandoned plans"
+  2:
+    category: Private Binding Fiction
+    definition: "Repeated inside the individual but weakly bound to others, records, or institutions."
+    examples:
+      - "private notebooks"
+      - "personal worldviews"
+      - "unpublished systems"
+  3:
+    category: Local Binding Fiction
+    definition: "Shared within a small community and affects local action or relation."
+    examples:
+      - "fan worlds"
+      - "community myths"
+      - "organizational culture"
+  4:
+    category: Civilizational Binding Fiction
+    definition: "Sustains long-term social, legal, educational, religious, linguistic, or identity structures."
+    examples:
+      - "writing systems"
+      - "law"
+      - "religious traditions"
+      - "national narratives"
+  5:
+    category: Maximal Binding Fiction
+    definition: "Captures stable world patterns and binds civilization-scale prediction, technique, measurement, and judgment."
+    examples:
+      - "mathematics"
+      - "physical laws"
+      - "scientific measurement systems"

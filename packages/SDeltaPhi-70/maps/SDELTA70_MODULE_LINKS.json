@@ -1,0 +1,30 @@
+{
+  "SDeltaPhi-70": {
+    "depends_on": [
+      {
+        "id": "SDeltaPhi-56",
+        "name": "Transition Completion Cost",
+        "role": "underlayer for World-Binding cost"
+      },
+      {
+        "id": "SDeltaPhi-57",
+        "name": "Lent Thought / World-Binding",
+        "role": "world-binding and thought ownership context"
+      }
+    ],
+    "related_to": [
+      {
+        "id": "SDeltaPhi-18",
+        "role": "human fictional habitation baseline"
+      },
+      {
+        "id": "SDeltaPhi-68",
+        "role": "cost theater and self-location"
+      },
+      {
+        "id": "SDeltaPhi-69",
+        "role": "overwrite after apparent return"
+      }
+    ]
+  }
+}

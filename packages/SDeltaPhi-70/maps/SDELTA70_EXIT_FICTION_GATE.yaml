@@ -1,0 +1,31 @@
+gate_name: Exit Fiction Gate
+scale: ON/OFF/PARTIAL
+note: "Exit Fiction is not a low Binding Fiction score. It is a different direction of fictional solution."
+
+core_question: >
+  Does this fiction attempt to strengthen habitation inside the present world,
+  or does it propose escape, transcendence, relocation, termination, liberation,
+  or replacement beyond the present-world cost structure?
+
+states:
+  OFF:
+    meaning: "The fiction primarily strengthens habitation, binding, editing, action, or institution inside the present world."
+    examples:
+      - "language systems"
+      - "law"
+      - "mathematics"
+      - "scientific measurement systems"
+      - "education systems"
+  ON:
+    meaning: "The fiction primarily resolves the problem by leaving, transcending, ending, or relocating beyond the present-world cost structure."
+    examples:
+      - "afterlife doctrines"
+      - "liberation doctrines"
+      - "AI utopia narratives"
+      - "AI dystopia narratives"
+      - "eschatological salvation"
+  PARTIAL:
+    meaning: "The fiction both edits the present world and proposes exit beyond it."
+    examples:
+      - "religious traditions with both ethical world-practice and afterlife orientation"
+      - "political techno-utopian projects with present-world institutional programs"
