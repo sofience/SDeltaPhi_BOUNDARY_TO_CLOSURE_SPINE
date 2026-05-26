@@ -1,0 +1,12 @@
+00_README.md
+CHANGELOG_v1_1.md
+CITATION.cff
+LICENSE
+VERSION
+ai/SDELTA66_APPENDIX_E_AI_ENTRYPOINT.md
+appendices/Appendix_E_Agentic_AI_Cost_and_DCC.md
+appendices/Appendix_E_Agentic_AI_Cost_and_DCC.yaml
+docs/SDeltaPhi_66_Appendix_E_Agentic_AI_Cost_and_DCC_v1_1.docx
+docs/SDeltaPhi_66_Appendix_E_Agentic_AI_Cost_and_DCC_v1_1.pdf
+metadata/metadata_zenodo_v1_1.yaml
+validation/SDELTA66_APPENDIX_E_TEST_CASES.yaml

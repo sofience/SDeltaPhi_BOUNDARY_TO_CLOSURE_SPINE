@@ -1,32 +1,24 @@
 cff-version: 1.2.0
-message: "If you use this AI-readable package, please cite it as below."
-title: "SΔϕ-66 AI-READABLE Package — Human Intervention Requirement and Recursive Improvement Gate (v1.0, revised)"
+title: "SΔϕ-66 Appendix E — Agentic AI Cost and Delegation Completion Cost"
+message: "If you use this addendum, please cite it using the metadata below."
+type: article
 authors:
   - name: "Sofience"
-    affiliation: "Independent Researcher"
-version: "v1.0"
-doi: "10.5281/zenodo.20275809"
-date-released: "2026"
-repository-code: "https://github.com/sofience/v1.4-root-spine-pipeline"
+version: "v1.1"
+date-released: "2026-05-25"
+doi: "10.5281/zenodo.20383851"
+url: "https://doi.org/10.5281/zenodo.20383851"
+abstract: >
+  AI-readable appendix addendum for SΔϕ-66. It uses enterprise agentic AI cost
+  reporting as an illustrative case for Delegation Completion Cost, separating
+  AI capability from low-cost AI delegation after delegation, retrieval,
+  verification, repair, and application costs are included.
 keywords:
-  - "Sofience"
-  - "Sofience–DeltaPhi"
-  - "SDeltaPhi"
   - "SΔϕ"
-  - "Human Intervention Requirement"
-  - "Recursive improvement"
-  - "Human bottleneck"
+  - "SDeltaPhi-66"
   - "Delegation Completion Cost"
-  - "Delegation-cost bottleneck"
-  - "Human Cost Absorption"
-  - "Transition Completion Cost"
-  - "TCC"
-  - "Human Intervention Burden"
+  - "DCC"
+  - "agentic AI"
+  - "AI cost"
   - "AI-readable package"
-  - "Formal philosophy"
-abstract: "AI-readable structured package for SΔϕ-66, defining Human Intervention Requirement, TCC-weighted Human Intervention Burden, Delegation Completion Cost, recursive improvement signals, bottleneck risk gates, human cost absorption, and human dropout gates."
 license: "CC-BY-4.0"
-references:
-  - type: "data"
-    doi: "10.5281/zenodo.20116959"
-    title: "Transition Completion Cost reference"
