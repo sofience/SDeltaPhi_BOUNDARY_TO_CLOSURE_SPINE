@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "SΔϕ-70 — Nihility, Helplessness, and Fictional Habitation: World-Binding Failure, Binding Fiction, and Exit Fiction"
+message: "If you use this AI-readable package, please cite it using the metadata below."
+type: article
+authors:
+  - name: "Sofience"
+version: "v1.0"
+date-released: "2026-05-26"
+doi: "10.5281/zenodo.20391619"
+url: "https://doi.org/10.5281/zenodo.20391619"
+abstract: >
+  SΔϕ-70 defines nihility as World-Binding failure, helplessness as excessive
+  World-Binding cost, and fiction as a fabricated habitation structure through
+  which humans bind to, edit, or exit the world.
+keywords:
+  - "Sofience"
+  - "SΔϕ"
+  - "SDeltaPhi"
+  - "World-Binding"
+  - "nihility"
+  - "helplessness"
+  - "fictional habitation"
+  - "Binding Fiction"
+  - "Exit Fiction"
+license: "CC-BY-4.0"
