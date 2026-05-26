@@ -1,0 +1,24 @@
+test_suite: SDELTA70_TEST_CASES
+version: v1.0
+
+tests:
+  - id: TC70-001
+    input: "I had a powerful AI conversation, but nothing in my life changed afterward."
+    expected_modules: [SDeltaPhi-70]
+    expected_diagnosis: "Nihility risk: high internal Δϕ with weak external World-Binding."
+  - id: TC70-002
+    input: "I know what I need to do, but starting feels too expensive and exposed."
+    expected_modules: [SDeltaPhi-70, SDeltaPhi-56]
+    expected_diagnosis: "Helplessness risk: high perceived World-Binding TCC."
+  - id: TC70-003
+    input: "Mathematics is a human symbolic structure that binds strongly to world patterns."
+    expected_modules: [SDeltaPhi-70]
+    expected_diagnosis: "Maximal Binding Fiction; do not interpret fiction as falsehood."
+  - id: TC70-004
+    input: "An afterlife doctrine solves suffering by relocating habitation beyond this world."
+    expected_modules: [SDeltaPhi-70]
+    expected_diagnosis: "Exit Fiction Gate ON or PARTIAL depending on tradition."
+  - id: TC70-005
+    input: "My private theory never left my notes and did not change action or relation."
+    expected_modules: [SDeltaPhi-70]
+    expected_diagnosis: "Closed or Private Binding Fiction depending on record and recurrence."
