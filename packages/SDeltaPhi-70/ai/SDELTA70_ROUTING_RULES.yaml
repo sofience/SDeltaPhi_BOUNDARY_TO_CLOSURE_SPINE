@@ -1,0 +1,45 @@
+module: SDeltaPhi-70
+name: Nihility, Helplessness, and Fictional Habitation
+routing_priority: conditional
+
+trigger_terms:
+  - nihility
+  - emptiness
+  - meaninglessness
+  - void
+  - helplessness
+  - powerlessness
+  - fiction
+  - fictional world
+  - narrative habitation
+  - myth
+  - afterlife
+  - liberation
+  - AI utopia
+  - AI dystopia
+  - simulation fatigue
+  - private thoughts
+  - world-binding
+
+positive_routing_conditions:
+  - "The case involves intense internal experience but weak external change."
+  - "The case involves inability to initiate action due to high perceived cost."
+  - "The case asks why humans dwell in fiction, religion, myth, language, mathematics, or scientific models."
+  - "The case distinguishes binding to the world from exiting the present-world structure."
+
+negative_routing_conditions:
+  - "The user asks for clinical diagnosis."
+  - "The user asks whether a religion, fiction, science, or mathematical system is simply true or fake."
+  - "The case is only about literary genre classification without World-Binding relevance."
+
+related_modules:
+  - id: SDeltaPhi-18
+    relation: "Provides baseline observation that humans inhabit and edit fictions."
+  - id: SDeltaPhi-56
+    relation: "TCC underlayer for World-Binding cost."
+  - id: SDeltaPhi-57
+    relation: "World-Binding and thought ownership relation."
+  - id: SDeltaPhi-68
+    relation: "Cost theater and self-location under cheap intelligence."
+  - id: SDeltaPhi-69
+    relation: "Overwrite and apparent return after failed binding."

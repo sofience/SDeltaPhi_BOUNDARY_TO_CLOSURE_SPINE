@@ -1,0 +1,67 @@
+diagnostic_name: SDeltaPhi_70_Nihility_Helplessness_Fictional_Habitation
+version: "v1.0"
+doi: "10.5281/zenodo.20391619"
+core_question: "Is the case about World-Binding failure, World-Binding cost, fictional habitation, or exit from present-world cost terrain?"
+
+inputs:
+  internal_delta_phi:
+    description: "Intensity of internal experience, insight, affect, simulation, or thought."
+  external_binding:
+    description: "Degree to which internal change binds to action, relation, record, body, institution, or cost structure."
+  binding_cost:
+    description: "Estimated TCC required to bind internal Δϕ to the world."
+  fiction_structure:
+    description: "Symbolic or narrative structure used for habitation, editing, closure, or exit."
+  present_world_orientation:
+    description: "Whether the solution remains inside the present world or exits/transcends it."
+
+diagnostic_steps:
+  - step: internal_delta_phi_check
+    question: "Was there strong internal experience or phase-change?"
+  - step: world_binding_check
+    question: "Did the internal change bind to external action, record, relation, body, institution, or cost structure?"
+  - step: nihility_check
+    question: "Is high internal Δϕ paired with weak external binding?"
+  - step: helplessness_cost_check
+    question: "Is the cost of World-Binding perceived, learned, or structurally imposed as too high?"
+  - step: fiction_classification
+    question: "Is the fiction closed, binding, editing, or exit-oriented?"
+  - step: binding_score_check
+    question: "If relevant, what is the Binding Fiction Score from 1 to 5?"
+  - step: editing_activity_check
+    question: "If relevant, what is the Editing Activity Score from 0 to 5?"
+  - step: exit_gate_check
+    question: "Does the fiction solve the problem by leaving, transcending, terminating, or relocating beyond present-world cost structure?"
+
+outputs:
+  - nihility_risk
+  - helplessness_risk
+  - fiction_type
+  - binding_fiction_score
+  - editing_activity_score
+  - exit_fiction_gate
+  - recommended_interpretation
+  - misuse_warnings
+
+labels:
+  nihility_risk:
+    - low
+    - medium
+    - high
+  helplessness_risk:
+    - low
+    - medium
+    - high
+  fiction_type:
+    - closed_fiction
+    - private_binding_fiction
+    - local_binding_fiction
+    - civilizational_binding_fiction
+    - maximal_binding_fiction
+    - editing_fiction
+    - exit_fiction
+    - mixed
+  exit_fiction_gate:
+    - "OFF"
+    - "ON"
+    - "PARTIAL"
