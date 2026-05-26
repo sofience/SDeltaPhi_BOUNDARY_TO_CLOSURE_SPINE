@@ -1,0 +1,42 @@
+title: SΔϕ-66 Appendix E — Agentic AI Cost and Delegation Completion Cost (v1.1 Addendum,
+  AI-Readable Package)
+upload_type: publication
+publication_type: workingpaper
+version: v1.1
+doi: 10.5281/zenodo.20383851
+publication_date: '2026-05-25'
+language: eng
+creators:
+- name: Sofience
+description: AI-readable appendix addendum for SΔϕ-66. Adds Appendix E on agentic
+  AI cost and Delegation Completion Cost (DCC), distinguishing AI capability from
+  low-cost AI delegation after delegate, retrieve, verify, repair, and apply costs
+  are included.
+keywords:
+- SΔϕ
+- SDeltaPhi
+- Sofience
+- SDeltaPhi-66
+- Human Intervention Requirement
+- Recursive Improvement Gate
+- Delegation Completion Cost
+- DCC
+- agentic AI
+- AI cost
+- token consumption
+- AI delegation
+- AI coding tools
+- verification burden
+- repair burden
+- AI-readable package
+related_identifiers:
+- identifier: https://doi.org/10.5281/zenodo.20276641
+  relation: isNewVersionOf
+  resource_type: publication-workingpaper
+  description: Previous SΔϕ-66 record.
+- identifier: https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/
+  relation: references
+  resource_type: text
+  description: Illustrative reporting used for Appendix E.
+license: cc-by-4.0
+access_right: open
