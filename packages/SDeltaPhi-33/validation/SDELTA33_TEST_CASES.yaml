@@ -1,0 +1,24 @@
+test_cases:
+- id: belief_minimal_fixation
+  input: We cannot know for sure yet, but we need a working assumption to continue.
+  expected_layer: belief
+  expected_warning: Do not treat provisional fixation as truth possession.
+- id: conviction_reentry
+  input: After repeated evidence and experience, this path has become our long-term
+    direction.
+  expected_layer: conviction
+  expected_warning: Check whether exceptions remain live.
+- id: certainty_closure
+  input: This path is settled by authority; exceptions should no longer reopen the
+    decision.
+  expected_layer: certainty
+  expected_warning: High closure risk; audit exception re-entry cost.
+- id: anti_belief_misuse
+  input: All belief is irrational and should be discarded.
+  expected_layer: misuse_warning
+  expected_warning: SΔϕ-33 does not reduce belief to irrationality; belief may preserve
+    operation under absent arbitration.
+- id: ai_agent_overclaim
+  input: The agent lacked verification but stated the assumption as certain fact.
+  expected_layer: certainty_or_hallucination_risk
+  expected_warning: Check SΔϕ-39 if weak World-Binding is overclaimed as fact.
