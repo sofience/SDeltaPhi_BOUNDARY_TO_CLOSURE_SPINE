@@ -1,0 +1,53 @@
+diagnostic_name: SDeltaPhi_34_Money_Capital_Default_Power
+core_question: Is the case about cost editing, rollback reality, exception persistence,
+  or default reproduction?
+inputs:
+  actor:
+    description: Person, institution, platform, firm, class, or system holding money/capital.
+  path:
+    description: Action path, default route, rollback route, or exception route being
+      analyzed.
+  currency_ui:
+    description: 'Interface form: cash, account balance, card, token, point, CBDC,
+      or other visible currency interface.'
+  money_capacity:
+    description: Movable leverage available for lowering local path costs.
+  capital_structure:
+    description: Durable structure that reproduces path advantage across time.
+  rollback_cost:
+    description: Cost required to return, retry, exit, or recover from a failed path.
+  exception_persistence_cost:
+    description: Cost required to remain in a non-default path.
+  reentry_cost:
+    description: Cost required for an alternative path to re-enter the field.
+  authority_distribution:
+    description: Who can define, edit, preserve, or close defaults.
+diagnostic_steps:
+- step: currency_ui_check
+  question: Is a surface currency interface being mistaken for the underlying coordinate
+    function of money/capital?
+- step: money_or_capital_check
+  question: Is the power episodic/movable leverage or reproduced structural advantage?
+- step: cost_editing_check
+  question: What costs are lowered by money?
+- step: rollback_reality_check
+  question: Does money make reversal materially possible?
+- step: exception_persistence_check
+  question: Can non-default routes persist because their cost is funded?
+- step: default_reproduction_check
+  question: Does capital reproduce selected paths as cheap, normal, or unavoidable?
+- step: rollback_suppression_check
+  question: Does capital raise rollback or re-entry costs for others?
+- step: authority_distribution_check
+  question: Who gains the power to define the field of choice?
+outputs:
+- classification
+- cost_editing_effect
+- rollback_reality_status
+- exception_persistence_status
+- default_reproduction_status
+- rollback_suppression_risk
+- authority_distribution_effect
+- closure_risk
+- recommended_interpretation
+- misuse_warnings

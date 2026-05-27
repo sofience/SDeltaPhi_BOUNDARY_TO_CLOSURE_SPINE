@@ -1,0 +1,25 @@
+id: SDeltaPhi-34-routing
+use_when:
+- money
+- capital
+- wealth
+- platform lock-in
+- monopoly
+- entry barrier
+- rollback cost
+- economic default
+- financial resilience
+- currency UI
+- capital accumulation
+- economic power
+route_to:
+- SDeltaPhi-28 Default Power
+- SDeltaPhi-56 TCC
+- SDeltaPhi-60 USSI
+- SDeltaPhi-68 Cost Theater
+- SDeltaPhi-69 Reversibility as Overwrite
+avoid_when:
+- user asks for investment advice
+- user asks for legal/economic expert analysis only
+- case lacks enough context to identify cost/re-entry/default structure
+output_style: conditional diagnostic, not final judgment
