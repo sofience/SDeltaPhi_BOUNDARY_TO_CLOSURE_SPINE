@@ -1,0 +1,31 @@
+test_cases:
+- id: currency_ui_change
+  input: A society moves from banknotes to digital currency.
+  expected_modules:
+  - SDeltaPhi-34
+  expected_diagnosis: Check whether UI changed while money/capital path-power coordinates
+    persisted.
+- id: failed_startup_retry
+  input: One founder can fail and retry because they have funding; another cannot
+    survive a single failure.
+  expected_modules:
+  - SDeltaPhi-34
+  - SDeltaPhi-56
+  expected_diagnosis: Money strengthens rollback reality unevenly.
+- id: platform_lock_in
+  input: A platform makes staying easy while exit and competition become increasingly
+    costly.
+  expected_modules:
+  - SDeltaPhi-34
+  - SDeltaPhi-28
+  expected_diagnosis: Capital reproduces default advantage and raises re-entry costs.
+- id: alternative_institution
+  input: An independent institution survives because donors fund non-default work.
+  expected_modules:
+  - SDeltaPhi-34
+  expected_diagnosis: Money supports exception persistence.
+- id: capital_absorbs_exception
+  input: A dominant firm acquires a competing alternative and neutralizes its deviation.
+  expected_modules:
+  - SDeltaPhi-34
+  expected_diagnosis: Capital absorbs exception and reproduces default power.
