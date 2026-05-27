@@ -1,0 +1,7 @@
+arbitration_absence_model:
+  A_equals_0: No final arbiter, no decisive external agreement, or arbitration is
+    too costly.
+  dispersion_pressure: Multiple plausible paths remain open; operation may stall or
+    fragment.
+  internal_response: Assign provisional fixation to continue operation.
+  warning: The fixation should remain editable when exceptions re-enter.

@@ -1,0 +1,28 @@
+{
+  "SDeltaPhi-33": {
+    "depends_on": [
+      "SDeltaPhi-20",
+      "SDeltaPhi-21",
+      "SDeltaPhi-28",
+      "SDeltaPhi-29",
+      "SDeltaPhi-32"
+    ],
+    "extends": [
+      "absence_of_arbitration",
+      "internal_defaulting",
+      "path_fixation"
+    ],
+    "cross_links": [
+      "SDeltaPhi-39",
+      "SDeltaPhi-57",
+      "SDeltaPhi-63"
+    ],
+    "series_reference_dois": {
+      "SDeltaPhi-20": "10.5281/zenodo.18787647",
+      "SDeltaPhi-21": "10.5281/zenodo.18798295",
+      "SDeltaPhi-28": "10.5281/zenodo.18823396",
+      "SDeltaPhi-29": "10.5281/zenodo.18823648",
+      "SDeltaPhi-32": "10.5281/zenodo.18827253"
+    }
+  }
+}

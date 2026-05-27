@@ -1,0 +1,16 @@
+fixation_ladder:
+  belief:
+    function: persistence
+    definition: Minimal fixation under absent arbitration.
+    risk: fragility
+    failure_mode: Dispersion returns; oscillation prevents progress.
+  conviction:
+    function: directionality
+    definition: Thickened fixation produced by repeated re-entry.
+    risk: path bias
+    failure_mode: Exceptions are under-weighted; drift increases.
+  certainty:
+    function: closure risk
+    definition: Authority-weighted fixation that raises exception re-entry cost.
+    risk: closure
+    failure_mode: Editability collapses; exception re-entry becomes too costly.

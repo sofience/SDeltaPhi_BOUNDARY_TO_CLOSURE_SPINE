@@ -1,0 +1,10 @@
+certainty_closure_risk:
+  core_claim: Certainty is operationally powerful and operationally dangerous.
+  mechanism:
+  - A stabilized path is granted authority.
+  - Authority weight increases exception re-entry cost.
+  - High coherence and speed are gained.
+  - Editability and rollback become harder.
+  warning:
+  - Certainty should not be treated as truth possession.
+  - Certainty should be audited for exception-channel collapse.

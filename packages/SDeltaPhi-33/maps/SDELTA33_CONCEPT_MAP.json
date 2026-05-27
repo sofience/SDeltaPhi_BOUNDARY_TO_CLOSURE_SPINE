@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "belief",
+      "label": "Belief",
+      "definition": "Minimal fixation preserving operation under absent arbitration."
+    },
+    {
+      "id": "conviction",
+      "label": "Conviction",
+      "definition": "Re-entry-thickened fixation stabilizing directional selection."
+    },
+    {
+      "id": "certainty",
+      "label": "Certainty",
+      "definition": "Authority-weighted fixation raising exception re-entry cost."
+    },
+    {
+      "id": "arbitration_absence",
+      "label": "Absence of Arbitration",
+      "definition": "No final arbiter or decisive external agreement is available."
+    },
+    {
+      "id": "exception_reentry",
+      "label": "Exception Re-entry",
+      "definition": "Ability to reopen and incorporate exceptions."
+    },
+    {
+      "id": "closure_risk",
+      "label": "Closure Risk",
+      "definition": "Risk that editability collapses due to high exception re-entry cost."
+    }
+  ],
+  "edges": [
+    {
+      "from": "arbitration_absence",
+      "to": "belief",
+      "relation": "requires minimal fixation"
+    },
+    {
+      "from": "belief",
+      "to": "conviction",
+      "relation": "thickened by repeated re-entry"
+    },
+    {
+      "from": "conviction",
+      "to": "certainty",
+      "relation": "authority-weighted fixation"
+    },
+    {
+      "from": "certainty",
+      "to": "exception_reentry",
+      "relation": "raises cost"
+    },
+    {
+      "from": "exception_reentry",
+      "to": "closure_risk",
+      "relation": "if too costly, closure risk increases"
+    }
+  ]
+}
