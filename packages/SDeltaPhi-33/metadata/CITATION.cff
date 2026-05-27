@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "SΔϕ-33 — Belief, Conviction, and Certainty as Layers of Path Fixation: Minimal Conditions under the Absence of Arbitration"
+message: "If you use this AI-readable package, please cite it using the metadata below."
+type: article
+authors:
+  - name: "Sofience"
+version: "v1.0"
+date-released: "2026-03-02"
+doi: "10.5281/zenodo.20402901"
+url: "https://doi.org/10.5281/zenodo.20402901"
+abstract: >
+  SΔϕ-33 formalizes belief, conviction, and certainty as three structurally distinct layers of path fixation under conditions where no final arbiter is available.
+keywords:
+  - "Sofience"
+  - "SΔϕ"
+  - "SDeltaPhi"
+  - "belief"
+  - "conviction"
+  - "certainty"
+  - "path fixation"
+  - "absence of arbitration"
+  - "AI-readable package"
+license: "CC-BY-4.0"

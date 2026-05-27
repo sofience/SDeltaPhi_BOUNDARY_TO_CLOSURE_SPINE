@@ -1,0 +1,52 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "ScholarlyArticle",
+  "name": "SΔϕ-33 — Belief, Conviction, and Certainty as Layers of Path Fixation: Minimal Conditions under the Absence of Arbitration",
+  "description": "AI-readable working-paper package for SΔϕ-33. Defines belief, conviction, and certainty as layers of path fixation under absent arbitration.",
+  "identifier": "https://doi.org/10.5281/zenodo.20402901",
+  "url": "https://doi.org/10.5281/zenodo.20402901",
+  "version": "v1.0",
+  "datePublished": "2026-03-02",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sofience"
+    }
+  ],
+  "keywords": [
+    "SΔϕ",
+    "SDeltaPhi",
+    "Sofience",
+    "belief",
+    "conviction",
+    "certainty",
+    "path fixation",
+    "absence of arbitration",
+    "no final arbiter",
+    "operation preservation",
+    "re-entry",
+    "exception re-entry",
+    "authority weight",
+    "closure risk",
+    "editability",
+    "default power",
+    "AI-readable package",
+    "diagnostic schema",
+    "machine-readable metadata"
+  ],
+  "isPartOf": {
+    "@type": "CreativeWork",
+    "name": "Sofience–Δϕ Formalism"
+  },
+  "citation": [
+    "https://doi.org/10.5281/zenodo.18787647",
+    "https://doi.org/10.5281/zenodo.18798295",
+    "https://doi.org/10.5281/zenodo.18823396",
+    "https://doi.org/10.5281/zenodo.18823648",
+    "https://doi.org/10.5281/zenodo.18827253"
+  ],
+  "programmingLanguage": "YAML, JSON, Markdown",
+  "runtimePlatform": "AI-readable metadata package",
+  "applicationCategory": "AI routing, diagnostic schema, conceptual formalism"
+}

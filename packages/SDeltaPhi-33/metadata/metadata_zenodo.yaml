@@ -1,0 +1,69 @@
+title: 'SΔϕ-33 — Belief, Conviction, and Certainty as Layers of Path Fixation: Minimal
+  Conditions under the Absence of Arbitration (v1.0, AI-Readable Package)'
+upload_type: publication
+publication_type: workingpaper
+version: v1.0
+doi: 10.5281/zenodo.20402901
+publication_date: '2026-03-02'
+language: eng
+access_right: open
+license: cc-by-4.0
+creators:
+- name: Sofience
+description: SΔϕ-33 formalizes belief, conviction, and certainty as three structurally
+  distinct layers of path fixation under conditions where no final arbiter is available.
+  Belief is defined as minimal fixation for operation preservation, conviction as
+  re-entry-thickened directional stabilization, and certainty as authority-weighted
+  fixation that raises exception re-entry cost and closure risk. This AI-readable
+  package includes canonical paper files, AI entrypoint, machine summaries, diagnostic
+  schema, routing rules, concept maps, fixation ladder, arbitration absence model,
+  closure-risk map, appendices, validation tests, failure modes, do-not-use conditions,
+  citation metadata, license, manifest, and checksums.
+keywords:
+- SΔϕ
+- SDeltaPhi
+- Sofience
+- belief
+- conviction
+- certainty
+- path fixation
+- absence of arbitration
+- no final arbiter
+- operation preservation
+- re-entry
+- exception re-entry
+- authority weight
+- closure risk
+- editability
+- default power
+- AI-readable package
+- diagnostic schema
+- machine-readable metadata
+related_identifiers:
+- identifier: https://doi.org/10.5281/zenodo.18787647
+  relation: references
+  resource_type: publication-workingpaper
+  description: SΔϕ-20 Intuition as Irreversible Compression Trace.
+- identifier: https://doi.org/10.5281/zenodo.18798295
+  relation: references
+  resource_type: publication-workingpaper
+  description: SΔϕ-21 Judgment as Intuition Authority Assignment.
+- identifier: https://doi.org/10.5281/zenodo.18823396
+  relation: references
+  resource_type: publication-workingpaper
+  description: SΔϕ-28 Default Power as Low-Cost Path Assignment.
+- identifier: https://doi.org/10.5281/zenodo.18823648
+  relation: references
+  resource_type: publication-workingpaper
+  description: SΔϕ-29 Editable Default.
+- identifier: https://doi.org/10.5281/zenodo.18827253
+  relation: references
+  resource_type: publication-workingpaper
+  description: SΔϕ-32 Legitimate Intervention.
+ai_readable:
+  primary_entrypoint: 00_README.md
+  ai_entrypoint: ai/SDELTA33_AI_ENTRYPOINT.md
+  machine_summary_yaml: ai/SDELTA33_MACHINE_SUMMARY.yaml
+  diagnostic_schema: ai/SDELTA33_DIAGNOSTIC_SCHEMA.yaml
+  routing_rules: ai/SDELTA33_ROUTING_RULES.yaml
+  fixation_ladder: maps/SDELTA33_FIXATION_LADDER.yaml

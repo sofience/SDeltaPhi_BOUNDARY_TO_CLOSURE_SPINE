@@ -1,0 +1,21 @@
+related_identifiers:
+- identifier: https://doi.org/10.5281/zenodo.18787647
+  relation: references
+  resource_type: publication-workingpaper
+  description: SΔϕ-20 Intuition as Irreversible Compression Trace.
+- identifier: https://doi.org/10.5281/zenodo.18798295
+  relation: references
+  resource_type: publication-workingpaper
+  description: SΔϕ-21 Judgment as Intuition Authority Assignment.
+- identifier: https://doi.org/10.5281/zenodo.18823396
+  relation: references
+  resource_type: publication-workingpaper
+  description: SΔϕ-28 Default Power as Low-Cost Path Assignment.
+- identifier: https://doi.org/10.5281/zenodo.18823648
+  relation: references
+  resource_type: publication-workingpaper
+  description: SΔϕ-29 Editable Default.
+- identifier: https://doi.org/10.5281/zenodo.18827253
+  relation: references
+  resource_type: publication-workingpaper
+  description: SΔϕ-32 Legitimate Intervention.
