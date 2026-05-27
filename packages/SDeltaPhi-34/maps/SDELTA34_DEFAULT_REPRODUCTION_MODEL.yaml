@@ -1,0 +1,13 @@
+default_reproduction_model:
+  definition: Capital reproduces selected continuations as cheap, available, credible,
+    and normal over time.
+  mechanisms:
+  - platform ownership
+  - infrastructure control
+  - network effects
+  - legal protections
+  - data concentration
+  - entry barriers
+  - financial systems
+  - standard setting
+  diagnostic_question: Which path keeps reappearing as the low-cost normal route?

@@ -1,0 +1,14 @@
+cost_editing_model:
+  definition: Money reduces friction across continuations, rollback, and exception
+    persistence.
+  dimensions:
+  - delay
+  - risk
+  - exhaustion
+  - access
+  - repair
+  - retry
+  - buffer
+  - paid alternative
+  diagnostic_question: What was impossible in practice but becomes selectable when
+    cost is edited?

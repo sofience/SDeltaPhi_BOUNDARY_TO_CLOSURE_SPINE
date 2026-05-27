@@ -1,0 +1,14 @@
+rollback_reality:
+  definition: Whether a formally available reversal is materially traversable.
+  money_effect: Money can reduce practical irreversibility by lowering the cost of
+    return.
+  capital_effect: Capital can raise rollback cost for competing or subordinate actors.
+exception_persistence:
+  definition: Ability of non-default routes to remain viable over time.
+  money_effect: Money can fund alternative institutions, experimentation, and long-duration
+    uncertainty.
+  capital_effect: Capital can absorb, neutralize, acquire, commodify, or price out
+    deviation.
+risk:
+  nominal_openness_material_closure: Formal options remain visible, but rollback and
+    re-entry are materially too costly.

@@ -1,0 +1,33 @@
+money:
+  layer: movable path leverage
+  core_function: generalized cost editing
+  effects:
+  - lowers friction
+  - shortens delay
+  - buffers failure
+  - strengthens rollback reality
+  - funds exception persistence
+  formula: Money = localized capacity to edit path cost
+capital:
+  layer: structural recurrence
+  core_function: default reproduction
+  effects:
+  - stabilizes favorable continuations
+  - normalizes selected paths
+  - raises rollback costs for others
+  - absorbs or prices out exceptions
+  - redistributes authority over default editing
+  formula: Capital = reproduced path advantage as structure
+primary_distinction:
+  statement: Money edits path cost; capital reproduces path advantage.
+  warning: Do not collapse money and capital into quantity difference.
+currency_ui:
+  claim: Currency is UI; money and capital are coordinates of path power.
+  examples:
+  - coins
+  - banknotes
+  - account balances
+  - credit cards
+  - platform points
+  - tokens
+  - CBDCs

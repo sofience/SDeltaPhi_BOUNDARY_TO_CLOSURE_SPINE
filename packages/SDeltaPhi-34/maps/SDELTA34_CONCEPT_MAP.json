@@ -1,0 +1,69 @@
+{
+  "nodes": [
+    {
+      "id": "currency_ui",
+      "label": "Currency as UI"
+    },
+    {
+      "id": "money",
+      "label": "Money as Cost Editing"
+    },
+    {
+      "id": "capital",
+      "label": "Capital as Default Reproduction"
+    },
+    {
+      "id": "rollback",
+      "label": "Rollback Reality"
+    },
+    {
+      "id": "exception",
+      "label": "Exception Persistence"
+    },
+    {
+      "id": "authority",
+      "label": "Authority Distribution"
+    },
+    {
+      "id": "default_power",
+      "label": "Default Power"
+    }
+  ],
+  "edges": [
+    {
+      "from": "currency_ui",
+      "to": "money",
+      "relation": "surface interface for"
+    },
+    {
+      "from": "money",
+      "to": "rollback",
+      "relation": "can strengthen"
+    },
+    {
+      "from": "money",
+      "to": "exception",
+      "relation": "can fund"
+    },
+    {
+      "from": "capital",
+      "to": "default_power",
+      "relation": "reproduces"
+    },
+    {
+      "from": "capital",
+      "to": "rollback",
+      "relation": "can suppress for others"
+    },
+    {
+      "from": "capital",
+      "to": "authority",
+      "relation": "redistributes"
+    },
+    {
+      "from": "capital",
+      "to": "exception",
+      "relation": "can absorb or price out"
+    }
+  ]
+}

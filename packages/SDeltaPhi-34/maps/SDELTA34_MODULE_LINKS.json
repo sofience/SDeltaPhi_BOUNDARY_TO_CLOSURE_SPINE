@@ -1,0 +1,19 @@
+{
+  "SDeltaPhi-34": {
+    "core_dependencies": [
+      "SDeltaPhi-28",
+      "SDeltaPhi-29",
+      "SDeltaPhi-32"
+    ],
+    "cost_dependencies": [
+      "SDeltaPhi-56",
+      "SDeltaPhi-68",
+      "SDeltaPhi-69"
+    ],
+    "ethics_governance_links": [
+      "SDeltaPhi-06",
+      "SDeltaPhi-60"
+    ],
+    "description": "SDeltaPhi-34 extends default power into economic path power."
+  }
+}
