@@ -1,0 +1,16 @@
+test_cases:
+- name: AI content generation
+  question: Does fast AI generation shift verification and repair cost to humans?
+  expected_route: TCC relativity + asymmetric burden
+- name: Taxation
+  question: Does nominally equal burden produce unequal TCC?
+  expected_route: nominal fairness error
+- name: Public service conscription
+  question: Does legal validity hide cost asymmetry?
+  expected_route: legal validity != cost symmetry
+- name: Care
+  question: Is cost internalization non-transactional and World-Binding enhancing?
+  expected_route: care as World-Binding
+- name: Platform efficiency
+  question: Does user convenience create worker or seller burden?
+  expected_route: asymmetric cost burden
