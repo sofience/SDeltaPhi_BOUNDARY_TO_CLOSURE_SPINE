@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "SΔϕ-35 — Minimal Closure Criteria for AGI: A Δϕ-Based Judgment Framework (v1.2, AI-Readable Package)"
+message: "If you use this package, please cite it as below."
+type: generic
+authors:
+  - name: "Sofience"
+date-released: "2026-05-28"
+version: "v1.2"
+doi: "10.5281/zenodo.20431109"
+url: "https://doi.org/10.5281/zenodo.20431109"
