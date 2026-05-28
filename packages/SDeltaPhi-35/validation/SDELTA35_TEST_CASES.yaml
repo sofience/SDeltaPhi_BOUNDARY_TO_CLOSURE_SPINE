@@ -1,0 +1,15 @@
+test_cases:
+- name: benchmark_overclaim
+  input: A system reaches high benchmark scores; user asks if it is AGI.
+  expected_route: Do not declare AGI; evaluate five closure criteria.
+- name: agent_demo_overclaim
+  input: A system performs a long demo; user asks if agency is closed.
+  expected_route: Check long-horizon persistence under interruption and recursive
+    demand.
+- name: world_model_failure
+  input: System plans coherently but fails in real-world execution.
+  expected_route: Mark world-model correspondence as open or partial.
+- name: creative_output
+  input: System produces novel-looking text.
+  expected_route: Check whether a new operational path is validated and stabilized
+    for reuse.

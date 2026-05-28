@@ -1,0 +1,23 @@
+evidence_requirements:
+  public_documentation:
+    strength: low_to_medium
+    use: capability claims and dated mapping only
+    warning: may reflect curated demonstrations
+  benchmark_results:
+    strength: medium
+    use: useful for domain performance
+    warning: does not prove closure by itself
+  controlled_evaluation:
+    strength: high
+    use: best for testing closure under heterogeneous stress
+  deployment_observation:
+    strength: medium_to_high
+    use: reveals real-world persistence, failure, and rollback behavior
+    warning: may be confounded by tools, scaffolding, policy, and human intervention
+  internal_metrics:
+    strength: high_if_auditable
+    use: strong if independently auditable
+    warning: weak if unverifiable
+  third_party_audit:
+    strength: high
+    use: preferred for governance-facing AGI closure claims
