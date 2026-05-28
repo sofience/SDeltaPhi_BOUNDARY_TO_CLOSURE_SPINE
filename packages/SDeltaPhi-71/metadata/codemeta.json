@@ -1,0 +1,32 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "CreativeWork",
+  "name": "SΔϕ-71 — Cost Attribution Redesign: Low-Cost Transition, Asymmetric Cost Burden, Binding Fiction, and AI Inclusion (v1.0, AI-Readable Package)",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sofience"
+    }
+  ],
+  "identifier": "10.5281/zenodo.20420270",
+  "version": "v1.0",
+  "datePublished": "2026-05-28",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "description": "SΔϕ-71 formalizes Cost Attribution Redesign as a diagnostic and constructive process for reducing transition cost without hiding that cost in specific actors, groups, systems, or environments. It introduces low-cost transition, asymmetric cost burden, TCC relativity, Binding Fiction and Editing Fiction requirements, and the AI inclusion condition under unsettled subjecthood.",
+  "keywords": [
+    "SΔϕ",
+    "SDeltaPhi",
+    "Sofience",
+    "cost attribution redesign",
+    "asymmetric cost burden",
+    "low-cost transition",
+    "TCC",
+    "AI inclusion",
+    "Binding Fiction",
+    "Editing Fiction",
+    "taxation",
+    "public service conscription",
+    "World-Binding",
+    "AI-readable package"
+  ]
+}
