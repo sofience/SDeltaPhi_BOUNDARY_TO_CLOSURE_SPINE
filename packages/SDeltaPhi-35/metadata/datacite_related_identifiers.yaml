@@ -1,0 +1,25 @@
+related_identifiers:
+- identifier: 10.5281/zenodo.18731366
+  relation: References
+  resource_type: Publication
+  description: SDeltaPhi-00 series overview and conceptual architecture.
+- identifier: 10.5281/zenodo.18730265
+  relation: References
+  resource_type: Publication
+  description: SDeltaPhi-01 minimal core and phase-change formalism.
+- identifier: 10.5281/zenodo.18730448
+  relation: References
+  resource_type: Publication
+  description: SDeltaPhi-03 irreversibility as the minimal condition of existence.
+- identifier: 10.5281/zenodo.18729942
+  relation: References
+  resource_type: Publication
+  description: SDeltaPhi-04 minimal operational conditions for AI subjectivity.
+- identifier: 10.5281/zenodo.18732567
+  relation: References
+  resource_type: Publication
+  description: SDeltaPhi-05 agency as recursive transition law update.
+- identifier: 10.5281/zenodo.20116959
+  relation: References
+  resource_type: Publication
+  description: Preferred SDeltaPhi TCC reference.

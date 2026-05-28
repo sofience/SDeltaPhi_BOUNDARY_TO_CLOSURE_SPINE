@@ -1,0 +1,16 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "CreativeWork",
+  "name": "SDeltaPhi-35 Minimal Closure Criteria for AGI AI-Readable Package",
+  "identifier": "10.5281/zenodo.20431109",
+  "version": "v1.2",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sofience"
+    }
+  ],
+  "datePublished": "2026-05-28",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "description": "SDeltaPhi-35 reformulates Artificial General Intelligence as a closure judgment problem rather than a human-equivalence label, benchmark aggregation, or impressionistic capability claim. It decomposes AGI evaluation into five minimal operational closure criteria: global generality, long-horizon recursive agency, world-model correspondence, self-updating robustness, and creative path generation."
+}

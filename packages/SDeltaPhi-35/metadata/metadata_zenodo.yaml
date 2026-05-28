@@ -1,0 +1,37 @@
+title: 'SΔϕ-35 — Minimal Closure Criteria for AGI: A Δϕ-Based Judgment Framework (v1.2,
+  AI-Readable Package)'
+upload_type: publication
+publication_type: workingpaper
+creators:
+- name: Sofience
+description: 'SDeltaPhi-35 reformulates Artificial General Intelligence as a closure
+  judgment problem rather than a human-equivalence label, benchmark aggregation, or
+  impressionistic capability claim. It decomposes AGI evaluation into five minimal
+  operational closure criteria: global generality, long-horizon recursive agency,
+  world-model correspondence, self-updating robustness, and creative path generation.'
+version: v1.2
+language: eng
+license: cc-by-4.0
+doi: 10.5281/zenodo.20431109
+keywords:
+- SΔϕ
+- SDeltaPhi
+- Sofience
+- AGI
+- Artificial General Intelligence
+- AGI closure
+- closure criteria
+- global generality
+- long-horizon recursive agency
+- world-model correspondence
+- self-updating robustness
+- creative path generation
+- AI evaluation
+- frontier AI
+- AI governance
+- AI safety
+- benchmark limitations
+- capability vs closure
+- AI-readable package
+- diagnostic schema
+- machine-readable metadata
