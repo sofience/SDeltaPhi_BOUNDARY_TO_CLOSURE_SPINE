@@ -1,0 +1,22 @@
+route_to_SDeltaPhi_71_when:
+- user asks about cost attribution redesign
+- fairness/equality may hide cost asymmetry
+- a workflow is called efficient but shifts verification or repair cost
+- human and AI costs differ
+- AI subjecthood uncertainty is used to exclude AI from audit
+- taxation or public burden is discussed as cost allocation
+- legal validity is mistaken for cost symmetry
+route_from_SDeltaPhi_71_to:
+  SDeltaPhi_34: economic default power and capital as default reproduction
+  SDeltaPhi_56: transition completion cost measurement
+  SDeltaPhi_58: cost attribution symmetry diagnosis
+  SDeltaPhi_60: benefit subject / cost subject splitting
+  SDeltaPhi_65: slop and externalized restabilization cost
+  SDeltaPhi_66: delegation / human intervention cost
+  SDeltaPhi_68: cost theater
+  SDeltaPhi_69: reversibility as overwrite
+  SDeltaPhi_70: Binding Fiction / Editing Fiction / World-Binding
+avoid_when:
+- a simple factual question does not involve cost attribution
+- legal judgment is requested without legal expertise
+- clinical or mental-health diagnosis is requested

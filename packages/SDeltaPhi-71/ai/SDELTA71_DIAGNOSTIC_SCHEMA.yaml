@@ -1,0 +1,60 @@
+diagnostic_name: SDeltaPhi_71_Cost_Attribution_Redesign
+core_question: Is low-cost transition being achieved by asymmetric cost burden?
+inputs:
+  transition:
+    description: The action, workflow, policy, AI process, institution, or symbolic
+      structure being analyzed.
+  benefit_bearing_actor:
+    description: Who receives lower cost, speed, convenience, authority, or path advantage?
+  cost_bearing_actor:
+    description: Who bears verification, repair, rollback, re-entry, silence, persistence,
+      or residual-risk cost?
+  human_tcc:
+    description: Transition Completion Cost for humans.
+  ai_tcc:
+    description: Transition Completion Cost for AI systems.
+  hybrid_tcc:
+    description: Combined human-AI transition cost.
+  verification_tcc:
+    description: Cost of checking, validating, or grounding the output or transition.
+  repair_tcc:
+    description: Cost of correcting damage or restoring viable paths.
+  binding_structure:
+    description: Whether the redesign has a shared Binding Fiction that makes the
+      cost coordinate inhabitable.
+  editing_capacity:
+    description: Whether the redesign remains editable and avoids doctrinal closure.
+  ai_subjecthood_status:
+    description: Whether AI subjecthood is closed, open, unsettled, or not applicable.
+diagnostic_steps:
+- step: transition_identification
+  question: What transition is being made low-cost?
+- step: benefit_mapping
+  question: Who benefits from the lowered cost?
+- step: burden_mapping
+  question: Who bears the hidden or residual cost?
+- step: tcc_relativity_check
+  question: Is the task low-cost for humans, AI, both, or neither?
+- step: asymmetry_check
+  question: Is low-cost transition achieved by imposing high cost on specific actors,
+    groups, or systems?
+- step: ai_inclusion_check
+  question: Is AI excluded from cost audit merely because subjecthood is unsettled?
+- step: binding_requirement_check
+  question: Can the redesign be shared, repeated, and inhabited?
+- step: editing_requirement_check
+  question: Can the redesign remain corrigible and exception-sensitive?
+- step: redesign_recommendation
+  question: How should cost attribution be redesigned to reduce total TCC without
+    asymmetric burden transfer?
+outputs:
+- asymmetry_status
+- benefit_burden_split
+- human_ai_tcc_difference
+- hidden_costs
+- redesign_target
+- binding_requirement_status
+- editing_requirement_status
+- ai_inclusion_status
+- recommended_redesign_path
+- misuse_warnings

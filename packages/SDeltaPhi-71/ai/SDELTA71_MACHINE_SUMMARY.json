@@ -1,0 +1,36 @@
+{
+  "module": "SDeltaPhi-71",
+  "title": "Cost Attribution Redesign",
+  "version": "v1.0",
+  "prepared_doi": "10.5281/zenodo.20420270",
+  "core_claims": [
+    "Cost attribution redesign is not merely a fairness or equality slogan.",
+    "Low-cost transition is invalid when achieved through hidden asymmetric burden.",
+    "Nominal equality does not guarantee TCC equality.",
+    "Human TCC and AI TCC must be distinguished.",
+    "Unsettled AI subjecthood is not an exemption from cost audit.",
+    "Binding Fiction is required for shareable redesign.",
+    "Editing Fiction is required to keep redesign from becoming closure."
+  ],
+  "formulae": [
+    "Low-Cost Redesign != Cost Externalization",
+    "Human_TCC(task) != AI_TCC(task)",
+    "Subjecthood_Unsettled != Audit_Exemption",
+    "Nominal Equality != TCC Equality",
+    "Legal Validity != Cost Symmetry"
+  ],
+  "use_cases": [
+    "cost attribution redesign",
+    "asymmetric cost burden",
+    "taxation",
+    "public service conscription",
+    "human-AI TCC relativity",
+    "AI inclusion under unsettled subjecthood"
+  ],
+  "do_not_use": [
+    "do not use as fairness slogan",
+    "do not replace legal/economic/policy analysis",
+    "do not claim AI is already full subject",
+    "do not permanently exclude AI from audit"
+  ]
+}
