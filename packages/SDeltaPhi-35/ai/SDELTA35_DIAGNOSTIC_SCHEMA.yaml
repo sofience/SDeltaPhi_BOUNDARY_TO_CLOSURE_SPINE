@@ -1,0 +1,89 @@
+diagnostic_name: SDeltaPhi_35_AGI_Closure_Criteria
+core_question: Which AGI closure conditions are closed, partial, or open?
+inputs:
+  system_name:
+    description: The AI system or model family being evaluated.
+  evaluation_date:
+    description: Date of capability snapshot; required because evidence becomes stale.
+  evidence_scope:
+    allowed_values:
+    - public_documentation
+    - benchmark_results
+    - controlled_evaluation
+    - deployment_observation
+    - internal_metrics
+    - mixed
+  task_domains:
+    description: Domains used to test heterogeneous generality.
+  long_horizon_tasks:
+    description: Tasks requiring multi-step persistence and recursive update.
+  grounding_tests:
+    description: Tests for world-model correspondence under external constraints.
+  update_tests:
+    description: Tests for self-updating robustness and self-damage resistance.
+  creative_path_tests:
+    description: Tests for generation, validation, and stabilization of new operational
+      paths.
+criteria:
+  global_generality:
+    status:
+    - closed
+    - near_closure
+    - partial
+    - open
+    - unknown
+    evidence_required:
+    - heterogeneous_domain_performance
+    - jaggedness_analysis
+    - delta_phi_variance_across_tasks
+  long_horizon_recursive_agency:
+    status:
+    - closed
+    - partial
+    - open
+    - unknown
+    evidence_required:
+    - goal_persistence
+    - interruption_recovery
+    - recursive_task_continuation
+  world_model_correspondence:
+    status:
+    - closed
+    - intermediate
+    - open
+    - unknown
+    evidence_required:
+    - external_world_alignment
+    - hallucination_resistance
+    - embodied_or_tool_grounded_validation
+  self_updating_robustness:
+    status:
+    - closed
+    - partial
+    - open
+    - unknown
+    evidence_required:
+    - meaningful_update
+    - pattern_persistence
+    - self_damage_bound
+  creative_path_generation:
+    status:
+    - closed
+    - strong_moments
+    - partial
+    - open
+    - unknown
+    evidence_required:
+    - nontrivial_new_path_generation
+    - validation
+    - stabilization_for_reuse
+outputs:
+- closure_profile
+- closed_conditions
+- open_conditions
+- partial_conditions
+- evidence_quality
+- staleness_risk
+- governance_implications
+- recommended_next_measurements
+- misuse_warnings

@@ -1,0 +1,14 @@
+evaluator: SDELTA35_AGI_CLOSURE_EVALUATOR
+decision_rule: Do not produce a binary AGI verdict unless all evaluated minimal closure
+  conditions are marked closed with dated high-quality evidence.
+default_output: graded_closure_profile
+profile_fields:
+- global_generality
+- long_horizon_recursive_agency
+- world_model_correspondence
+- self_updating_robustness
+- creative_path_generation
+- evidence_date
+- evidence_limitations
+- governance_note
+warning: Partial closure can still imply major real-world impact.

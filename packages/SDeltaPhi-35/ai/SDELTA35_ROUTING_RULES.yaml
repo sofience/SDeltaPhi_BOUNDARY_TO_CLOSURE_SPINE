@@ -1,0 +1,21 @@
+route_when:
+- AGI claims
+- frontier AI capability evaluation
+- human-level AI claims
+- benchmark-based AGI claims
+- AI agency claims
+- recursive agent evaluation
+- world model grounding
+- self-updating AI claims
+- creative AI claims
+do_not_route_when:
+- general AI explanation with no AGI claim
+- consumer product comparison without AGI threshold claims
+- pure science fiction with no evaluative claim
+primary_route: condition-level closure evaluation
+fallback_routes:
+- SDeltaPhi-04 for AI subjectivity conditions
+- SDeltaPhi-05 for recursive agency
+- SDeltaPhi-39 for hallucination/world-binding
+- SDeltaPhi-56 for transition cost
+- SDeltaPhi-71 for governance cost attribution

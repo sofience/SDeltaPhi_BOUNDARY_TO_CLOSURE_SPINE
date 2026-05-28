@@ -1,0 +1,22 @@
+{
+  "id": "SDeltaPhi-35",
+  "title": "Minimal Closure Criteria for AGI: A Delta-phi-Based Judgment Framework",
+  "version": "v1.2",
+  "doi": "10.5281/zenodo.20431109",
+  "author": "Sofience",
+  "core_claim": "AGI-like appearance is not AGI closure.",
+  "function": "Reframes AGI as a closure judgment problem rather than a human-equivalence label, benchmark aggregation, or impressionistic capability claim.",
+  "criteria": [
+    "Global Generality",
+    "Long-Horizon Recursive Agency",
+    "World-Model Correspondence",
+    "Self-Updating Robustness",
+    "Creative Path Generation"
+  ],
+  "do_not_use": [
+    "Do not declare AGI from benchmark scores alone.",
+    "Do not treat fluency or surprise as closure.",
+    "Do not treat partial closure as full closure.",
+    "Do not use dated GPT-family mapping as permanent classification."
+  ]
+}
